@@ -1,0 +1,512 @@
+{
+  "source_area_count": 660,
+  "modelling_area_count": 654,
+  "features": [
+    "annual_equivalised_income_after_housing_costs_gbp",
+    "level4plus_pct",
+    "crime_for_analysis",
+    "fuel_poor_households_pct",
+    "no2_area_mean_ug_m3",
+    "employed_residents_16plus_pct",
+    "asb_rows_per_1000_residents"
+  ],
+  "folds": 5,
+  "seed": 42,
+  "held_out_groups": "Local authority; GroupKFold; same test authorities as Notebook 05.",
+  "ethnicity_group_definition": {
+    "white_british_pct": [
+      "white_british_pct"
+    ],
+    "other_white_pct": [
+      "white_irish_pct",
+      "white_gypsy_irish_traveller_pct",
+      "white_roma_pct",
+      "white_other_pct"
+    ],
+    "asian_pct": [
+      "asian_bangladeshi_pct",
+      "asian_chinese_pct",
+      "asian_indian_pct",
+      "asian_pakistani_pct",
+      "asian_other_pct"
+    ],
+    "black_pct": [
+      "black_african_pct",
+      "black_caribbean_pct",
+      "black_other_pct"
+    ],
+    "mixed_pct": [
+      "mixed_white_asian_pct",
+      "mixed_white_black_african_pct",
+      "mixed_white_black_caribbean_pct",
+      "mixed_other_pct"
+    ],
+    "other_pct": [
+      "other_arab_pct",
+      "other_ethnic_group_pct"
+    ]
+  },
+  "combined_non_white_definition": "Sum of Asian, Black, Mixed and Other. Other White (White Irish, Gypsy or Irish Traveller, Roma and Other White) is classified as White and excluded.",
+  "proxy_overlap": [
+    {
+      "target": "white_british_pct",
+      "target_label": "White British",
+      "target_group": "ethnicity",
+      "area_count": 654,
+      "model_r2": 0.7429084286115311,
+      "model_mae_percentage_points": 9.516974091421522,
+      "mean_only_baseline_r2": -0.16468365964622933,
+      "mean_only_baseline_mae_percentage_points": 20.983848346303056,
+      "spearman__annual_equivalised_income_after_housing_costs_gbp": 0.5612458945208967,
+      "spearman__level4plus_pct": 0.17371773002836605,
+      "spearman__crime_for_analysis": -0.5910900971848806,
+      "spearman__fuel_poor_households_pct": -0.47489779001643795,
+      "spearman__no2_area_mean_ug_m3": -0.7832468610936268,
+      "spearman__employed_residents_16plus_pct": 0.40622327716078627,
+      "spearman__asb_rows_per_1000_residents": -0.18631657644789834
+    },
+    {
+      "target": "other_white_pct",
+      "target_label": "Other White",
+      "target_group": "ethnicity",
+      "area_count": 654,
+      "model_r2": 0.2771479089824327,
+      "model_mae_percentage_points": 2.0496080173836946,
+      "mean_only_baseline_r2": -0.05519335797164371,
+      "mean_only_baseline_mae_percentage_points": 2.4998962277453876,
+      "spearman__annual_equivalised_income_after_housing_costs_gbp": -0.34818626201121256,
+      "spearman__level4plus_pct": -0.02305391344038896,
+      "spearman__crime_for_analysis": 0.5290591233316106,
+      "spearman__fuel_poor_households_pct": 0.3499739977329927,
+      "spearman__no2_area_mean_ug_m3": 0.32830236030229765,
+      "spearman__employed_residents_16plus_pct": -0.04733219099960136,
+      "spearman__asb_rows_per_1000_residents": 0.39743679529378806
+    },
+    {
+      "target": "asian_pct",
+      "target_label": "Asian",
+      "target_group": "ethnicity",
+      "area_count": 654,
+      "model_r2": 0.5536331226975992,
+      "model_mae_percentage_points": 7.952071944425213,
+      "mean_only_baseline_r2": -0.13116289975082185,
+      "mean_only_baseline_mae_percentage_points": 12.861122954036787,
+      "spearman__annual_equivalised_income_after_housing_costs_gbp": -0.44049019272010154,
+      "spearman__level4plus_pct": -0.08965613838504097,
+      "spearman__crime_for_analysis": 0.47656275018937316,
+      "spearman__fuel_poor_households_pct": 0.37376717133622483,
+      "spearman__no2_area_mean_ug_m3": 0.763509504903752,
+      "spearman__employed_residents_16plus_pct": -0.3762166717591571,
+      "spearman__asb_rows_per_1000_residents": 0.07949250696066049
+    },
+    {
+      "target": "black_pct",
+      "target_label": "Black",
+      "target_group": "ethnicity",
+      "area_count": 654,
+      "model_r2": 0.5503510457839125,
+      "model_mae_percentage_points": 2.5122216052018156,
+      "mean_only_baseline_r2": -0.14494843074458053,
+      "mean_only_baseline_mae_percentage_points": 4.43454901875954,
+      "spearman__annual_equivalised_income_after_housing_costs_gbp": -0.6537334981034002,
+      "spearman__level4plus_pct": -0.32448797948818486,
+      "spearman__crime_for_analysis": 0.6461391003848379,
+      "spearman__fuel_poor_households_pct": 0.4693112439722627,
+      "spearman__no2_area_mean_ug_m3": 0.8060390251718461,
+      "spearman__employed_residents_16plus_pct": -0.44458381197202507,
+      "spearman__asb_rows_per_1000_residents": 0.21405694673433726
+    },
+    {
+      "target": "mixed_pct",
+      "target_label": "Mixed",
+      "target_group": "ethnicity",
+      "area_count": 654,
+      "model_r2": 0.4141693293704346,
+      "model_mae_percentage_points": 0.9161772463650965,
+      "mean_only_baseline_r2": -0.16224123981178695,
+      "mean_only_baseline_mae_percentage_points": 1.4400625752146639,
+      "spearman__annual_equivalised_income_after_housing_costs_gbp": -0.5206202832275245,
+      "spearman__level4plus_pct": -0.2106032859551539,
+      "spearman__crime_for_analysis": 0.5932542815073775,
+      "spearman__fuel_poor_households_pct": 0.3672367614166979,
+      "spearman__no2_area_mean_ug_m3": 0.7156715616672162,
+      "spearman__employed_residents_16plus_pct": -0.3539556677054597,
+      "spearman__asb_rows_per_1000_residents": 0.19666319644450714
+    },
+    {
+      "target": "other_pct",
+      "target_label": "Other",
+      "target_group": "ethnicity",
+      "area_count": 654,
+      "model_r2": 0.5616477635280446,
+      "model_mae_percentage_points": 1.0472025552513609,
+      "mean_only_baseline_r2": -0.12308261197968773,
+      "mean_only_baseline_mae_percentage_points": 1.8840402920207249,
+      "spearman__annual_equivalised_income_after_housing_costs_gbp": -0.4535525499025646,
+      "spearman__level4plus_pct": -0.07176898180794725,
+      "spearman__crime_for_analysis": 0.4965853912688087,
+      "spearman__fuel_poor_households_pct": 0.4132121804636928,
+      "spearman__no2_area_mean_ug_m3": 0.7352942700022456,
+      "spearman__employed_residents_16plus_pct": -0.38066804516756314,
+      "spearman__asb_rows_per_1000_residents": 0.09053398532798608
+    },
+    {
+      "target": "households_deprived_2plus_pct",
+      "target_label": "Households deprived in 2+ dimensions",
+      "target_group": "deprivation",
+      "area_count": 654,
+      "model_r2": 0.8978159925297589,
+      "model_mae_percentage_points": 1.7881627507571427,
+      "mean_only_baseline_r2": -0.06565780138213828,
+      "mean_only_baseline_mae_percentage_points": 6.500635367074023,
+      "spearman__annual_equivalised_income_after_housing_costs_gbp": -0.9392208694427935,
+      "spearman__level4plus_pct": -0.81765478124425,
+      "spearman__crime_for_analysis": 0.7075874680289819,
+      "spearman__fuel_poor_households_pct": 0.6340865175064221,
+      "spearman__no2_area_mean_ug_m3": 0.6166759698907366,
+      "spearman__employed_residents_16plus_pct": -0.5997896502911155,
+      "spearman__asb_rows_per_1000_residents": 0.41513258383956253
+    }
+  ],
+  "error_parity": [
+    {
+      "split_basis": "deprivation",
+      "third": "Lowest third",
+      "area_count": 218,
+      "bias_years": 0.3064812859988645,
+      "bias_years_ci95_lower": 0.09896232686114383,
+      "bias_years_ci95_upper": 0.5235707347148583,
+      "mae_years": 1.3055345711749904,
+      "mae_years_ci95_lower": 1.1776063667941785,
+      "mae_years_ci95_upper": 1.4354677742994373,
+      "rmse_years": 1.6532565480103283,
+      "rmse_years_ci95_lower": 1.4728350607417515,
+      "rmse_years_ci95_upper": 1.8384082874327188,
+      "bias_ci95_excludes_zero": true,
+      "model_direction": "runs low"
+    },
+    {
+      "split_basis": "deprivation",
+      "third": "Middle third",
+      "area_count": 218,
+      "bias_years": 0.14649723571591497,
+      "bias_years_ci95_lower": -0.05533136561072637,
+      "bias_years_ci95_upper": 0.36765025861456646,
+      "mae_years": 1.3356462133218163,
+      "mae_years_ci95_lower": 1.2028508318372957,
+      "mae_years_ci95_upper": 1.4706567738997969,
+      "rmse_years": 1.6605569135737916,
+      "rmse_years_ci95_lower": 1.5111875917165558,
+      "rmse_years_ci95_upper": 1.8120777631820062,
+      "bias_ci95_excludes_zero": false,
+      "model_direction": "runs low"
+    },
+    {
+      "split_basis": "deprivation",
+      "third": "Highest third",
+      "area_count": 218,
+      "bias_years": -0.4594437171294772,
+      "bias_years_ci95_lower": -0.6618126715695067,
+      "bias_years_ci95_upper": -0.2515840287897858,
+      "mae_years": 1.3093420016917592,
+      "mae_years_ci95_lower": 1.184346866582004,
+      "mae_years_ci95_upper": 1.428814818456264,
+      "rmse_years": 1.6202945095998351,
+      "rmse_years_ci95_lower": 1.4890386460759537,
+      "rmse_years_ci95_upper": 1.751546394579362,
+      "bias_ci95_excludes_zero": true,
+      "model_direction": "runs high"
+    },
+    {
+      "split_basis": "combined_non_white_share",
+      "third": "Lowest third",
+      "area_count": 218,
+      "bias_years": 0.35306883058198546,
+      "bias_years_ci95_lower": 0.15690155856674953,
+      "bias_years_ci95_upper": 0.5541931356099448,
+      "mae_years": 1.228306997245255,
+      "mae_years_ci95_lower": 1.1141471002380599,
+      "mae_years_ci95_upper": 1.3449182889405233,
+      "rmse_years": 1.5005905802764505,
+      "rmse_years_ci95_lower": 1.3741911252770684,
+      "rmse_years_ci95_upper": 1.627900022166444,
+      "bias_ci95_excludes_zero": true,
+      "model_direction": "runs low"
+    },
+    {
+      "split_basis": "combined_non_white_share",
+      "third": "Middle third",
+      "area_count": 218,
+      "bias_years": -0.2021679424754309,
+      "bias_years_ci95_lower": -0.4169118695565335,
+      "bias_years_ci95_upper": 0.012743974699840555,
+      "mae_years": 1.3120711553923592,
+      "mae_years_ci95_lower": 1.1881506741677252,
+      "mae_years_ci95_upper": 1.4394449635613187,
+      "rmse_years": 1.6218904355913397,
+      "rmse_years_ci95_lower": 1.4709169578054462,
+      "rmse_years_ci95_upper": 1.7625090918749193,
+      "bias_ci95_excludes_zero": false,
+      "model_direction": "runs high"
+    },
+    {
+      "split_basis": "combined_non_white_share",
+      "third": "Highest third",
+      "area_count": 218,
+      "bias_years": -0.15736608352125223,
+      "bias_years_ci95_lower": -0.37769380036752304,
+      "bias_years_ci95_upper": 0.07465634262272741,
+      "mae_years": 1.4101446335509522,
+      "mae_years_ci95_lower": 1.2602587126789127,
+      "mae_years_ci95_upper": 1.5597855786546986,
+      "rmse_years": 1.7982658590761922,
+      "rmse_years_ci95_lower": 1.6032264801903038,
+      "rmse_years_ci95_upper": 1.9857326565402036,
+      "bias_ci95_excludes_zero": false,
+      "model_direction": "runs high"
+    }
+  ],
+  "bootstrap_resamples_per_third": 2000,
+  "bootstrap_seed": 20261017,
+  "bootstrap_interval": "Percentile 95% interval; areas resampled with replacement within each third.",
+  "mae_pairwise_comparisons": [
+    {
+      "split_basis": "deprivation",
+      "first_third": "Lowest third",
+      "second_third": "Middle third",
+      "absolute_mae_difference_years": 0.030111642146825934,
+      "mae_interval_overlap_width_years": 0.2326169424621416,
+      "mae_intervals_overlap": true,
+      "difference_exceeds_interval_overlap": false
+    },
+    {
+      "split_basis": "deprivation",
+      "first_third": "Lowest third",
+      "second_third": "Highest third",
+      "absolute_mae_difference_years": 0.003807430516768795,
+      "mae_interval_overlap_width_years": 0.24446795187425985,
+      "mae_intervals_overlap": true,
+      "difference_exceeds_interval_overlap": false
+    },
+    {
+      "split_basis": "deprivation",
+      "first_third": "Middle third",
+      "second_third": "Highest third",
+      "absolute_mae_difference_years": 0.02630421163005714,
+      "mae_interval_overlap_width_years": 0.22596398661896822,
+      "mae_intervals_overlap": true,
+      "difference_exceeds_interval_overlap": false
+    },
+    {
+      "split_basis": "combined_non_white_share",
+      "first_third": "Lowest third",
+      "second_third": "Middle third",
+      "absolute_mae_difference_years": 0.08376415814710425,
+      "mae_interval_overlap_width_years": 0.1567676147727981,
+      "mae_intervals_overlap": true,
+      "difference_exceeds_interval_overlap": false
+    },
+    {
+      "split_basis": "combined_non_white_share",
+      "first_third": "Lowest third",
+      "second_third": "Highest third",
+      "absolute_mae_difference_years": 0.18183763630569727,
+      "mae_interval_overlap_width_years": 0.08465957626161069,
+      "mae_intervals_overlap": true,
+      "difference_exceeds_interval_overlap": true
+    },
+    {
+      "split_basis": "combined_non_white_share",
+      "first_third": "Middle third",
+      "second_third": "Highest third",
+      "absolute_mae_difference_years": 0.09807347815859302,
+      "mae_interval_overlap_width_years": 0.17918625088240603,
+      "mae_intervals_overlap": true,
+      "difference_exceeds_interval_overlap": false
+    }
+  ],
+  "mae_comparison_rule": "Compare the absolute point-estimate gap with the width shared by the two percentile intervals.",
+  "saved_notebook_05_metrics": {
+    "rmse_years": 1.6447959118176452,
+    "mae_years": 1.3168409287295222,
+    "r2": 0.8937396887082472
+  },
+  "crime_sensitivity": {
+    "models": [
+      {
+        "model": "Seven features including crime",
+        "feature_count": 7,
+        "rmse_years": 1.6447959118176452,
+        "mae_years": 1.3168409287295222,
+        "r2": 0.8937396887082472,
+        "moran_i": 0.15412637854835512,
+        "permutation_mean": -0.0016655073892266074,
+        "positive_permutation_reference": 0.001
+      },
+      {
+        "model": "Six features without crime",
+        "feature_count": 6,
+        "rmse_years": 1.6548006190439002,
+        "mae_years": 1.3286171128538782,
+        "r2": 0.8924430700386533,
+        "moran_i": 0.17030035571359547,
+        "permutation_mean": -0.00181853845197933,
+        "positive_permutation_reference": 0.001
+      }
+    ],
+    "changes_without_minus_with": {
+      "rmse_years": 0.010004707226255016,
+      "mae_years": 0.011776184124355993,
+      "r2": -0.001296618669593852,
+      "residual_moran_i": 0.016173977165240355
+    },
+    "shared_feature_coefficients": [
+      {
+        "feature": "annual_equivalised_income_after_housing_costs_gbp",
+        "feature_label": "Household income after housing costs",
+        "standardised_coefficient_with_crime_years": 3.0994437135959023,
+        "standardised_coefficient_without_crime_years": 3.2027648847674834,
+        "coefficient_change_without_minus_with_years": 0.10332117117158113
+      },
+      {
+        "feature": "level4plus_pct",
+        "feature_label": "Level 4+ qualifications",
+        "standardised_coefficient_with_crime_years": 1.1119202536095176,
+        "standardised_coefficient_without_crime_years": 1.0536331628593862,
+        "coefficient_change_without_minus_with_years": -0.05828709075013139
+      },
+      {
+        "feature": "fuel_poor_households_pct",
+        "feature_label": "Fuel-poor households",
+        "standardised_coefficient_with_crime_years": -0.30442926832522327,
+        "standardised_coefficient_without_crime_years": -0.35930935252905416,
+        "coefficient_change_without_minus_with_years": -0.05488008420383089
+      },
+      {
+        "feature": "no2_area_mean_ug_m3",
+        "feature_label": "NO₂ area mean",
+        "standardised_coefficient_with_crime_years": -0.6143596301704857,
+        "standardised_coefficient_without_crime_years": -0.7837896368631703,
+        "coefficient_change_without_minus_with_years": -0.1694300066926846
+      },
+      {
+        "feature": "employed_residents_16plus_pct",
+        "feature_label": "Employed residents aged 16+",
+        "standardised_coefficient_with_crime_years": -0.18805734853415368,
+        "standardised_coefficient_without_crime_years": -0.21165116502020298,
+        "coefficient_change_without_minus_with_years": -0.0235938164860493
+      },
+      {
+        "feature": "asb_rows_per_1000_residents",
+        "feature_label": "Anti-social behaviour rate",
+        "standardised_coefficient_with_crime_years": -0.2025387833934097,
+        "standardised_coefficient_without_crime_years": -0.44636339363859556,
+        "coefficient_change_without_minus_with_years": -0.24382461024518587
+      }
+    ]
+  },
+  "crime_prediction_changes": [
+    {
+      "area_code": "E02002089",
+      "local_area_name": "Marston Green",
+      "authority_name": "Solihull",
+      "prediction_with_crime_years": 61.89629468859405,
+      "prediction_without_crime_years": 64.2725478793797,
+      "change_without_minus_with_crime_years": 2.376253190785654,
+      "absolute_prediction_change_years": 2.376253190785654
+    },
+    {
+      "area_code": "E02002061",
+      "local_area_name": "Greets Green East",
+      "authority_name": "Sandwell",
+      "prediction_with_crime_years": 54.64959251953341,
+      "prediction_without_crime_years": 56.330826795943274,
+      "change_without_minus_with_crime_years": 1.6812342764098673,
+      "absolute_prediction_change_years": 1.6812342764098673
+    },
+    {
+      "area_code": "E02002099",
+      "local_area_name": "Central Solihull",
+      "authority_name": "Solihull",
+      "prediction_with_crime_years": 68.30178148662084,
+      "prediction_without_crime_years": 69.83325233764027,
+      "change_without_minus_with_crime_years": 1.531470851019435,
+      "absolute_prediction_change_years": 1.531470851019435
+    },
+    {
+      "area_code": "E02002021",
+      "local_area_name": "Brierley Hill",
+      "authority_name": "Dudley",
+      "prediction_with_crime_years": 56.12783161930552,
+      "prediction_without_crime_years": 57.32703832702163,
+      "change_without_minus_with_crime_years": 1.1992067077161153,
+      "absolute_prediction_change_years": 1.1992067077161153
+    },
+    {
+      "area_code": "E02006481",
+      "local_area_name": "Stockingford",
+      "authority_name": "Nuneaton and Bedworth",
+      "prediction_with_crime_years": 60.97129425329933,
+      "prediction_without_crime_years": 59.89961376870238,
+      "change_without_minus_with_crime_years": -1.0716804845969463,
+      "absolute_prediction_change_years": 1.0716804845969463
+    },
+    {
+      "area_code": "E02006197",
+      "local_area_name": "Central Stafford",
+      "authority_name": "Stafford",
+      "prediction_with_crime_years": 59.95606397512189,
+      "prediction_without_crime_years": 60.9822287239368,
+      "change_without_minus_with_crime_years": 1.0261647488149066,
+      "absolute_prediction_change_years": 1.0261647488149066
+    },
+    {
+      "area_code": "E02006487",
+      "local_area_name": "Bedworth Town",
+      "authority_name": "Nuneaton and Bedworth",
+      "prediction_with_crime_years": 59.73451018222451,
+      "prediction_without_crime_years": 58.805418910182134,
+      "change_without_minus_with_crime_years": -0.9290912720423776,
+      "absolute_prediction_change_years": 0.9290912720423776
+    },
+    {
+      "area_code": "E02002047",
+      "local_area_name": "Wednesbury",
+      "authority_name": "Sandwell",
+      "prediction_with_crime_years": 58.08190645290964,
+      "prediction_without_crime_years": 58.955730662233165,
+      "change_without_minus_with_crime_years": 0.8738242093235229,
+      "absolute_prediction_change_years": 0.8738242093235229
+    },
+    {
+      "area_code": "E02006218",
+      "local_area_name": "Central Tamworth",
+      "authority_name": "Tamworth",
+      "prediction_with_crime_years": 60.71422258109995,
+      "prediction_without_crime_years": 61.56554612015698,
+      "change_without_minus_with_crime_years": 0.8513235390570273,
+      "absolute_prediction_change_years": 0.8513235390570273
+    },
+    {
+      "area_code": "E02005406",
+      "local_area_name": "Coalville",
+      "authority_name": "North West Leicestershire",
+      "prediction_with_crime_years": 61.66944240714036,
+      "prediction_without_crime_years": 62.49347903673509,
+      "change_without_minus_with_crime_years": 0.8240366295947297,
+      "absolute_prediction_change_years": 0.8240366295947297
+    }
+  ],
+  "crime_free_features": [
+    "annual_equivalised_income_after_housing_costs_gbp",
+    "level4plus_pct",
+    "fuel_poor_households_pct",
+    "no2_area_mean_ug_m3",
+    "employed_residents_16plus_pct",
+    "asb_rows_per_1000_residents"
+  ],
+  "moran_neighbour_pair_count": 1844,
+  "moran_permutations": 999,
+  "moran_seed": 42,
+  "output_folder": "data/cleaned/Fairness"
+}

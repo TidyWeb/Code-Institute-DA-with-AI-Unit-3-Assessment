@@ -1,0 +1,142 @@
+file,column,meaning,unit,missing_rule
+proxy_overlap.csv,target,Six-group ethnic share or deprivation measure,identifier,Blank where the field does not apply
+proxy_overlap.csv,target_label,Readable target name,text,Blank where the field does not apply
+proxy_overlap.csv,target_group,Ethnicity or deprivation,category,Blank where the field does not apply
+proxy_overlap.csv,area_count,Areas in grouped cross-validation,areas,Blank where the field does not apply
+proxy_overlap.csv,model_r2,Out-of-fold R-squared for seven-feature prediction,fraction,Blank where the field does not apply
+proxy_overlap.csv,model_mae_percentage_points,Out-of-fold mean absolute error for seven-feature prediction,percentage points,Blank where the field does not apply
+proxy_overlap.csv,mean_only_baseline_r2,Out-of-fold R-squared for fold training-mean baseline,fraction,Blank where the field does not apply
+proxy_overlap.csv,mean_only_baseline_mae_percentage_points,Out-of-fold mean absolute error for fold training-mean baseline,percentage points,Blank where the field does not apply
+proxy_overlap.csv,spearman__annual_equivalised_income_after_housing_costs_gbp,Spearman correlation between Household income after housing costs and the target,Spearman rho,Blank where the field does not apply
+proxy_overlap.csv,spearman__level4plus_pct,Spearman correlation between Level 4+ qualifications and the target,Spearman rho,Blank where the field does not apply
+proxy_overlap.csv,spearman__crime_for_analysis,Spearman correlation between Recorded crime (visitor hubs omitted) and the target,Spearman rho,Blank where the field does not apply
+proxy_overlap.csv,spearman__fuel_poor_households_pct,Spearman correlation between Fuel-poor households and the target,Spearman rho,Blank where the field does not apply
+proxy_overlap.csv,spearman__no2_area_mean_ug_m3,Spearman correlation between NO₂ area mean and the target,Spearman rho,Blank where the field does not apply
+proxy_overlap.csv,spearman__employed_residents_16plus_pct,Spearman correlation between Employed residents aged 16+ and the target,Spearman rho,Blank where the field does not apply
+proxy_overlap.csv,spearman__asb_rows_per_1000_residents,Spearman correlation between Anti-social behaviour rate and the target,Spearman rho,Blank where the field does not apply
+error_parity.csv,split_basis,Measure used to split the modelling areas,text,Blank where the field does not apply
+error_parity.csv,third,"Low, middle or high third of the split measure",category,Blank where the field does not apply
+error_parity.csv,area_count,Areas in this third,areas,Blank where the field does not apply
+error_parity.csv,bias_years,Mean residual; actual HLE minus out-of-fold prediction,years,Blank where the field does not apply
+error_parity.csv,bias_years_ci95_lower,Lower percentile bootstrap bound for mean residual,years,Blank where the field does not apply
+error_parity.csv,bias_years_ci95_upper,Upper percentile bootstrap bound for mean residual,years,Blank where the field does not apply
+error_parity.csv,mae_years,Mean absolute out-of-fold residual,years,Blank where the field does not apply
+error_parity.csv,mae_years_ci95_lower,Lower percentile bootstrap bound for MAE,years,Blank where the field does not apply
+error_parity.csv,mae_years_ci95_upper,Upper percentile bootstrap bound for MAE,years,Blank where the field does not apply
+error_parity.csv,rmse_years,Root mean square out-of-fold residual,years,Blank where the field does not apply
+error_parity.csv,rmse_years_ci95_lower,Lower percentile bootstrap bound for RMSE,years,Blank where the field does not apply
+error_parity.csv,rmse_years_ci95_upper,Upper percentile bootstrap bound for RMSE,years,Blank where the field does not apply
+error_parity.csv,bias_ci95_excludes_zero,Whether the 95% bias interval lies entirely above or below zero,boolean,Blank where the field does not apply
+error_parity.csv,model_direction,Whether positive residuals mean the model runs low or high,text,Blank where the field does not apply
+crime_sensitivity.csv,record_type,"Model metrics, metric change or standardised coefficient",category,Blank where the field does not apply
+crime_sensitivity.csv,model,Model or comparison named in this row,text,Blank where the field does not apply
+crime_sensitivity.csv,feature_count,Number of predictors; negative one denotes a difference row,features,Blank where the field does not apply
+crime_sensitivity.csv,area_count,Model areas used,areas,Blank where the field does not apply
+crime_sensitivity.csv,rmse_years,Out-of-fold root mean square error; difference row is without minus with crime,years,Blank where the field does not apply
+crime_sensitivity.csv,mae_years,Out-of-fold mean absolute error; difference row is without minus with crime,years,Blank where the field does not apply
+crime_sensitivity.csv,r2,Out-of-fold R-squared; difference row is without minus with crime,fraction,Blank where the field does not apply
+crime_sensitivity.csv,residual_moran_i,Moran's I for saved or refitted out-of-fold residuals,Moran's I,Blank where the field does not apply
+crime_sensitivity.csv,moran_permutation_mean,Mean of the seeded permutation reference,Moran's I,Blank where the field does not apply
+crime_sensitivity.csv,moran_positive_permutation_reference,Plus-one share of shuffled residual maps at least as high as observed,fraction 0–1,Blank where the field does not apply
+crime_sensitivity.csv,feature,Shared model feature for coefficient rows,identifier,Blank where the field does not apply
+crime_sensitivity.csv,feature_label,Readable feature label,text,Blank where the field does not apply
+crime_sensitivity.csv,standardised_coefficient_with_crime_years,Full-data standardised coefficient in the seven-feature model,years per SD,Blank where the field does not apply
+crime_sensitivity.csv,standardised_coefficient_without_crime_years,Full-data standardised coefficient without crime,years per SD,Blank where the field does not apply
+crime_sensitivity.csv,coefficient_change_without_minus_with_years,No-crime coefficient minus seven-feature coefficient,years per SD,Blank where the field does not apply
+crime_prediction_changes.csv,area_code,Unique area code,MSOA21 identifier,Blank where the field does not apply
+crime_prediction_changes.csv,local_area_name,Familiar name of the area,text,Blank where the field does not apply
+crime_prediction_changes.csv,authority_name,Authority held out together in cross-validation,local authority,Blank where the field does not apply
+crime_prediction_changes.csv,prediction_with_crime_years,Saved Notebook 05 out-of-fold prediction,years,Blank where the field does not apply
+crime_prediction_changes.csv,prediction_without_crime_years,Out-of-fold prediction from the six-feature refit,years,Blank where the field does not apply
+crime_prediction_changes.csv,change_without_minus_with_crime_years,No-crime prediction minus saved prediction,years,Blank where the field does not apply
+crime_prediction_changes.csv,absolute_prediction_change_years,Absolute change in predicted HLE,years,Blank where the field does not apply
+results_summary.json,source_area_count,Source MSOA areas,areas,JSON null only where the value does not apply
+results_summary.json,modelling_area_count,Complete-case model areas,areas,JSON null only where the value does not apply
+results_summary.json,features[],"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,folds,Number of local-authority GroupKFold splits,folds,JSON null only where the value does not apply
+results_summary.json,seed,Notebook 05 random seed,seed,JSON null only where the value does not apply
+results_summary.json,held_out_groups,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,ethnicity_group_definition.white_british_pct[],"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,ethnicity_group_definition.other_white_pct[],"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,ethnicity_group_definition.asian_pct[],"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,ethnicity_group_definition.black_pct[],"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,ethnicity_group_definition.mixed_pct[],"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,ethnicity_group_definition.other_pct[],"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,combined_non_white_definition,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].target,Proxy prediction metric or target definition recorded for a row,value,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].target_label,Proxy prediction metric or target definition recorded for a row,value,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].target_group,Proxy prediction metric or target definition recorded for a row,value,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].area_count,Proxy prediction metric or target definition recorded for a row,value,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].model_r2,Proxy prediction metric or target definition recorded for a row,value,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].model_mae_percentage_points,Proxy prediction metric or target definition recorded for a row,value,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].mean_only_baseline_r2,Proxy prediction metric or target definition recorded for a row,value,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].mean_only_baseline_mae_percentage_points,Proxy prediction metric or target definition recorded for a row,value,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].spearman__annual_equivalised_income_after_housing_costs_gbp,Out-of-fold area target's rank correlation with the named model feature,Spearman rho,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].spearman__level4plus_pct,Out-of-fold area target's rank correlation with the named model feature,Spearman rho,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].spearman__crime_for_analysis,Out-of-fold area target's rank correlation with the named model feature,Spearman rho,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].spearman__fuel_poor_households_pct,Out-of-fold area target's rank correlation with the named model feature,Spearman rho,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].spearman__no2_area_mean_ug_m3,Out-of-fold area target's rank correlation with the named model feature,Spearman rho,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].spearman__employed_residents_16plus_pct,Out-of-fold area target's rank correlation with the named model feature,Spearman rho,JSON null only where the value does not apply
+results_summary.json,proxy_overlap[].spearman__asb_rows_per_1000_residents,Out-of-fold area target's rank correlation with the named model feature,Spearman rho,JSON null only where the value does not apply
+results_summary.json,error_parity[].split_basis,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].third,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].area_count,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].bias_years,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].bias_years_ci95_lower,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].bias_years_ci95_upper,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].mae_years,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].mae_years_ci95_lower,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].mae_years_ci95_upper,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].rmse_years,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].rmse_years_ci95_lower,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].rmse_years_ci95_upper,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].bias_ci95_excludes_zero,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,error_parity[].model_direction,Third-specific error estimate or bootstrap interval value,value,JSON null only where the value does not apply
+results_summary.json,bootstrap_resamples_per_third,Bootstrap samples generated within each third,resamples,JSON null only where the value does not apply
+results_summary.json,bootstrap_seed,Fixed bootstrap generator seed,seed,JSON null only where the value does not apply
+results_summary.json,bootstrap_interval,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,mae_pairwise_comparisons[].split_basis,Pairwise MAE point-gap and confidence-interval overlap comparison,value,JSON null only where the value does not apply
+results_summary.json,mae_pairwise_comparisons[].first_third,Pairwise MAE point-gap and confidence-interval overlap comparison,value,JSON null only where the value does not apply
+results_summary.json,mae_pairwise_comparisons[].second_third,Pairwise MAE point-gap and confidence-interval overlap comparison,value,JSON null only where the value does not apply
+results_summary.json,mae_pairwise_comparisons[].absolute_mae_difference_years,Pairwise MAE point-gap and confidence-interval overlap comparison,value,JSON null only where the value does not apply
+results_summary.json,mae_pairwise_comparisons[].mae_interval_overlap_width_years,Pairwise MAE point-gap and confidence-interval overlap comparison,value,JSON null only where the value does not apply
+results_summary.json,mae_pairwise_comparisons[].mae_intervals_overlap,Pairwise MAE point-gap and confidence-interval overlap comparison,value,JSON null only where the value does not apply
+results_summary.json,mae_pairwise_comparisons[].difference_exceeds_interval_overlap,Pairwise MAE point-gap and confidence-interval overlap comparison,value,JSON null only where the value does not apply
+results_summary.json,mae_comparison_rule,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,saved_notebook_05_metrics.rmse_years,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,saved_notebook_05_metrics.mae_years,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,saved_notebook_05_metrics.r2,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.models[].model,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.models[].feature_count,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.models[].rmse_years,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.models[].mae_years,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.models[].r2,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.models[].moran_i,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.models[].permutation_mean,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.models[].positive_permutation_reference,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.changes_without_minus_with.rmse_years,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.changes_without_minus_with.mae_years,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.changes_without_minus_with.r2,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.changes_without_minus_with.residual_moran_i,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.shared_feature_coefficients[].feature,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.shared_feature_coefficients[].feature_label,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.shared_feature_coefficients[].standardised_coefficient_with_crime_years,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.shared_feature_coefficients[].standardised_coefficient_without_crime_years,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_sensitivity.shared_feature_coefficients[].coefficient_change_without_minus_with_years,"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,crime_prediction_changes[].area_code,Area-level change between saved and no-crime predictions,value,JSON null only where the value does not apply
+results_summary.json,crime_prediction_changes[].local_area_name,Area-level change between saved and no-crime predictions,value,JSON null only where the value does not apply
+results_summary.json,crime_prediction_changes[].authority_name,Area-level change between saved and no-crime predictions,value,JSON null only where the value does not apply
+results_summary.json,crime_prediction_changes[].prediction_with_crime_years,Area-level change between saved and no-crime predictions,value,JSON null only where the value does not apply
+results_summary.json,crime_prediction_changes[].prediction_without_crime_years,Area-level change between saved and no-crime predictions,value,JSON null only where the value does not apply
+results_summary.json,crime_prediction_changes[].change_without_minus_with_crime_years,Area-level change between saved and no-crime predictions,value,JSON null only where the value does not apply
+results_summary.json,crime_prediction_changes[].absolute_prediction_change_years,Area-level change between saved and no-crime predictions,value,JSON null only where the value does not apply
+results_summary.json,crime_free_features[],"Recorded model feature, assumption, method or definition",text or rule,JSON null only where the value does not apply
+results_summary.json,moran_neighbour_pair_count,Shared-edge pairs retained after modelling-area exclusions,pairs,JSON null only where the value does not apply
+results_summary.json,moran_permutations,Number of Moran reference permutations,permutations,JSON null only where the value does not apply
+results_summary.json,moran_seed,Seed used for Moran reference permutations,seed,JSON null only where the value does not apply
+results_summary.json,output_folder,Folder containing this notebook's outputs,project-relative path,JSON null only where the value does not apply
+data_dictionary.csv,file,Filename described by this row,text,No missing values
+data_dictionary.csv,column,CSV column or dotted JSON path; [] marks repeated items,text,No missing values
+data_dictionary.csv,meaning,What the field records,text,No missing values
+data_dictionary.csv,unit,Measurement unit or value type,text,No missing values
+data_dictionary.csv,missing_rule,Meaning of a blank value,text,No missing values

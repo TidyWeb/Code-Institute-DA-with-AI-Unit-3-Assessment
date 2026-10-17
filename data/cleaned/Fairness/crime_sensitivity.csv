@@ -1,0 +1,10 @@
+record_type,model,feature_count,area_count,rmse_years,mae_years,r2,residual_moran_i,moran_permutation_mean,moran_positive_permutation_reference,feature,feature_label,standardised_coefficient_with_crime_years,standardised_coefficient_without_crime_years,coefficient_change_without_minus_with_years
+model_metrics,Seven features including crime,7,654,1.6447959118176452,1.3168409287295222,0.8937396887082472,0.15412637854835512,-0.0016655073892266074,0.001,,,,,
+model_metrics,Six features without crime,6,654,1.6548006190439002,1.3286171128538782,0.8924430700386533,0.17030035571359547,-0.00181853845197933,0.001,,,,,
+metric_change,Six features minus seven features,-1,654,0.010004707226255016,0.011776184124355993,-0.001296618669593852,0.016173977165240355,-0.0001530310627527226,,,,,,
+standardised_coefficient,Full-data coefficient comparison,6,654,,,,,,,annual_equivalised_income_after_housing_costs_gbp,Household income after housing costs,3.0994437135959023,3.2027648847674834,0.10332117117158113
+standardised_coefficient,Full-data coefficient comparison,6,654,,,,,,,level4plus_pct,Level 4+ qualifications,1.1119202536095176,1.0536331628593862,-0.05828709075013139
+standardised_coefficient,Full-data coefficient comparison,6,654,,,,,,,fuel_poor_households_pct,Fuel-poor households,-0.30442926832522327,-0.35930935252905416,-0.05488008420383089
+standardised_coefficient,Full-data coefficient comparison,6,654,,,,,,,no2_area_mean_ug_m3,NO₂ area mean,-0.6143596301704857,-0.7837896368631703,-0.1694300066926846
+standardised_coefficient,Full-data coefficient comparison,6,654,,,,,,,employed_residents_16plus_pct,Employed residents aged 16+,-0.18805734853415368,-0.21165116502020298,-0.0235938164860493
+standardised_coefficient,Full-data coefficient comparison,6,654,,,,,,,asb_rows_per_1000_residents,Anti-social behaviour rate,-0.2025387833934097,-0.44636339363859556,-0.24382461024518587
