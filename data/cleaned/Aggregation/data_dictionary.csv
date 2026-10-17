@@ -1,0 +1,52 @@
+file,column,unit,meaning,missing_rule
+msoa_fuel_poverty_aggregation.csv,msoa_code,MSOA21 identifier,Unique 2021 MSOA code.,No missing values
+msoa_fuel_poverty_aggregation.csv,msoa_name,text,2021 MSOA name from the ONS LSOA-to-MSOA lookup.,No missing values
+msoa_fuel_poverty_aggregation.csv,lsoa_count,LSOAs,Number of LSOAs contributing to the MSOA summary.,No missing values
+msoa_fuel_poverty_aggregation.csv,fuel_poverty_mean_unweighted_pct,percent,Unweighted mean of LSOA household fuel-poverty percentages; each LSOA has equal weight.,No missing values
+msoa_fuel_poverty_aggregation.csv,fuel_poverty_min_pct,percent,Minimum LSOA household fuel-poverty percentage in the MSOA.,No missing values
+msoa_fuel_poverty_aggregation.csv,fuel_poverty_max_pct,percent,Maximum LSOA household fuel-poverty percentage in the MSOA.,No missing values
+msoa_fuel_poverty_aggregation.csv,fuel_poverty_range_percentage_points,percentage points,Maximum minus minimum LSOA fuel-poverty percentage within the MSOA.,No missing values
+msoa_fuel_poverty_aggregation.csv,fuel_poverty_sd_population_pct_points,percentage points,Population standard deviation (ddof=0) of all contributing LSOA percentages within the MSOA.,No missing values
+msoa_fuel_poverty_aggregation.csv,coefficient_of_variation,ratio,Population standard deviation divided by the unweighted mean of LSOA percentages; unitless.,No missing values
+msoa_fuel_poverty_aggregation.csv,neighbour_count,neighbouring MSOAs,Number of Notebook 04 neighbour pairs touching this MSOA.,No missing values
+msoa_fuel_poverty_aggregation.csv,neighbour_context_msoa_count,MSOAs,Number of means in the local context: the focal MSOA plus its Notebook 04 neighbours.,No missing values
+msoa_fuel_poverty_aggregation.csv,neighbour_context_mean_min_pct,percent,Lowest unweighted LSOA fuel-poverty mean among the focal MSOA and its neighbours.,No missing values
+msoa_fuel_poverty_aggregation.csv,neighbour_context_mean_max_pct,percent,Highest unweighted LSOA fuel-poverty mean among the focal MSOA and its neighbours.,No missing values
+msoa_fuel_poverty_aggregation.csv,neighbour_context_range_percentage_points,percentage points,Maximum minus minimum of the MSOA means in the focal area plus its Notebook 04 neighbours.,No missing values
+msoa_fuel_poverty_aggregation.csv,mixed,boolean,True when the internal LSOA range is strictly greater than the local range of MSOA means across the focal MSOA and its neighbours.,No missing values
+results_summary.json,msoa_count,MSOAs,Number of MSOAs in the complete matched output.,Not applicable
+results_summary.json,lsoa_count,LSOAs,Number of unique LSOAs included.,Not applicable
+results_summary.json,neighbour_pair_count,pairs,Undirected neighbour pairs from Notebook 04.,Not applicable
+results_summary.json,directed_neighbour_comparisons,comparisons,One endpoint comparison per area endpoint for every undirected pair.,Not applicable
+results_summary.json,overall_lsoa_mean_pct,percent,"Mean of all LSOA fuel-poverty percentages, with each LSOA equally weighted.",Not applicable
+results_summary.json,total_lsoa_variance_percentage_points_squared,percentage-points squared,Population variance of all included LSOA fuel-poverty percentages.,Not applicable
+results_summary.json,within_msoa_variance_percentage_points_squared,percentage-points squared,LSOA-count-weighted average of population variances within MSOAs.,Not applicable
+results_summary.json,between_msoa_variance_percentage_points_squared,percentage-points squared,LSOA-count-weighted variance of MSOA means around the overall LSOA mean.,Not applicable
+results_summary.json,within_msoa_variance_share_pct,percent,Within-MSOA component divided by total variance.,Not applicable
+results_summary.json,between_msoa_variance_share_pct,percent,Between-MSOA component divided by total variance.,Not applicable
+results_summary.json,variance_decomposition_reading,text,Plain-English reading of the within and between variance shares.,Not applicable
+results_summary.json,mixed_msoa_count,MSOAs,Areas whose internal LSOA range exceeds the local range of MSOA means.,Not applicable
+results_summary.json,mixed_msoa_share,fraction 0–1,Mixed MSOAs divided by all included MSOAs.,Not applicable
+results_summary.json,median_internal_range_percentage_points,percentage points,Median within-MSOA LSOA percentage range.,Not applicable
+results_summary.json,median_neighbour_context_range_percentage_points,percentage points,Median local range of MSOA means across each focal area and its neighbours.,Not applicable
+results_summary.json,fuel_poverty_period,year,Year of the fuel-poverty source data.,Not applicable
+results_summary.json,fuel_poverty_measure,text,Description of the source measure.,Not applicable
+results_summary.json,msoa_mean_method,text,Definition of the unweighted mean used for each MSOA.,Not applicable
+results_summary.json,variance_decomposition_method,text,"Definition of the equal-LSOA total, within and between population variance components.",Not applicable
+results_summary.json,standard_deviation_method,text,Definition of within-MSOA population standard deviation.,Not applicable
+results_summary.json,coefficient_of_variation_method,text,Definition of coefficient of variation.,Not applicable
+results_summary.json,neighbour_context_method,text,Definition of the local comparison set and its range.,Not applicable
+results_summary.json,mixed_rule,text,Strict like-for-like range rule used to flag a mixed MSOA.,Not applicable
+results_summary.json,method_change_note,text,"Why the earlier method was replaced and its prior result, retained for transparency.",Not applicable
+results_summary.json,lsoa_to_msoa_source,project-relative path,Saved lookup used to map LSOAs to MSOAs.,Not applicable
+results_summary.json,neighbour_pair_source,project-relative path,Saved Notebook 04 neighbour-pair file.,Not applicable
+results_summary.json,boundary_source,text,Geographic boundary source used in the map.,Not applicable
+results_summary.json,output_folder,project-relative path,Folder holding this analysis's saved outputs.,Not applicable
+results_summary.json,map_figure,project-relative path,Hatched map of mixed MSOAs.,Not applicable
+results_summary.json,histogram_figure,project-relative path,Comparison of internal and local-context ranges.,Not applicable
+results_summary.json,interpretation_limit,text,Scope limit for interpreting the descriptive comparison.,Not applicable
+data_dictionary.csv,file,text,Saved output file described by this row.,Not applicable
+data_dictionary.csv,column,text,CSV column or top-level JSON key.,Not applicable
+data_dictionary.csv,unit,text,Measurement unit or field type.,Not applicable
+data_dictionary.csv,meaning,text,What the field records.,Not applicable
+data_dictionary.csv,missing_rule,text,How a blank or non-applicable value should be read.,Not applicable
