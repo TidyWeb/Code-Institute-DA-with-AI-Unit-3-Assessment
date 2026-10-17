@@ -1,0 +1,36 @@
+{
+  "area_count": 660,
+  "simulations": 10000,
+  "batch_size": 200,
+  "seed": 20261017,
+  "rank_rule": "Rank 1 is lowest HLE; published ties follow sorted area-code order.",
+  "standard_error_derivation": "se_average = (hle_average_uci - hle_average_lci) / (2 * 1.96), as in Notebook 04. Compared with saved se_average_a and se_average_b for all 660 areas; all matched.",
+  "independence_assumption": "Each area's HLE draw is independent of other areas, matching Notebook 04's noise simulation.",
+  "bottom_tenth_cutoff_rank": 66,
+  "top_tenth_first_rank": 595,
+  "confidence_band_thresholds": {
+    "confidently": "probability >= 0.95",
+    "likely": "0.50 <= probability < 0.95",
+    "possibly": "0.05 <= probability < 0.50",
+    "not": "probability < 0.05"
+  },
+  "bottom_tenth_confidence_counts": {
+    "confidently in the lowest tenth": 35,
+    "likely": 33,
+    "possibly": 27,
+    "not": 565
+  },
+  "top_tenth_confidence_counts": {
+    "confidently in the highest tenth": 37,
+    "likely": 27,
+    "possibly": 38,
+    "not": 558
+  },
+  "published_lowest_area_count": 66,
+  "published_lowest_confidently_in_bottom_tenth": 35,
+  "median_rank_interval_width_overall_places": 65.0,
+  "middle_third_definition": "Published HLE ranks 221–440; rank 1 is lowest.",
+  "median_rank_interval_width_middle_third_places": 69.52499999999998,
+  "areas_with_rank_interval_width_over_100_places": 8,
+  "output_folder": "data/cleaned/Uncertainty"
+}

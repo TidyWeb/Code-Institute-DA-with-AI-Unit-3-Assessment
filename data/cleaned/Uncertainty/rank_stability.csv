@@ -1,0 +1,661 @@
+area_code,local_area_name,published_hle,published_rank,median_simulated_rank,rank_5th_percentile,rank_95th_percentile,rank_interval_width_places,p_bottom_10_percent,bottom_10_confidence,p_top_10_percent,top_10_confidence,hle_male_imputed,student_dominated,visitor_hub
+E02001827,Hill Hook,68.35,502,503.0,444.0,565.0,121.0,0.0,not,0.0073,not,False,False,False
+E02001828,Four Oaks,71.05,615,612.0,579.0,635.0,56.0,0.0,not,0.8274,likely,False,False,False
+E02001829,Little Sutton,73.3,652,652.0,644.0,656.0,12.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02001830,Sutton Coldfield North,72.05000000000001,638,637.0,611.0,650.0,39.0,0.0,not,0.9922,confidently in the highest tenth,False,False,False
+E02001831,Reddicap Heath,63.8,313,318.0,289.0,354.0,65.0,0.0,not,0.0,not,False,False,False
+E02001832,Rectory Park,70.65,600,599.0,558.0,628.0,70.0,0.0,not,0.582,likely,False,False,False
+E02001833,Kingstanding North,69.15,532,536.0,496.0,577.0,81.0,0.0,not,0.0099,not,False,False,False
+E02001834,Old Oscott,60.25,187,189.0,155.0,229.0,74.0,0.0,not,0.0,not,False,False,False
+E02001835,Sutton Coldfield South,68.0,486,488.0,453.0,524.0,71.0,0.0,not,0.0,not,False,False,False
+E02001836,New Oscott,70.44999999999999,592,591.0,558.0,618.0,60.0,0.0,not,0.4366,possibly,False,False,False
+E02001837,Kingstanding South East,55.3,18,20.0,9.0,37.0,28.0,0.9999,confidently in the lowest tenth,0.0,not,False,False,False
+E02001838,Walmley,70.35,588,588.0,552.0,616.0,64.0,0.0,not,0.3628,possibly,False,False,False
+E02001839,Queslett,62.9,283,283.0,254.0,318.0,64.0,0.0,not,0.0,not,False,False,False
+E02001840,Perry Common College Road,54.6,8,9.0,3.0,21.0,18.0,1.0,confidently in the lowest tenth,0.0,not,False,False,False
+E02001841,Wylde Green,71.30000000000001,621,620.0,582.0,642.0,60.0,0.0,not,0.8812,likely,False,False,False
+E02001842,Perry Beeches West,65.95,408,408.0,378.0,441.0,63.0,0.0,not,0.0,not,False,False,False
+E02001843,Kingstanding South West,63.8,314,319.0,283.0,362.0,79.0,0.0,not,0.0,not,False,False,False
+E02001844,Chester Road,63.85,316,321.0,293.0,354.0,61.0,0.0,not,0.0,not,False,False,False
+E02001845,Perry Beeches East,65.25,383,382.0,346.0,416.0,70.0,0.0,not,0.0,not,True,False,False
+E02001846,Short Heath,57.9,98,102.0,75.0,133.0,58.0,0.0165,not,0.0,not,False,False,False
+E02001847,Minworth,67.25,459,458.0,416.0,501.0,85.0,0.0,not,0.0,not,False,False,False
+E02001848,Upper Witton,57.95,103,104.0,74.0,137.0,63.0,0.0202,not,0.0,not,False,False,False
+E02001849,Erdington Town,59.45,163,162.0,128.0,192.0,64.0,0.0,not,0.0,not,False,False,False
+E02001850,Perry Barr,63.6,303,309.0,276.0,355.0,79.0,0.0,not,0.0,not,False,False,False
+E02001851,Pype Hayes Park,60.1,182,184.0,155.0,216.0,61.0,0.0,not,0.0,not,False,False,False
+E02001852,Stockland Green Marsh Hill,58.7,135,135.0,93.0,172.0,79.0,0.0017,not,0.0,not,False,False,False
+E02001855,Castle Vale,54.8,10,12.0,4.0,24.0,20.0,1.0,confidently in the lowest tenth,0.0,not,False,False,False
+E02001856,Brookvale,58.650000000000006,133,132.0,96.0,166.0,70.0,0.0011,not,0.0,not,False,False,False
+E02001857,Gravelly Hill,55.650000000000006,26,28.0,14.0,45.0,31.0,0.9985,confidently in the lowest tenth,0.0,not,False,False,False
+E02001858,Handsworth East,60.8,211,210.0,180.0,242.0,62.0,0.0,not,0.0,not,False,False,False
+E02001859,Birchfield East,57.0,70,70.0,42.0,97.0,55.0,0.4245,possibly,0.0,not,False,False,False
+E02001860,Handsworth West,58.25,116,116.0,84.0,150.0,66.0,0.0052,not,0.0,not,False,False,False
+E02001861,Birchfield West,56.75,59,60.0,36.0,87.0,51.0,0.6458,likely,0.0,not,False,False,False
+E02001862,Middlemore,58.65,131,132.0,99.0,163.0,64.0,0.0003,not,0.0,not,False,False,False
+E02001863,Aston Park,54.85,11,13.0,4.0,29.0,25.0,0.9999,confidently in the lowest tenth,0.0,not,False,False,False
+E02001865,Handsworth South,57.3,80,80.0,53.0,108.0,55.0,0.2052,possibly,0.0,not,False,False,False
+E02001866,Lozells West,53.900000000000006,2,3.0,1.0,11.0,10.0,1.0,confidently in the lowest tenth,0.0,not,False,False,False
+E02001867,Lozells East,55.8,31,31.0,14.0,58.0,44.0,0.9824,confidently in the lowest tenth,0.0,not,False,False,False
+E02001868,Hodge Hill,61.05,217,219.0,188.0,251.0,63.0,0.0,not,0.0,not,False,False,False
+E02001869,Nechells,56.0,35,36.0,15.0,70.0,55.0,0.9308,likely,0.0,not,False,False,False
+E02001870,Ward End,58.1,108,110.0,83.0,138.0,55.0,0.0016,not,0.0,not,False,False,False
+E02001871,Buckland End,56.95,69,68.0,40.0,97.0,57.0,0.4767,possibly,0.0,not,False,False,False
+E02001872,Shard End,57.85,97,100.0,69.0,134.0,65.0,0.035,not,0.0,not,False,False,False
+E02001873,Winson Green,56.65,52,57.0,32.0,86.0,54.0,0.7038,likely,0.0,not,False,False,False
+E02001874,Washwood Heath,55.3,19,20.0,7.0,40.04999999999927,33.04999999999927,0.9989,confidently in the lowest tenth,0.0,not,False,False,False
+E02001875,Hockley,56.8,62,62.0,32.0,96.0,64.0,0.5792,likely,0.0,not,False,False,False
+E02001876,Birmingham Dartmouth Circus,56.7,58,58.0,31.0,90.0,59.0,0.6584,likely,0.0,not,False,True,True
+E02001877,Saltley East,56.1,36,39.0,22.0,63.0,41.0,0.9682,confidently in the lowest tenth,0.0,not,False,False,False
+E02001878,Saltley West,54.4,6,7.0,2.0,19.0,17.0,1.0,confidently in the lowest tenth,0.0,not,False,False,False
+E02001879,Summerfield,54.55,7,9.0,3.0,20.0,17.0,1.0,confidently in the lowest tenth,0.0,not,False,False,False
+E02001880,Glebe Farm,55.5,23,24.0,11.0,42.0,31.0,0.9991,confidently in the lowest tenth,0.0,not,False,False,False
+E02001881,Belchers Lane,55.7,28,29.0,13.0,53.0,40.0,0.9908,confidently in the lowest tenth,0.0,not,False,False,False
+E02001882,Stechford,56.55,46,53.0,29.0,84.0,55.0,0.7559,likely,0.0,not,False,False,False
+E02001883,Kitts Green,55.900000000000006,33,34.0,15.0,62.0,47.0,0.9699,confidently in the lowest tenth,0.0,not,False,False,False
+E02001884,Bordesley Green North,55.3,20,20.0,7.0,42.0,35.0,0.9979,confidently in the lowest tenth,0.0,not,False,False,False
+E02001886,Rotton Park,61.45,234,235.0,201.0,266.0,65.0,0.0,not,0.0,not,False,False,False
+E02001888,Kent's Moat,57.15,75,75.0,44.0,106.0,62.0,0.3335,possibly,0.0,not,False,False,False
+E02001889,Little Bromwich,55.6,25,26.0,11.0,49.0,38.0,0.9946,confidently in the lowest tenth,0.0,not,False,False,False
+E02001890,Edgbaston North,66.25,415,419.0,385.0,455.0,70.0,0.0,not,0.0,not,False,False,False
+E02001892,Yardley Fields,56.45,45,49.0,29.0,76.0,47.0,0.8549,likely,0.0,not,False,False,False
+E02001893,Yardley,61.1,220,222.0,192.0,252.0,60.0,0.0,not,0.0,not,False,False,False
+E02001895,Sheldon North,57.6,88,91.0,65.0,120.0,55.0,0.0629,possibly,0.0,not,False,False,False
+E02001896,Small Heath Park,55.75,30,30.0,15.0,52.0,37.0,0.9941,confidently in the lowest tenth,0.0,not,False,False,False
+E02001897,Sparkbrook North,53.7,1,2.0,1.0,9.0,8.0,1.0,confidently in the lowest tenth,0.0,not,False,False,False
+E02001898,Lyndon Green,66.85,442,443.0,405.95000000000005,483.0,77.04999999999995,0.0,not,0.0,not,False,False,False
+E02001899,Harborne West,70.3,586,586.0,545.0,618.0,73.0,0.0,not,0.3443,possibly,False,False,False
+E02001900,Five Ways South,61.1,221,222.0,185.0,257.0,72.0,0.0,not,0.0,not,False,False,False
+E02001901,Harborne East,70.6,598,597.0,558.0,626.0,68.0,0.0,not,0.547,likely,False,False,False
+E02001902,Yardley South,63.95,320,325.0,287.0,369.0,82.0,0.0,not,0.0,not,False,False,False
+E02001903,Sparkbrook South,54.35,5,7.0,2.0,18.0,16.0,1.0,confidently in the lowest tenth,0.0,not,False,False,False
+E02001904,Hay Mills,57.6,89,91.0,59.0,126.0,67.0,0.0954,possibly,0.0,not,False,False,False
+E02001905,Edgbaston South,69.80000000000001,563,564.0,519.0,605.0,86.0,0.0,not,0.1155,possibly,False,True,False
+E02001906,Quinton Ridgacre,65.95,409,409.0,379.0,439.0,60.0,0.0,not,0.0,not,False,False,False
+E02001907,Sheldon South,64.75,364,363.0,330.0,391.0,61.0,0.0,not,0.0,not,False,False,False
+E02001908,Sparkhill North,55.05,14,16.0,5.0,33.0,28.0,0.9997,confidently in the lowest tenth,0.0,not,False,False,False
+E02001909,Balsall Heath East,54.6,9,9.0,2.0,24.0,22.0,1.0,confidently in the lowest tenth,0.0,not,False,False,False
+E02001910,Balsall Heath West,56.1,37,39.0,19.0,68.0,49.0,0.9451,likely,0.0,not,False,False,False
+E02001911,Quinton East,59.1,148,149.0,117.0,178.0,61.0,0.0,not,0.0,not,False,False,False
+E02001913,Metchley,60.95,213,216.0,181.0,251.0,70.0,0.0,not,0.0,not,False,False,False
+E02001914,Moor Green,61.1,222,221.0,186.0,257.0,71.0,0.0,not,0.0,not,False,False,False
+E02001915,Acocks Green East,59.85,178,176.0,151.0,201.0,50.0,0.0,not,0.0,not,False,False,False
+E02001916,Acocks Green West,59.25,155,155.0,121.0,186.0,65.0,0.0,not,0.0,not,False,False,False
+E02001918,Moseley Village,61.05,218,220.0,189.0,251.0,62.0,0.0,not,0.0,not,False,False,False
+E02001919,Moseley,62.75,277,279.0,244.0,317.0,73.0,0.0,not,0.0,not,False,False,False
+E02001920,Woodgate Valley,58.5,125,125.0,89.0,162.0,73.0,0.003,not,0.0,not,False,False,False
+E02001921,California,61.650000000000006,243,242.0,206.0,275.0,69.0,0.0,not,0.0,not,False,False,False
+E02001922,Selly Oak,57.75,94,96.0,45.0,151.0,106.0,0.1702,possibly,0.0,not,False,True,False
+E02001923,Springfield,60.45,193,197.0,169.0,228.0,59.0,0.0,not,0.0,not,False,False,False
+E02001924,Hall Green East,61.75,246,246.0,211.0,276.0,65.0,0.0,not,0.0,not,False,False,False
+E02001925,Selly Oak Park,66.55000000000001,430,431.0,399.0,464.0,65.0,0.0,not,0.0,not,False,False,False
+E02001926,Stirchley North,63.150000000000006,292,292.0,265.0,326.0,61.0,0.0,not,0.0,not,False,False,False
+E02001927,Weoley Castle,58.1,109,110.0,77.0,145.0,68.0,0.0156,not,0.0,not,True,False,False
+E02001928,Woodgate,59.95,180,179.0,145.0,213.0,68.0,0.0,not,0.0,not,False,False,False
+E02001929,Fox Hollies,56.35,43,46.0,26.0,72.0,46.0,0.8954,likely,0.0,not,False,False,False
+E02001930,Kings Heath,64.9,370,369.0,327.0,404.0,77.0,0.0,not,0.0,not,False,False,False
+E02001931,Wake Green East,64.95,372,371.0,334.0,401.0,67.0,0.0,not,0.0,not,False,False,False
+E02001932,Bartley Green,58.2,114,114.0,82.0,148.0,66.0,0.0061,not,0.0,not,False,False,False
+E02001933,Kings Heath Park,60.7,206,206.0,175.0,240.0,65.0,0.0,not,0.0,not,False,False,False
+E02001934,Hall Green Central,65.7,397,400.0,363.95000000000005,433.0,69.04999999999995,0.0,not,0.0,not,False,False,False
+E02001935,Shenley Lane,66.25,416,419.0,387.0,454.0,67.0,0.0,not,0.0,not,False,False,False
+E02001936,Brandwood North,67.9,481,484.0,446.0,524.0,78.0,0.0,not,0.0,not,False,False,False
+E02001937,Billesley Common,58.6,129,130.0,99.0,159.0,60.0,0.0,not,0.0,not,False,False,False
+E02001938,Bournville East,63.55,298,307.0,274.0,350.0,76.0,0.0,not,0.0,not,False,False,False
+E02001939,Bournville West,63.7,307,314.0,282.0,356.0,74.0,0.0,not,0.0,not,False,False,False
+E02001941,Yardley Wood West,56.8,63,63.0,33.0,97.0,64.0,0.5739,likely,0.0,not,False,False,False
+E02001942,Cotteridge,64.1,331,332.0,290.0,377.0,87.0,0.0,not,0.0,not,False,False,False
+E02001943,Brandwood East,62.65,274,275.0,239.0,317.0,78.0,0.0,not,0.0,not,False,False,False
+E02001944,Brandwood End,61.650000000000006,244,242.0,206.0,274.0,68.0,0.0,not,0.0,not,False,False,False
+E02001945,Allens Cross,57.6,90,91.0,60.0,124.0,64.0,0.0908,possibly,0.0,not,False,False,False
+E02001946,Northfield Victoria Common,65.9,404,406.0,371.0,442.0499999999993,71.04999999999927,0.0,not,0.0,not,False,False,False
+E02001947,Druids Heath,54.2,4,5.0,1.0,18.0,17.0,1.0,confidently in the lowest tenth,0.0,not,False,False,False
+E02001948,Highter's Heath,62.05,256,256.0,223.0,286.0,63.0,0.0,not,0.0,not,False,False,False
+E02001949,Lifford,61.8,248,248.0,214.0,278.0,64.0,0.0,not,0.0,not,False,False,False
+E02001950,Longbridge North,65.44999999999999,392,390.0,361.0,418.0,57.0,0.0,not,0.0,not,False,False,False
+E02001951,Frankley,55.8,32,32.0,15.0,56.0,41.0,0.984,confidently in the lowest tenth,0.0,not,False,False,False
+E02001952,Turves Green,56.55,47,53.0,31.0,81.0,50.0,0.7815,likely,0.0,not,False,False,False
+E02001953,King's Norton,65.25,384,383.0,342.0,418.0,76.0,0.0,not,0.0,not,False,False,False
+E02001954,Hawkesley,56.4,44,48.0,25.0,79.0,54.0,0.8444,likely,0.0,not,False,False,False
+E02001955,Longbridge South,61.4,233,233.0,203.0,260.0,57.0,0.0,not,0.0,not,False,False,False
+E02001956,Rubery East,64.1,332,333.0,294.0,373.0,79.0,0.0,not,0.0,not,False,False,False
+E02001957,West Heath,64.65,362,359.0,319.0,391.0,72.0,0.0,not,0.0,not,False,False,False
+E02001958,Longford,60.6,201,202.0,168.0,241.0,73.0,0.0,not,0.0,not,False,False,False
+E02001959,Keresley,64.15,336,335.0,293.95000000000005,378.0,84.04999999999995,0.0,not,0.0,not,False,False,False
+E02001961,Bell Green,57.900000000000006,101,102.0,72.0,135.0,63.0,0.0233,not,0.0,not,False,False,False
+E02001962,Little Heath,60.5,195,198.0,167.0,233.0,66.0,0.0,not,0.0,not,False,False,False
+E02001963,Whitmore Park,63.75,312,316.0,278.0,364.0,86.0,0.0,not,0.0,not,False,False,False
+E02001964,Henley Green,55.900000000000006,34,33.0,17.0,57.0,40.0,0.9853,confidently in the lowest tenth,0.0,not,False,False,False
+E02001965,Walsgrave,65.44999999999999,393,390.0,358.0,421.0,63.0,0.0,not,0.0,not,False,False,False
+E02001966,Foleshill West,56.3,40,45.0,21.0,79.0,58.0,0.8608,likely,0.0,not,False,False,False
+E02001967,Brownshill Green,69.6,557,556.0,519.0,592.0,73.0,0.0,not,0.0371,not,False,False,False
+E02001968,Radford East,62.95,286,285.0,257.0,320.0,63.0,0.0,not,0.0,not,False,False,False
+E02001969,Radford West,58.55,126,128.0,94.0,161.0,67.0,0.0014,not,0.0,not,False,False,False
+E02001970,Wyken Croft,64.15,337,335.0,292.0,380.0,88.0,0.0,not,0.0,not,False,False,False
+E02001971,Coundon,66.6,433,432.0,396.0,473.0,77.0,0.0,not,0.0,not,False,False,False
+E02001972,Foleshill East,56.55,48,53.0,32.0,79.0,47.0,0.8058,likely,0.0,not,False,False,False
+E02001973,Stoke Heath (CV2),58.400000000000006,123,122.0,90.0,154.0,64.0,0.0018,not,0.0,not,False,False,False
+E02001974,Sherbourne,68.55000000000001,510,510.0,480.0,543.0,63.0,0.0,not,0.0,not,False,False,False
+E02001975,Ravensdale,64.45,357,350.0,306.0,388.0,82.0,0.0,not,0.0,not,False,False,False
+E02001976,Clifford Park,62.75,278,279.0,248.0,316.0,68.0,0.0,not,0.0,not,False,False,False
+E02001977,Naul's Mill,56.650000000000006,55,57.0,32.0,87.0,55.0,0.7006,likely,0.0,not,False,False,False
+E02001978,Barras Heath,64.05,326,330.0,290.0,375.0,85.0,0.0,not,0.0,not,False,False,False
+E02001979,Allesley Park,68.6,511,512.0,476.0,553.0,77.0,0.0,not,0.0001,not,False,False,False
+E02001980,Allesley Green,69.69999999999999,560,560.0,508.0,607.0,99.0,0.0,not,0.1291,possibly,False,False,False
+E02001981,Hillfields,56.9,67,66.0,41.0,92.0,51.0,0.5172,likely,0.0,not,False,False,False
+E02001982,Eastern Green,68.5,505,508.0,476.0,543.0,67.0,0.0,not,0.0,not,False,False,False
+E02001983,Whoberley,64.80000000000001,368,365.0,319.0,401.0,82.0,0.0,not,0.0,not,False,False,False
+E02001984,Copsewood,63.55,299,307.0,283.0,340.0,57.0,0.0,not,0.0,not,False,False,False
+E02001985,Lower Stoke,58.45,124,124.0,86.0,163.0,77.0,0.0058,not,0.0,not,False,True,False
+E02001986,Tile Hill,58.55,127,128.0,95.0,161.0,66.0,0.0011,not,0.0,not,False,False,False
+E02001987,Chapelfields,62.2,262,261.0,222.0,296.0,74.0,0.0,not,0.0,not,False,False,False
+E02001988,Central Coventry,58.15,112,112.0,75.0,150.0,75.0,0.0206,not,0.0,not,False,True,True
+E02001989,Earl Place,65.80000000000001,401,402.0,365.0,440.0,75.0,0.0,not,0.0,not,False,False,False
+E02001990,Binley,68.7,517,516.0,490.0,546.0,56.0,0.0,not,0.0001,not,False,False,False
+E02001991,Earlsdon,69.7,561,560.0,527.0,592.0,65.0,0.0,not,0.0373,not,False,False,False
+E02001992,Ernesford Grange,58.85,139,140.0,111.0,167.0,56.0,0.0,not,0.0,not,False,False,False
+E02001993,Canley,61.75,247,246.0,209.0,278.0,69.0,0.0,not,0.0,not,False,False,False
+E02001994,Cheylesmore Daventry Road,65.65,396,397.0,370.0,424.0,54.0,0.0,not,0.0,not,False,False,False
+E02001995,Whitley,62.8,280,281.0,256.0,307.0499999999993,51.04999999999927,0.0,not,0.0,not,False,False,False
+E02001996,Willenhall,55.25,17,19.0,6.0,40.0,34.0,0.9992,confidently in the lowest tenth,0.0,not,False,False,False
+E02001997,Stivichall,70.5,594,593.0,559.0,620.0,61.0,0.0,not,0.4754,possibly,False,False,False
+E02001998,Finham Park,70.4,591,590.0,546.0,623.0,77.0,0.0,not,0.429,possibly,False,False,False
+E02001999,Cannon Park,69.35,544,544.0,504.0,585.0,81.0,0.0,not,0.0175,not,False,True,False
+E02002000,Coseley Wallbrook,61.5,237,237.0,207.0,265.0,58.0,0.0,not,0.0,not,False,False,False
+E02002001,Sedgley East,64.0,322,328.0,289.0,370.0,81.0,0.0,not,0.0,not,False,False,False
+E02002002,Sedgley West,69.15,533,536.0,501.0,573.0,72.0,0.0,not,0.0043,not,False,False,False
+E02002003,West Coseley,63.05,288,289.0,263.0,320.0,57.0,0.0,not,0.0,not,False,False,False
+E02002004,Woodsetton,61.0,216,217.0,186.0,250.0,64.0,0.0,not,0.0,not,False,False,False
+E02002005,Dudley Priory,58.05,105,108.0,79.0,140.0,61.0,0.0107,not,0.0,not,False,False,False
+E02002006,Upper Gornal,61.25,227,228.0,192.0,260.0,68.0,0.0,not,0.0,not,False,False,False
+E02002007,Lower Gornal,65.15,379,379.0,346.0,408.0,62.0,0.0,not,0.0,not,False,False,False
+E02002008,Dibdale,66.9,445,445.0,415.0,474.0,59.0,0.0,not,0.0,not,False,False,False
+E02002009,Kates Hill,58.6,130,130.0,95.0,165.0,70.0,0.001,not,0.0,not,False,False,False
+E02002010,New Dock,57.900000000000006,102,102.0,75.0,132.0,57.0,0.0158,not,0.0,not,False,False,False
+E02002011,Kingswinford North,68.75,518,518.0,479.0,561.0,82.0,0.0,not,0.0017,not,False,False,False
+E02002012,Russell's Hall,56.65,53,56.0,33.0,84.0,51.0,0.7234,likely,0.0,not,False,False,False
+E02002013,Wall Heath,68.1,494,493.0,459.0,527.0,68.0,0.0,not,0.0,not,False,False,False
+E02002014,Dixons Green,58.55,128,128.0,92.0,162.0,70.0,0.0018,not,0.0,not,False,False,False
+E02002015,Pensett,64.15,338,335.0,292.0,380.0,88.0,0.0,not,0.0,not,False,False,False
+E02002016,Brockmoor,56.650000000000006,56,57.0,31.0,87.0,56.0,0.7005,likely,0.0,not,False,False,False
+E02002017,Netherton,58.75,137,136.0,103.0,166.0,63.0,0.0001,not,0.0,not,False,False,False
+E02002018,Kingswinford South,68.44999999999999,503,506.0,474.0,541.0,67.0,0.0,not,0.0001,not,False,False,False
+E02002019,Dudley Wood,59.8,175,175.0,141.0,206.0,65.0,0.0,not,0.0,not,False,False,False
+E02002020,Wordsley,66.55,429,430.0,402.0,461.0,59.0,0.0,not,0.0,not,False,False,False
+E02002021,Brierley Hill,56.75,60,60.0,34.0,89.0,55.0,0.6413,likely,0.0,not,False,False,False
+E02002022,Hawbush,60.650000000000006,205,204.0,178.0,233.0,55.0,0.0,not,0.0,not,False,False,False
+E02002023,Ashwood,66.85,443,442.0,410.0,475.0,65.0,0.0,not,0.0,not,False,False,False
+E02002024,Quarry Bank,62.5,269,270.0,245.0,297.0,52.0,0.0,not,0.0,not,False,False,False
+E02002025,Shell Corner,63.55,300,307.0,278.0,345.0,67.0,0.0,not,0.0,not,False,False,False
+E02002026,Amblecote East,66.95,447,446.0,415.0,477.0,62.0,0.0,not,0.0,not,False,False,False
+E02002027,Withymoor Village,70.94999999999999,612,609.0,572.0,633.0,61.0,0.0,not,0.7715,likely,False,False,False
+E02002028,Wollaston,66.80000000000001,440,440.0,404.0,480.0,76.0,0.0,not,0.0,not,False,False,False
+E02002029,Quinton West,67.0,449,449.0,412.0,486.0,74.0,0.0,not,0.0,not,False,False,False
+E02002030,Amblecote West,61.85,250,249.0,216.0,279.0,63.0,0.0,not,0.0,not,False,False,False
+E02002031,Cradley West,62.55,271,272.0,242.0,304.0,62.0,0.0,not,0.0,not,False,False,False
+E02002032,Cradley East,61.1,223,222.0,194.0,248.0,54.0,0.0,not,0.0,not,False,False,False
+E02002033,Hawne,66.6,434,433.0,399.0,469.0,70.0,0.0,not,0.0,not,False,False,False
+E02002034,Stourbridge Town,64.5,359,352.0,308.0,390.0,82.0,0.0,not,0.0,not,False,False,False
+E02002035,Halesowen East,70.6,599,597.0,559.0,625.0,66.0,0.0,not,0.5531,likely,False,False,False
+E02002036,Lye,58.9,143,141.0,103.0,176.0,73.0,0.0003,not,0.0,not,False,False,False
+E02002037,Norton North,66.55000000000001,431,431.0,395.0,468.0,73.0,0.0,not,0.0,not,False,False,False
+E02002038,Halesowen Town,63.8,315,318.0,286.0,359.0,73.0,0.0,not,0.0,not,False,False,False
+E02002039,Oldswinford,68.65,514,514.0,479.0,552.0,73.0,0.0,not,0.0004,not,False,False,False
+E02002040,Norton South,70.85,610,606.0,563.0,633.0,70.0,0.0,not,0.69,likely,False,False,False
+E02002041,Pedmore Fields,70.25,584,583.0,546.0,615.0,69.0,0.0,not,0.3009,possibly,False,False,False
+E02002042,Hayley Green,68.9,523,525.0,484.0,569.0,85.0,0.0,not,0.0026,not,False,False,False
+E02002043,Wood Green,58.4,122,122.0,92.0,153.0,61.0,0.0007,not,0.0,not,False,False,False
+E02002044,Yew Tree,62.05,257,256.0,227.0,282.0,55.0,0.0,not,0.0,not,False,False,False
+E02002045,Woods,60.4,189,195.0,165.0,229.0,64.0,0.0,not,0.0,not,False,False,False
+E02002046,Friar Park,55.15,16,18.0,6.0,38.0,32.0,0.9991,confidently in the lowest tenth,0.0,not,False,False,False
+E02002047,Wednesbury,57.75,95,97.0,65.0,131.0,66.0,0.0571,possibly,0.0,not,False,False,False
+E02002048,Great Barr,68.0,487,488.0,447.0,531.0,84.0,0.0,not,0.0,not,False,False,False
+E02002049,Princes End,62.0,254,254.0,226.0,280.0,54.0,0.0,not,0.0,not,True,False,False
+E02002051,Ocker Hill,56.55,49,53.0,28.0,86.0,58.0,0.7502,likely,0.0,not,False,False,False
+E02002052,Stone Cross,58.85,140,140.0,112.0,166.0,54.0,0.0,not,0.0,not,False,False,False
+E02002053,Hamstead East,65.0,374,374.0,331.0,408.0,77.0,0.0,not,0.0,not,False,False,False
+E02002054,Hamstead West,63.900000000000006,319,323.0,279.0,374.0,95.0,0.0,not,0.0,not,False,False,False
+E02002055,Wednesbury South,59.1,149,149.0,123.0,173.0,50.0,0.0,not,0.0,not,False,False,False
+E02002056,Tibbington,55.650000000000006,27,28.0,14.0,47.0,33.0,0.9983,confidently in the lowest tenth,0.0,not,False,False,False
+E02002057,Tipton,56.9,68,65.0,41.0,91.0,50.0,0.5272,likely,0.0,not,False,False,False
+E02002058,Great Bridge,59.55,166,166.0,144.0,186.0,42.0,0.0,not,0.0,not,False,False,False
+E02002059,West Bromwich North,59.75,172,173.0,148.0,196.0,48.0,0.0,not,0.0,not,False,False,False
+E02002060,Greets Green West,57.650000000000006,93,92.0,60.0,127.0,67.0,0.0909,possibly,0.0,not,False,False,False
+E02002061,Greets Green East,56.8,64,62.0,34.0,94.0,60.0,0.5931,likely,0.0,not,False,False,False
+E02002062,West Bromwich East,56.8,65,62.0,36.0,90.0,54.0,0.5989,likely,0.0,not,False,False,False
+E02002063,North Tividale,61.1,224,222.0,194.0,250.0,56.0,0.0,not,0.0,not,False,False,False
+E02002064,Tividale,61.25,228,228.0,201.0,252.0,51.0,0.0,not,0.0,not,False,False,False
+E02002065,Smethwick North,58.15,113,112.0,89.0,137.0,48.0,0.0003,not,0.0,not,False,False,False
+E02002066,Oldbury,58.25,117,116.0,86.0,148.0,62.0,0.0039,not,0.0,not,False,False,False
+E02002067,Rowley West,64.35,350,345.0,302.0,384.0,82.0,0.0,not,0.0,not,False,False,False
+E02002069,Whiteheath,59.1,150,149.0,118.0,178.0,60.0,0.0,not,0.0,not,False,False,False
+E02002070,Smethwick South,57.25,77,78.0,54.0,103.0,49.0,0.2162,possibly,0.0,not,False,False,False
+E02002071,Rowley East,58.95,144,144.0,105.95000000000005,178.0,72.04999999999995,0.0003,not,0.0,not,False,False,False
+E02002072,Langley Green,62.85,282,282.0,257.0,310.0,53.0,0.0,not,0.0,not,False,False,False
+E02002073,Warley East,57.8,96,98.0,68.0,131.0,63.0,0.0388,not,0.0,not,False,False,False
+E02002074,Warley West,60.7,207,206.0,177.0,238.0,61.0,0.0,not,0.0,not,False,False,False
+E02002075,Blackheath,59.75,173,173.0,145.0,199.04999999999927,54.04999999999927,0.0,not,0.0,not,False,False,False
+E02002076,Bearwood,64.35,351,345.0,310.0,377.0,67.0,0.0,not,0.0,not,False,False,False
+E02002077,Old Hill,59.3,157,157.0,130.0,181.0,51.0,0.0,not,0.0,not,False,False,False
+E02002078,Warley South,67.9,482,484.0,445.95000000000005,522.0,76.04999999999995,0.0,not,0.0,not,False,False,False
+E02002079,Brandhall,62.2,263,261.0,234.0,285.0,51.0,0.0,not,0.0,not,False,False,False
+E02002080,Cradley Heath,60.15,185,186.0,155.0,220.0,65.0,0.0,not,0.0,not,False,False,False
+E02002081,Castle Bromwich West,66.44999999999999,423,427.0,385.0,473.0,88.0,0.0,not,0.0,not,False,False,False
+E02002082,Smith's Wood North,57.25,78,79.0,46.0,113.0,67.0,0.2796,possibly,0.0,not,True,False,False
+E02002083,Castle Bromwich East,69.55000000000001,555,553.0,511.0,594.0,83.0,0.0,not,0.0484,not,False,False,False
+E02002084,Smith's Wood South,58.1,110,110.0,74.0,148.0,74.0,0.0224,not,0.0,not,False,False,False
+E02002085,Kingshurst,61.45,235,235.0,199.0,267.0,68.0,0.0,not,0.0,not,False,False,False
+E02002086,Chelmsley Wood West,57.4,85,84.0,52.0,119.0,67.0,0.1918,possibly,0.0,not,False,False,False
+E02002087,Fordbridge,55.7,29,29.0,11.0,57.0,46.0,0.9823,confidently in the lowest tenth,0.0,not,False,False,False
+E02002088,Chelmsley Wood East,55.55,24,26.0,12.0,44.0,32.0,0.999,confidently in the lowest tenth,0.0,not,False,False,False
+E02002089,Marston Green,65.4,390,389.0,351.0,423.0,72.0,0.0,not,0.0,not,False,False,False
+E02002090,Lyndon North,66.6,435,433.0,391.0,478.0,87.0,0.0,not,0.0,not,False,False,False
+E02002091,Elmdon Park,68.0,488,488.0,456.0,522.0,66.0,0.0,not,0.0,not,False,False,False
+E02002092,Lyndon South,63.9,317,324.0,282.0,374.0,92.0,0.0,not,0.0,not,False,False,False
+E02002093,Olton,64.55,361,355.0,309.0,392.0,83.0,0.0,not,0.0,not,False,False,False
+E02002094,Ulverley Green,72.0,636,636.0,612.0,649.0,37.0,0.0,not,0.9926,confidently in the highest tenth,False,False,False
+E02002095,Elmdon Heath,69.3,541,542.0,506.0,580.0,74.0,0.0,not,0.0095,not,False,False,False
+E02002096,Lode Heath,69.95,569,571.0,541.0,598.0,57.0,0.0,not,0.0791,possibly,False,False,False
+E02002097,Meriden,70.5,595,594.0,553.0,623.0,70.0,0.0,not,0.4835,possibly,False,False,False
+E02002098,Shirley East,68.2,498,496.0,463.0,530.0,67.0,0.0,not,0.0,not,False,False,False
+E02002099,Central Solihull,75.3,659,659.0,658.0,660.0,2.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02002101,Solihull Lodge,66.94999999999999,446,446.0,411.0,483.0,72.0,0.0,not,0.0,not,False,False,False
+E02002102,Blossomfield,68.25,499,498.0,469.0,529.0,60.0,0.0,not,0.0001,not,False,False,False
+E02002103,Shirley Heath,69.15,534,536.0,498.0,575.0,77.0,0.0,not,0.0059,not,False,False,False
+E02002104,Monkspath North,74.6,658,658.0,654.0,659.0,5.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02002105,Balsall Common,72.6,647,645.0,633.0,652.0,19.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02002106,Knowle,72.3,642,640.0,623.0,651.0,28.0,0.0,not,0.9993,confidently in the highest tenth,False,False,False
+E02002107,Monkspath South,73.85,656,655.0,650.0,658.0,8.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02002108,Dorridge,74.35,657,657.0,653.0,659.0,6.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02002109,Dickens Heath,72.5,645,644.0,630.0,651.0499999999993,21.049999999999272,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02002110,Brownhills West,63.150000000000006,293,292.0,265.0,327.0,62.0,0.0,not,0.0,not,False,False,False
+E02002111,Brownhills,59.45,164,162.0,125.0,196.0,71.0,0.0,not,0.0,not,False,False,False
+E02002112,Pelsall North,64.8,367,365.0,314.0,406.0,92.0,0.0,not,0.0,not,False,False,False
+E02002113,Walsall Wood,62.65,275,275.0,245.0,311.0,66.0,0.0,not,0.0,not,False,False,False
+E02002114,Pelsall South,64.95,373,372.0,326.0,408.0,82.0,0.0,not,0.0,not,False,False,False
+E02002115,Little Bloxwich,60.4,190,195.0,166.0,227.0,61.0,0.0,not,0.0,not,False,False,False
+E02002116,Aldridge North,66.25,417,419.0,387.0,453.0,66.0,0.0,not,0.0,not,False,False,False
+E02002117,Bloxwich Central,62.5,270,270.0,238.0,304.0,66.0,0.0,not,0.0,not,False,False,False
+E02002118,Bloxwich North West,58.1,111,110.0,79.0,143.0,64.0,0.0094,not,0.0,not,False,False,False
+E02002119,Shelfield,63.7,308,314.0,280.0,358.0,78.0,0.0,not,0.0,not,False,False,False
+E02002120,Ashmore,66.30000000000001,419,421.0,386.0,459.0,73.0,0.0,not,0.0,not,False,False,False
+E02002121,Blakenall North,54.95,12,14.0,5.0,31.0,26.0,1.0,confidently in the lowest tenth,0.0,not,False,False,False
+E02002122,Blakenall South,57.65,92,92.0,60.0,128.0,68.0,0.088,possibly,0.0,not,False,False,False
+E02002123,New Invention,61.55,238,239.0,205.0,269.0,64.0,0.0,not,0.0,not,False,False,False
+E02002124,Aldridge Central,64.3,345,342.0,304.0,378.0,74.0,0.0,not,0.0,not,False,False,False
+E02002125,Rushall,59.65,169,170.0,129.0,207.0,78.0,0.0,not,0.0,not,False,False,False
+E02002126,Bloxwich South,53.95,3,3.0,1.0,12.0,11.0,1.0,confidently in the lowest tenth,0.0,not,False,False,False
+E02002127,Walsall Ryecroft,56.75,61,60.0,38.0,86.0,48.0,0.6529,likely,0.0,not,False,False,False
+E02002128,Short Heath East,62.900000000000006,285,284.0,253.0,321.0,68.0,0.0,not,0.0,not,False,False,False
+E02002129,Short Heath West,64.15,339,335.5,292.0,380.0,88.0,0.0,not,0.0,not,False,False,False
+E02002130,Leamore,57.0,71,69.0,39.0,101.0,62.0,0.4392,possibly,0.0,not,False,False,False
+E02002131,Aldridge South,68.94999999999999,524,527.0,492.0,566.0,74.0,0.0,not,0.0017,not,False,False,False
+E02002132,Bentley,58.3,118,118.0,80.0,157.0,77.0,0.0106,not,0.0,not,False,False,False
+E02002133,Walsall North East,62.0,255,255.0,217.0,287.0,70.0,0.0,not,0.0,not,False,False,False
+E02002134,Willenhall Park,59.35,161,159.0,129.0,186.0,57.0,0.0,not,0.0,not,False,False,False
+E02002135,Walsall West,56.8,66,62.0,36.0,92.0,56.0,0.597,likely,0.0,not,False,False,False
+E02002136,Willenhall Town,60.2,186,188.0,158.0,221.0,63.0,0.0,not,0.0,not,False,False,False
+E02002137,Streetly North,71.35,622,621.0,580.0,644.0,64.0,0.0,not,0.8721,likely,False,False,False
+E02002138,Walsall East,65.19999999999999,381,381.0,337.0,418.0,81.0,0.0,not,0.0,not,False,False,False
+E02002139,Walsall Central,57.05,72,71.0,45.0,97.0,52.0,0.3896,possibly,0.0,not,False,False,True
+E02002140,Pleck,57.9,99,102.0,75.0,132.0,57.0,0.0143,not,0.0,not,False,False,False
+E02002141,Streetly South,71.65,630,628.0,608.0,642.0,34.0,0.0,not,0.994,confidently in the highest tenth,False,False,False
+E02002142,Darlaston East,57.2,76,77.0,44.0,110.0,66.0,0.2997,possibly,0.0,not,False,False,False
+E02002143,Palfrey,56.650000000000006,57,57.0,34.0,84.0,50.0,0.7245,likely,0.0,not,False,False,False
+E02002144,Walsall South East,70.1,576,578.0,536.0,612.0,76.0,0.0,not,0.2293,possibly,False,False,False
+E02002145,Darlaston Central,58.05,106,108.0,78.0,141.0,63.0,0.0124,not,0.0,not,False,False,False
+E02002146,The Delves,59.75,174,173.0,133.0,209.0,76.0,0.0,not,0.0,not,False,False,False
+E02002147,Darlaston West,57.35,82,82.0,55.0,110.0,55.0,0.1698,possibly,0.0,not,False,False,False
+E02002148,Pheasey,67.75,475,478.0,452.0,505.0,53.0,0.0,not,0.0,not,False,False,False
+E02002149,Bushbury,62.65,276,275.0,254.0,298.0,44.0,0.0,not,0.0,not,False,False,False
+E02002150,Fordhouses,61.05,219,220.0,179.0,259.0,80.0,0.0,not,0.0,not,False,False,False
+E02002151,Pendeford,59.3,158,156.0,120.0,189.0,69.0,0.0001,not,0.0,not,False,False,False
+E02002152,Bushbury Hill,56.1,38,39.0,18.0,71.0,53.0,0.9258,likely,0.0,not,False,False,False
+E02002153,Ashmore Park,60.7,208,206.0,175.0,240.0,65.0,0.0,not,0.0,not,False,False,False
+E02002154,Oxley Park,60.75,209,207.0,177.0,241.0,64.0,0.0,not,0.0,not,False,False,False
+E02002155,Low Hill,56.2,39,42.0,20.0,73.0,53.0,0.9074,likely,0.0,not,False,False,False
+E02002156,Wood End,62.35,266,266.0,235.0,296.0,61.0,0.0,not,0.0,not,False,False,False
+E02002157,Tettenhall North,68.30000000000001,501,500.0,467.0,534.0,67.0,0.0,not,0.0,not,False,False,False
+E02002158,Wednesfield North East,60.75,210,208.0,177.0,242.0,65.0,0.0,not,0.0,not,False,False,False
+E02002159,Park Lane,59.3,159,157.0,118.0,190.0,72.0,0.0,not,0.0,not,False,False,False
+E02002160,Wednesfield Town,63.05,289,289.0,261.0,324.0,63.0,0.0,not,0.0,not,False,False,False
+E02002161,Whitmore Reans,59.25,156,154.0,119.0,187.0,68.0,0.0,not,0.0,not,False,False,False
+E02002162,Tettenhall South,67.6,471,472.0,440.0,504.0,64.0,0.0,not,0.0,not,False,False,False
+E02002163,Heath Town,58.3,119,118.0,92.0,145.0,53.0,0.0005,not,0.0,not,False,False,False
+E02002164,Waterloo Road,57.5,86,88.0,50.0,126.0,76.0,0.1752,possibly,0.0,not,True,False,False
+E02002165,West Park,60.45,194,197.0,168.0,229.0,61.0,0.0,not,0.0,not,False,False,False
+E02002166,East Park,56.3,41,44.0,25.0,73.0,48.0,0.902,likely,0.0,not,False,False,False
+E02002167,Castlecroft,66.75,437,438.0,398.0,481.0,83.0,0.0,not,0.0,not,False,False,False
+E02002168,Wolverhampton Central,57.9,100,102.0,76.0,131.0,55.0,0.014,not,0.0,not,False,False,True
+E02002169,Compton,67.80000000000001,479,480.0,448.0,512.0,64.0,0.0,not,0.0,not,False,False,False
+E02002170,Bilston North West,60.6,202,202.0,172.0,236.0,64.0,0.0,not,0.0,not,False,False,False
+E02002171,Bilston North East,59.15,152,151.0,120.0,181.0,61.0,0.0,not,0.0,not,False,False,False
+E02002174,Bradmore,64.05,327,331.0,295.0,368.0,73.0,0.0,not,0.0,not,False,False,False
+E02002175,Bilston Lunt,57.95,104,104.0,74.0,137.0,63.0,0.0208,not,0.0,not,False,False,False
+E02002176,Merryhill South,64.1,333,332.0,297.0,370.0,73.0,0.0,not,0.0,not,False,False,False
+E02002177,Ettingshall,59.55,167,166.0,141.0,189.0,48.0,0.0,not,0.0,not,False,False,False
+E02002178,Goldthorn Park,64.2,341,338.0,299.0,376.0,77.0,0.0,not,0.0,not,False,False,False
+E02002179,Upper Penn,67.2,457,456.0,420.0,493.0,73.0,0.0,not,0.0,not,False,False,False
+E02002180,Ettingshall Park,62.150000000000006,261,260.0,226.95000000000005,289.0,62.049999999999955,0.0,not,0.0,not,False,False,False
+E02002181,Bradley,58.35,121,120.0,88.0,152.0,64.0,0.0023,not,0.0,not,False,False,False
+E02002182,Woodcross,59.650000000000006,171,170.0,138.0,199.0,61.0,0.0,not,0.0,not,False,False,False
+E02002809,Spondon South,61.6,240,241.0,206.0,271.0,65.0,0.0,not,0.0,not,False,False,False
+E02002812,Littleover East,63.9,318,323.0,290.0,362.0,72.0,0.0,not,0.0,not,False,False,False
+E02002813,Rose Hill,55.0,13,15.0,6.0,29.0,23.0,1.0,confidently in the lowest tenth,0.0,not,False,False,False
+E02002814,Mickleover South,68.1,495,492.0,457.0,528.0,71.0,0.0,not,0.0,not,False,False,False
+E02002815,Normanton North,58.95,145,144.0,107.0,177.0,70.0,0.0003,not,0.0,not,False,False,False
+E02002816,Littleover West,70.8,608,604.0,566.0,631.0,65.0,0.0,not,0.6738,likely,False,False,False
+E02002817,Normanton West,67.25,460,458.0,426.0,492.0,66.0,0.0,not,0.0,not,False,False,False
+E02002818,Normanton South,57.35,83,82.0,54.0,111.0,57.0,0.1796,possibly,0.0,not,True,False,False
+E02002819,Wilmorton,58.7,136,134.0,99.0,167.0,68.0,0.0002,not,0.0,not,False,False,False
+E02002820,Alvaston,59.15,153,152.0,120.95000000000005,179.0,58.049999999999955,0.0,not,0.0,not,False,False,False
+E02002821,Allenton,56.3,42,45.0,26.0,70.0,44.0,0.9265,likely,0.0,not,False,False,False
+E02002822,Sunny Hill,63.7,309,314.0,281.0,356.0499999999993,75.04999999999927,0.0,not,0.0,not,False,False,False
+E02002823,Boulton,60.5,196,198.0,169.0,231.0,62.0,0.0,not,0.0,not,False,False,False
+E02002824,Sinfin,60.55,200,200.0,174.0,230.0,56.0,0.0,not,0.0,not,False,False,False
+E02002825,Chellaston West,64.4,354,347.0,309.0,381.0,72.0,0.0,not,0.0,not,False,False,False
+E02002826,Chellaston East,68.05000000000001,491,490.0,448.0,533.0,85.0,0.0,not,0.0001,not,False,False,False
+E02002905,Wigmore,68.3,500,501.0,428.0,580.0,152.0,0.0,not,0.0245,not,False,False,False
+E02002908,Shobdon,70.55,597,595.0,554.0,626.0,72.0,0.0,not,0.5093,likely,False,False,False
+E02002909,Bromyard,67.25,461,458.0,427.0,490.0,63.0,0.0,not,0.0,not,False,False,False
+E02002928,Newport North,67.80000000000001,480,480.0,444.0,517.0,73.0,0.0,not,0.0,not,False,False,False
+E02002929,Edgmond,69.45,551,550.0,500.0,598.0,98.0,0.0,not,0.0622,possibly,False,False,False
+E02002930,Newport South,66.6,436,433.0,396.0,472.0,76.0,0.0,not,0.0,not,False,False,False
+E02002931,Muxton,69.95,570,571.0,531.0,607.0,76.0,0.0,not,0.156,possibly,False,False,False
+E02002932,Donnington,58.85,141,140.0,107.0,169.0,62.0,0.0,not,0.0,not,False,False,False
+E02002933,Dothill,65.7,398,399.0,371.0,427.0,56.0,0.0,not,0.0,not,False,False,False
+E02002934,Apley,64.19999999999999,340,337.0,296.0,380.0,84.0,0.0,not,0.0,not,False,False,False
+E02002935,Wrockwardine Wood,62.9,284,284.0,255.0,318.0,63.0,0.0,not,0.0,not,False,False,False
+E02002936,Hadley,61.6,241,241.0,213.0,264.0,51.0,0.0,not,0.0,not,False,False,False
+E02002937,Ironbridge,68.0,489,488.0,459.0,519.0,60.0,0.0,not,0.0,not,False,False,False
+E02002938,Wellington East,61.45,236,235.0,196.0,269.0,73.0,0.0,not,0.0,not,False,False,False
+E02002939,Wellington West,63.05,290,288.0,262.0,321.0,59.0,0.0,not,0.0,not,False,False,False
+E02002940,St George's,62.3,265,264.0,230.0,298.0,68.0,0.0,not,0.0,not,False,False,False
+E02002941,Oakengates,61.150000000000006,225,223.0,193.95000000000005,252.0,58.049999999999955,0.0,not,0.0,not,False,False,False
+E02002942,Priorslee,68.95,525,527.0,494.0,562.0,68.0,0.0,not,0.0005,not,False,False,False
+E02002944,Malinslee,56.55,50,53.0,31.0,80.0,49.0,0.7837,likely,0.0,not,False,False,False
+E02002945,Hollinswood,61.35,232,231.0,197.0,262.0,65.0,0.0,not,0.0,not,False,False,False
+E02002946,Dawley,60.95,214,216.0,184.0,249.0,65.0,0.0,not,0.0,not,False,False,False
+E02002947,Brookside,60.1,183,185.0,150.0,222.0,72.0,0.0,not,0.0,not,False,False,False
+E02002948,Woodside,55.400000000000006,22,22.0,8.0,46.0,38.0,0.9962,confidently in the lowest tenth,0.0,not,False,False,False
+E02002949,Madeley,61.7,245,244.0,200.0,283.0,83.0,0.0,not,0.0,not,False,False,False
+E02002950,Sutton Hill,57.25,79,79.0,38.0,124.0,86.0,0.3163,possibly,0.0,not,False,False,False
+E02004077,Doveridge,72.19999999999999,640,639.0,618.0,651.0,33.0,0.0,not,0.9971,confidently in the highest tenth,False,False,False
+E02004086,Borrowash,67.75,476,479.0,445.0,511.0,66.0,0.0,not,0.0,not,False,False,False
+E02004088,Long Eaton West,70.1,577,577.0,546.0,605.0,59.0,0.0,not,0.1626,possibly,False,False,False
+E02004090,Breaston,66.55000000000001,432,431.0,386.0,478.0,92.0,0.0,not,0.0,not,False,False,False
+E02004091,Long Eaton South,67.4,463,464.0,437.0,492.0,55.0,0.0,not,0.0,not,False,False,False
+E02004092,Sawley,64.05,328,330.0,293.0,370.0,77.0,0.0,not,0.0,not,False,False,False
+E02004118,Hatton,68.44999999999999,504,506.0,462.0,553.0,91.0,0.0,not,0.001,not,False,False,False
+E02004119,Hilton,69.35,545,545.0,515.0,575.0,60.0,0.0,not,0.0027,not,False,False,False
+E02004120,Willington North,67.55000000000001,469,470.0,441.0,500.0,59.0,0.0,not,0.0,not,False,False,False
+E02004121,Aston-on-Trent,69.95,571,571.0,538.0,601.0,63.0,0.0,not,0.0959,possibly,False,False,False
+E02004122,Willington South,70.7,606,601.0,552.0,633.0,81.0,0.0,not,0.5952,likely,False,False,False
+E02004123,Melbourne,70.15,581,580.0,536.0,616.0,80.0,0.0,not,0.2766,possibly,False,False,False
+E02004124,Swadlincote North,64.35,352,345.0,305.0,381.0,76.0,0.0,not,0.0,not,False,False,False
+E02004125,Swadlincote West,62.05,258,256.0,228.0,281.0,53.0,0.0,not,0.0,not,False,False,False
+E02004126,Swadlincote Central,61.55,239,239.0,205.0,268.0,63.0,0.0,not,0.0,not,False,False,False
+E02004128,Castle Gresley,65.94999999999999,405,408.0,383.0,433.0,50.0,0.0,not,0.0,not,False,False,False
+E02005335,Kirby Muxloe,69.9,565,569.0,530.0,603.0,73.0,0.0,not,0.1204,possibly,False,False,False
+E02005342,Cosby,69.15,535,536.0,501.0,571.0,70.0,0.0,not,0.0019,not,False,False,False
+E02005344,Stoney Stanton,69.1,531,534.0,503.0,566.0,63.0,0.0,not,0.0006,not,False,False,False
+E02005349,Shepshed West,66.35,420,423.0,391.0,458.0,67.0,0.0,not,0.0,not,False,False,False
+E02005350,Shepshed East,64.85,369,368.0,330.0,398.0,68.0,0.0,not,0.0,not,False,False,False
+E02005372,Dunton Bassett,72.35,643,641.0,628.0,650.0,22.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02005377,Markfield,68.6,512,512.0,483.0,544.0,61.0,0.0,not,0.0,not,False,False,False
+E02005380,Market Bosworth,70.05000000000001,575,575.0,541.0,606.0,65.0,0.0,not,0.1611,possibly,False,False,False
+E02005381,Desford,67.75,477,478.0,442.0,515.0,73.0,0.0,not,0.0,not,False,False,False
+E02005382,Earl Shilton,64.0,323,328.0,297.0,362.0,65.0,0.0,not,0.0,not,False,False,False
+E02005383,Barwell,63.6,304,309.0,279.0,349.0,70.0,0.0,not,0.0,not,False,False,False
+E02005384,Stoke Golding,70.15,582,579.0,538.0,614.0,76.0,0.0,not,0.2535,possibly,False,False,False
+E02005385,Hinckley East,69.9,566,569.0,528.0,605.0,77.0,0.0,not,0.1319,possibly,False,False,False
+E02005386,Hinckley Central,62.25,264,263.0,231.0,293.0,62.0,0.0,not,0.0,not,False,False,False
+E02005387,Hinckley West,65.94999999999999,406,408.0,380.0,437.0,57.0,0.0,not,0.0,not,False,False,False
+E02005388,Hinckley Clarendon Park,65.25,385,383.0,344.0,416.0,72.0,0.0,not,0.0,not,False,False,False
+E02005389,Burbage St Catherines,65.25,386,383.0,339.0,420.0,81.0,0.0,not,0.0,not,False,False,False
+E02005390,Burbage Sketchley,71.75,632,630.0,612.0,643.0,31.0,0.0,not,0.9976,confidently in the highest tenth,False,False,False
+E02005397,Castle Donington,67.55000000000001,470,470.0,438.0,503.0,65.0,0.0,not,0.0,not,False,False,False
+E02005398,Kegworth,70.30000000000001,587,586.0,546.0,618.0,72.0,0.0,not,0.3424,possibly,False,False,False
+E02005399,Ashby de la Zouch North,68.65,515,515.0,479.0,553.0,74.0,0.0,not,0.0001,not,False,False,False
+E02005400,Thringstone,66.35,421,423.0,390.0,459.0,69.0,0.0,not,0.0,not,False,False,False
+E02005401,Packington,71.0,614,611.0,580.0,632.0,52.0,0.0,not,0.819,likely,False,False,False
+E02005402,Ashby de la Zouch South,67.55,468,471.0,433.0,507.0,74.0,0.0,not,0.0,not,False,False,False
+E02005403,Whitwick,65.15,380,379.0,341.0,411.0,70.0,0.0,not,0.0,not,False,False,False
+E02005404,Donisthope,65.85,402,405.0,376.0,436.0,60.0,0.0,not,0.0,not,False,False,False
+E02005405,Agar Nook,61.9,252,251.0,218.0,280.0,62.0,0.0,not,0.0,not,False,False,False
+E02005406,Coalville,61.3,230,229.0,200.0,257.0,57.0,0.0,not,0.0,not,False,False,False
+E02005407,Hugglescote,67.0,450,448.0,418.0,480.0,62.0,0.0,not,0.0,not,False,False,False
+E02005408,Measham,66.80000000000001,441,440.0,408.0,476.0,68.0,0.0,not,0.0,not,False,False,False
+E02005409,Ibstock,65.4,391,389.0,361.0,414.0,53.0,0.0,not,0.0,not,False,False,False
+E02006008,Shifnal,68.5,506,509.0,482.0,537.0,55.0,0.0,not,0.0,not,False,False,False
+E02006009,Cosford,68.80000000000001,521,521.0,489.0,555.0,66.0,0.0,not,0.0002,not,False,False,False
+E02006010,Much Wenlock,68.05000000000001,492,490.0,457.0,523.0,66.0,0.0,not,0.0,not,False,False,False
+E02006011,Bridgnorth West,68.05000000000001,493,490.0,456.0,524.0,68.0,0.0,not,0.0,not,False,False,False
+E02006012,Bridgnorth East,67.25,462,458.0,427.0,491.0,64.0,0.0,not,0.0,not,False,False,False
+E02006013,Alveley,69.4,548,547.0,514.0,580.0,66.0,0.0,not,0.0099,not,False,False,False
+E02006014,Highley,69.3,542,542.0,516.0,569.0,53.0,0.0,not,0.0004,not,False,False,False
+E02006016,Woore,69.3,543,543.0,503.0,582.0,79.0,0.0,not,0.0141,not,False,False,False
+E02006018,Market Drayton,66.44999999999999,424,427.0,400.0,456.0,56.0,0.0,not,0.0,not,False,False,False
+E02006020,Hinstock,65.85,403,404.0,365.0,444.0,79.0,0.0,not,0.0,not,False,False,False
+E02006022,Shawbury,68.69999999999999,516,517.0,475.0,561.0,86.0,0.0,not,0.0025,not,False,False,False
+E02006038,Bayston Hill,69.2,538,538.0,508.0,569.0,61.0,0.0,not,0.0015,not,False,False,False
+E02006040,Cressage,71.85,634,633.0,609.0,647.0,38.0,0.0,not,0.9936,confidently in the highest tenth,False,False,False
+E02006043,Craven Arms,67.9,483,484.0,441.0,528.0,87.0,0.0,not,0.0001,not,False,False,False
+E02006046,Cleobury Mortimer,69.0,527,529.0,494.0,566.0,72.0,0.0,not,0.0014,not,False,False,False
+E02006118,Rugeley North,68.8,519,521.0,480.0,565.0,85.0,0.0,not,0.0023,not,False,False,False
+E02006119,Rugeley Town,60.1,184,184.0,157.0,214.0,57.0,0.0,not,0.0,not,False,False,False
+E02006120,Rugeley South,61.8,249,248.0,217.0,274.0,57.0,0.0,not,0.0,not,False,False,False
+E02006121,Hednesford Pye Green,63.45,295,303.0,270.0,348.0,78.0,0.0,not,0.0,not,False,False,False
+E02006122,Hednesford Central,64.1,334,333.0,292.0,377.0,85.0,0.0,not,0.0,not,False,False,False
+E02006123,Wimblebury,63.45,296,303.0,270.0,348.0,78.0,0.0,not,0.0,not,False,False,False
+E02006124,Cannock North,57.1,73,73.0,42.0,105.0,63.0,0.3686,possibly,0.0,not,False,False,False
+E02006125,Cannock North East,60.4,191,195.0,163.0,230.0,67.0,0.0,not,0.0,not,False,False,False
+E02006126,Hednesford South,64.3,346,343.0,301.0,381.0,80.0,0.0,not,0.0,not,False,False,False
+E02006127,Hawks Green,67.2,458,456.0,423.0,491.0,68.0,0.0,not,0.0,not,False,False,False
+E02006128,Cannock West,65.94999999999999,407,409.0,382.0,435.0,53.0,0.0,not,0.0,not,False,False,False
+E02006129,Cannock South,59.5,165,164.0,135.0,190.0,55.0,0.0,not,0.0,not,False,False,False
+E02006130,Norton Canes,64.3,347,342.0,303.0,379.0,76.0,0.0,not,0.0,not,False,False,False
+E02006131,Mayfield,68.1,496,492.0,452.0,533.0,81.0,0.0,not,0.0001,not,False,False,False
+E02006132,Uttoxeter Heath,65.1,377,377.0,336.0,411.0,75.0,0.0,not,0.0,not,False,False,False
+E02006133,Uttoxeter Town,66.5,426,429.0,394.0,465.0,71.0,0.0,not,0.0,not,False,False,False
+E02006134,Rolleston-on-Dove,70.1,578,577.0,546.0,605.0,59.0,0.0,not,0.1654,possibly,False,False,False
+E02006135,Burton Stretton,68.95,526,527.0,484.0,574.0,90.0,0.0,not,0.0084,not,False,False,False
+E02006136,Abbots Bromley,69.9,567,569.0,531.0,604.0,73.0,0.0,not,0.1192,possibly,False,False,False
+E02006137,Burton Horninglow,60.95,215,216.0,186.0,246.0,60.0,0.0,not,0.0,not,False,False,False
+E02006138,Burton Eton Park,60.6,203,202.0,170.95000000000005,238.0,67.04999999999995,0.0,not,0.0,not,False,False,False
+E02006139,Burton Shobnall,60.5,197,198.0,171.0,230.0,59.0,0.0,not,0.0,not,False,False,False
+E02006140,Burton Winshill,62.95,287,285.0,258.0,318.0,60.0,0.0,not,0.0,not,False,False,False
+E02006141,Burton Central,59.8,176,174.0,148.0,200.0,52.0,0.0,not,0.0,not,False,False,False
+E02006142,Burton Brizlincote,70.05,573,575.0,541.0,607.0,66.0,0.0,not,0.1657,possibly,False,False,False
+E02006143,Branston,67.05,451,450.0,415.0,487.0,72.0,0.0,not,0.0,not,False,False,False
+E02006144,Burton Stapenhill,58.3,120,118.0,86.0,151.0,65.0,0.0039,not,0.0,not,False,False,False
+E02006145,Barton-under-Needwood,71.25,619,618.0,586.0,638.0,52.0,0.0,not,0.8941,likely,False,False,False
+E02006146,Armitage,65.19999999999999,382,381.0,351.0,407.0499999999993,56.04999999999927,0.0,not,0.0,not,False,False,False
+E02006147,Alrewas,70.25,585,584.0,548.0,614.0,66.0,0.0,not,0.2992,possibly,False,False,False
+E02006148,Burntwood North East,71.55,627,625.0,601.0,642.0,41.0,0.0,not,0.9776,confidently in the highest tenth,False,False,False
+E02006149,Lichfield Central,64.3,348,343.0,309.0,374.0,65.0,0.0,not,0.0,not,False,False,False
+E02006150,Lichfield East,69.25,539,540.0,509.0,572.0,63.0,0.0,not,0.0023,not,False,False,False
+E02006151,Burntwood West,65.0,375,373.0,341.0,400.0,59.0,0.0,not,0.0,not,False,False,False
+E02006152,Lichfield West,70.35,589,587.0,556.0,614.0,58.0,0.0,not,0.3411,possibly,False,False,False
+E02006153,Whittington,70.5,596,594.0,560.0,619.0,59.0,0.0,not,0.4813,possibly,False,False,False
+E02006154,Burntwood Chase Terrace,67.7,473,476.0,450.0,502.0,52.0,0.0,not,0.0,not,False,False,False
+E02006155,Burntwood Chasetown,60.05,181,183.0,149.0,219.0,70.0,0.0,not,0.0,not,False,False,False
+E02006156,Shenstone,72.05000000000001,639,637.0,616.0,649.0,33.0,0.0,not,0.998,confidently in the highest tenth,False,False,False
+E02006157,Fazeley,66.5,427,429.0,399.0,462.0,63.0,0.0,not,0.0,not,False,False,False
+E02006173,Loggerheads,70.1,579,577.0,531.0,615.0,84.0,0.0,not,0.2484,possibly,False,False,False
+E02006174,Penkridge,69.0,528,529.0,497.0,563.0,66.0,0.0,not,0.0006,not,False,False,False
+E02006175,Huntington,65.25,387,383.0,349.95000000000005,413.0,63.049999999999955,0.0,not,0.0,not,False,False,False
+E02006176,Brewood,70.05,574,575.0,533.0,612.0,79.0,0.0,not,0.208,possibly,False,False,False
+E02006177,Cheslyn Hay,67.05000000000001,452,450.0,419.0,482.0,63.0,0.0,not,0.0,not,False,False,False
+E02006178,Great Wyrley,64.1,335,333.0,297.0,370.0,73.0,0.0,not,0.0,not,False,False,False
+E02006179,Featherstone West,65.05,376,375.0,332.0,411.0,79.0,0.0,not,0.0,not,False,False,False
+E02006180,Featherstone East,62.75,279,279.0,249.0,311.0,62.0,0.0,not,0.0,not,False,False,False
+E02006181,Bilbrook,64.4,355,348.0,292.0,398.0,106.0,0.0,not,0.0,not,False,False,False
+E02006182,Codsall,70.69999999999999,604,601.0,560.0,629.0,69.0,0.0,not,0.6105,likely,False,False,False
+E02006185,Wombourne Inner,66.0,410,410.0,380.0,441.0,61.0,0.0,not,0.0,not,False,False,False
+E02006186,Wombourne Outer,70.0,572,573.0,547.0,597.0499999999993,50.04999999999927,0.0,not,0.0786,possibly,False,False,False
+E02006187,Kinver,69.85,564,567.0,529.0,602.0,73.0,0.0,not,0.1037,possibly,False,False,False
+E02006189,Barlaston,69.0,529,529.0,494.0,567.0,73.0,0.0,not,0.0018,not,False,False,False
+E02006190,Stone Town,65.3,388,385.0,354.0,413.0,59.0,0.0,not,0.0,not,False,False,False
+E02006191,Little Stoke,71.5,626,625.0,597.0,642.0,45.0,0.0,not,0.9594,confidently in the highest tenth,False,False,False
+E02006192,Eccleshall,70.45,593,591.0,553.0,621.0,68.0,0.0,not,0.4349,possibly,False,False,False
+E02006193,Stafford Common,69.5,553,551.0,516.0,586.0,70.0,0.0,not,0.0197,not,False,False,False
+E02006194,Doxey,63.65,306,311.0,279.0,354.0,75.0,0.0,not,0.0,not,False,False,False
+E02006195,Weston,70.1,580,577.0,531.0,616.0,85.0,0.0,not,0.2508,possibly,False,False,False
+E02006196,Stafford North East,60.6,204,202.0,170.0,238.0,68.0,0.0,not,0.0,not,False,False,False
+E02006197,Central Stafford,60.8,212,210.0,182.0,241.0,59.0,0.0,not,0.0,not,False,False,False
+E02006198,Littleworth,69.55000000000001,556,553.0,521.0,585.0,64.0,0.0,not,0.0145,not,False,False,False
+E02006199,Rowley,69.0,530,529.0,500.0,562.0,62.0,0.0,not,0.0004,not,False,False,False
+E02006200,Highfields,59.3,160,156.0,117.0,191.0,74.0,0.0001,not,0.0,not,False,False,False
+E02006201,Weeping Cross,72.80000000000001,649,647.0,637.0,653.0,16.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02006202,Gnosall,71.05,616,613.0,584.0,632.0,48.0,0.0,not,0.8584,likely,False,False,False
+E02006203,Mosspit,62.05,259,256.0,221.0,287.0,66.0,0.0,not,0.0,not,False,False,False
+E02006217,Coton Farm,67.5,466,468.0,439.95000000000005,498.0,58.049999999999955,0.0,not,0.0,not,False,False,False
+E02006218,Central Tamworth,60.3,188,191.0,164.0,222.0,58.0,0.0,not,0.0,not,False,False,False
+E02006219,Amington,64.5,360,352.0,308.0,391.0,83.0,0.0,not,0.0,not,False,False,False
+E02006220,Bolehall,64.65,363,359.0,315.0,395.0499999999993,80.04999999999927,0.0,not,0.0,not,False,False,False
+E02006221,Kettlebrook,66.0,411,411.0,374.0,447.0,73.0,0.0,not,0.0,not,False,False,False
+E02006222,Belgrave,61.95,253,253.0,220.0,283.0,63.0,0.0,not,0.0,not,False,False,False
+E02006223,Glascote Heath,55.1,15,17.0,5.0,36.0,31.0,0.9997,confidently in the lowest tenth,0.0,not,False,False,False
+E02006224,Wilnecote East,66.44999999999999,425,427.0,394.0,462.0,68.0,0.0,not,0.0,not,False,False,False
+E02006225,Dosthill,67.45,465,466.0,426.0,507.0,81.0,0.0,not,0.0,not,False,False,False
+E02006226,Wilnecote West,64.25,343,340.0,302.0,376.0,74.0,0.0,not,0.0,not,False,False,False
+E02006468,Polesworth,66.05,412,412.0,387.0,437.0,50.0,0.0,not,0.0,not,False,False,False
+E02006469,Dordon,62.4,267,267.0,240.0,295.0,55.0,0.0,not,0.0,not,False,False,False
+E02006470,Atherstone,61.3,231,229.0,205.0,252.0,47.0,0.0,not,0.0,not,False,False,False
+E02006471,Kingsbury,69.4,549,547.0,508.0,584.0,76.0,0.0,not,0.0168,not,False,False,False
+E02006472,Hartshill,64.4,356,347.0,308.0,381.0,73.0,0.0,not,0.0,not,False,False,False
+E02006473,Coleshill,67.75,478,478.0,451.0,505.0,54.0,0.0,not,0.0,not,False,False,False
+E02006474,New Arley,66.75,438,438.0,408.0,470.0,62.0,0.0,not,0.0,not,False,False,False
+E02006475,Weddington,68.80000000000001,522,521.0,492.0,552.0,60.0,0.0,not,0.0001,not,False,False,False
+E02006476,Camp Hill,58.8,138,138.0,106.0,167.0,61.0,0.0001,not,0.0,not,False,False,False
+E02006477,Horeston Grange,69.65,559,558.0,526.0,589.0,63.0,0.0,not,0.0242,not,False,False,False
+E02006478,Galley Common,64.45,358,350.0,303.0,390.0,87.0,0.0,not,0.0,not,False,False,False
+E02006479,Nuneaton Town Centre,59.55,168,166.0,137.0,192.0,55.0,0.0,not,0.0,not,False,False,False
+E02006480,Tomkinson Road,60.5,198,199.0,169.0,231.0,62.0,0.0,not,0.0,not,False,False,False
+E02006481,Stockingford,60.400000000000006,192,195.0,164.0,230.0,66.0,0.0,not,0.0,not,False,False,False
+E02006482,Bermuda,64.75,365,363.0,323.0,396.0,73.0,0.0,not,0.0,not,False,False,False
+E02006483,Caldwell,58.2,115,114.0,85.0,144.0,59.0,0.0023,not,0.0,not,False,False,False
+E02006484,Attleborough,62.6,273,274.0,246.0,303.0,57.0,0.0,not,0.0,not,False,False,False
+E02006485,Whitestone,71.85,635,633.0,608.0,647.0,39.0,0.0,not,0.9881,confidently in the highest tenth,False,False,False
+E02006486,Bedworth Woodlands,64.35,353,345.0,301.0,384.0,83.0,0.0,not,0.0,not,False,False,False
+E02006487,Bedworth Town,58.65,132,132.0,96.0,166.0,70.0,0.0009,not,0.0,not,False,False,False
+E02006488,Bulkington,67.4,464,465.0,427.0,503.0,76.0,0.0,not,0.0,not,False,False,False
+E02006489,Bedworth Coalpit Field,61.25,229,228.0,196.0,257.0,61.0,0.0,not,0.0,not,False,False,False
+E02006490,Bedworth Heath,62.1,260,258.0,227.0,285.0,58.0,0.0,not,0.0,not,False,False,False
+E02006494,Rugby Town North,59.1,151,149.0,110.0,184.0,74.0,0.0004,not,0.0,not,False,False,False
+E02006495,Wolston,69.15,536,536.0,497.0,577.0,80.0,0.0,not,0.0086,not,False,False,False
+E02006497,New Bilton,63.7,310,314.0,279.0,359.0,80.0,0.0,not,0.0,not,False,False,False
+E02006498,Cawston,67.9,484,484.0,457.0,513.0,56.0,0.0,not,0.0,not,False,False,False
+E02006503,Dunchurch,72.35,644,641.0,627.0,650.0,23.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02006504,Earlswood,73.4,653,652.0,646.0,656.0,10.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02006505,Henley-in-Arden,70.65,601,599.0,563.0,626.0,63.0,0.0,not,0.5883,likely,False,False,False
+E02006506,Studley,66.85,444,442.0,407.0,481.0,74.0,0.0,not,0.0,not,False,False,False
+E02006507,Southam,68.8,520,521.0,489.0,553.0,64.0,0.0,not,0.0,not,False,False,False
+E02006508,Harbury,71.6,628,627.0,606.0,641.0,35.0,0.0,not,0.9898,confidently in the highest tenth,False,False,False
+E02006509,Alcester,66.5,428,429.0,387.0,474.0,87.0,0.0,not,0.0,not,False,False,False
+E02006510,Wilmcote,71.6,629,627.0,603.0,643.0,40.0,0.0,not,0.9815,confidently in the highest tenth,False,False,False
+E02006511,Wellesbourne,70.65,602,600.0,566.0,625.0,59.0,0.0,not,0.6049,likely,False,False,False
+E02006512,Stratford North,67.7,474,476.0,448.0,504.0,56.0,0.0,not,0.0,not,False,False,False
+E02006513,Stratford South East,73.44999999999999,654,653.0,644.0,657.0,13.0,0.0,not,0.9999,confidently in the highest tenth,False,False,False
+E02006514,Stratford South West,71.3,620,620.0,597.0,636.0,39.0,0.0,not,0.9621,confidently in the highest tenth,False,False,False
+E02006516,Kineton,70.9,611,608.0,582.0,627.0,45.0,0.0,not,0.8153,likely,False,False,False
+E02006519,Kenilworth West,71.4,624,622.0,587.0,643.0,56.0,0.0,not,0.9134,likely,False,False,False
+E02006520,Kenilworth East,71.69999999999999,631,629.0,603.0,645.0,42.0,0.0,not,0.9776,confidently in the highest tenth,False,False,False
+E02006521,Kenilworth South,71.75,633,631.0,608.0,645.0,37.0,0.0,not,0.9926,confidently in the highest tenth,False,False,False
+E02006522,Kingswood,75.69999999999999,660,660.0,658.0,660.0,2.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02006523,Cubbington,70.65,603,599.0,573.0,621.0,48.0,0.0,not,0.6249,likely,False,False,False
+E02006524,Lillington,63.5,297,304.0,268.0,355.0,87.0,0.0,not,0.0,not,False,False,False
+E02006525,Leamington Central,70.35,590,588.0,558.0,612.0,54.0,0.0,not,0.333,possibly,False,False,False
+E02006526,Warwick North,65.7,399,400.0,365.0,432.0,67.0,0.0,not,0.0,not,False,False,False
+E02006527,Leamington West,69.9,568,569.0,536.0,600.0,64.0,0.0,not,0.0912,possibly,False,False,False
+E02006528,Leamington East,64.75,366,364.0,326.0,394.0,68.0,0.0,not,0.0,not,False,False,False
+E02006529,Warwick South West,67.05000000000001,453,450.0,422.0,480.0,58.0,0.0,not,0.0,not,False,False,False
+E02006530,Warwick South East,71.1,617,614.0,590.0,631.0,41.0,0.0,not,0.911,likely,False,False,False
+E02006531,Leamington Brunswick,61.2,226,226.0,195.0,255.0,60.0,0.0,not,0.0,not,False,False,False
+E02006532,Bishops Tachbrook,71.44999999999999,625,624.0,594.0,641.0,47.0,0.0,not,0.948,likely,False,False,False
+E02006533,Whitnash,67.15,456,454.0,424.0,485.0,61.0,0.0,not,0.0,not,False,False,False
+E02006696,Hagley,73.25,651,651.0,642.0,656.0,14.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02006697,Dodford,70.95,613,609.0,579.0,631.0,52.0,0.0,not,0.8055,likely,False,False,False
+E02006698,Rubery West,67.6,472,472.0,435.0,509.0,74.0,0.0,not,0.0,not,False,False,False
+E02006699,Hollywood,69.75,562,562.0,508.0,611.0,103.0,0.0,not,0.1537,possibly,False,False,False
+E02006700,Wythall,69.35,546,545.0,507.0,583.0,76.0,0.0,not,0.0147,not,False,False,False
+E02006701,Barnt Green,73.6,655,654.0,645.0,657.0,12.0,0.0,not,1.0,confidently in the highest tenth,False,False,False
+E02006702,Catshill,65.35,389,387.0,346.0,422.0,76.0,0.0,not,0.0,not,False,False,False
+E02006703,Marlbrook,70.19999999999999,583,582.0,534.0,619.0,85.0,0.0,not,0.3152,possibly,False,False,False
+E02006704,Alvechurch,71.1,618,614.0,585.0,634.0,49.0,0.0,not,0.8734,likely,False,False,False
+E02006705,Bromsgrove Sidemoor,65.1,378,377.0,335.0,412.0,77.0,0.0,not,0.0,not,False,False,False
+E02006706,Bromsgrove Central,66.35,422,423.0,392.0,457.0,65.0,0.0,not,0.0,not,False,False,False
+E02006707,Bromsgrove Stoney Hill,73.1,650,650.0,637.0,656.0,19.0,0.0,not,0.9999,confidently in the highest tenth,False,False,False
+E02006708,Bromsgrove Charford,64.05000000000001,330,330.0,293.0,370.0,77.0,0.0,not,0.0,not,False,False,False
+E02006709,Stoke Heath (B60),68.5,507,509.0,477.0,541.0,64.0,0.0,not,0.0,not,False,False,False
+E02006710,Tenbury Wells,69.35,547,544.0,505.0,585.0,80.0,0.0,not,0.0202,not,False,False,False
+E02006711,Abberley,71.35,623,621.0,595.0,640.0,45.0,0.0,not,0.9506,confidently in the highest tenth,False,False,False
+E02006712,Broadheath,70.8,609,604.0,566.0,631.0,65.0,0.0,not,0.675,likely,False,False,False
+E02006721,Riverside,68.15,497,494.0,451.0,538.0,87.0,0.0,not,0.0001,not,False,False,False
+E02006722,Church Hill South,59.65,170,169.0,128.0,207.0,79.0,0.0,not,0.0,not,False,False,False
+E02006723,Batchley,61.85,251,249.0,223.0,272.0499999999993,49.04999999999927,0.0,not,0.0,not,False,False,False
+E02006724,Redditch Town,58.95,146,144.0,110.0,175.0,65.0,0.0,not,0.0,not,False,False,False
+E02006725,Winyates Green,62.400000000000006,268,267.0,229.0,304.0,75.0,0.0,not,0.0,not,False,False,False
+E02006726,Southcrest,63.95,321,325.0,287.0,369.0,82.0,0.0,not,0.0,not,False,False,False
+E02006727,Arrow Valley,66.75,439,438.0,405.0,473.0,68.0,0.0,not,0.0,not,False,False,False
+E02006728,Webheath,68.5,508,508.0,471.0,548.0,77.0,0.0,not,0.0002,not,False,False,False
+E02006729,Matchborough,65.5,394,392.0,361.0,422.0,61.0,0.0,not,0.0,not,False,False,False
+E02006730,Greenlands,58.95,147,143.0,103.0,181.0,78.0,0.0004,not,0.0,not,False,False,False
+E02006731,Oakenshaw,64.9,371,370.0,326.0,404.0,78.0,0.0,not,0.0,not,False,False,False
+E02006732,Crabbs Cross,69.44999999999999,550,549.0,511.0,587.0,76.0,0.0,not,0.0227,not,False,False,False
+E02006733,Hunt End,72.05,637,637.0,615.0,649.0,34.0,0.0,not,0.9965,confidently in the highest tenth,False,False,False
+E02006734,Northwick,70.69999999999999,605,601.0,565.0,627.0,62.0,0.0,not,0.6274,likely,False,False,False
+E02006735,Warndon West,55.3,21,21.0,5.0,47.0,42.0,0.9919,confidently in the lowest tenth,0.0,not,False,False,False
+E02006736,Warndon East,69.45,552,550.0,495.0,602.0,107.0,0.0,not,0.0857,possibly,False,False,False
+E02006737,Barbourne,66.25,418,420.0,384.0,457.0,73.0,0.0,not,0.0,not,False,False,False
+E02006738,King George's Field,59.2,154,153.0,122.0,181.0,59.0,0.0,not,0.0,not,False,False,False
+E02006739,Henwick,68.5,509,508.0,473.0,546.0,73.0,0.0,not,0.0001,not,False,False,False
+E02006740,Worcester Town North,64.3,349,343.0,297.0,385.0,88.0,0.0,not,0.0,not,False,False,False
+E02006741,Lyppard Grange,67.5,467,469.0,430.0,506.0,76.0,0.0,not,0.0,not,False,False,False
+E02006748,Hartlebury,69.6,558,556.0,520.0,591.0,71.0,0.0,not,0.0317,not,False,False,False
+E02006749,Droitwich Spa West,59.9,179,178.0,139.0,217.0,78.0,0.0,not,0.0,not,False,False,False
+E02006750,Droitwich Spa East,66.2,414,417.0,376.0,462.0,86.0,0.0,not,0.0,not,False,False,False
+E02006751,Droitwich Spa Central,64.2,342,337.0,295.0,380.0,85.0,0.0,not,0.0,not,False,False,False
+E02006752,Droitwich Spa South,72.25,641,640.0,625.0,649.0,24.0,0.0,not,0.9997,confidently in the highest tenth,False,False,False
+E02006753,Fernhill Heath,70.75,607,603.0,571.0,626.0,55.0,0.0,not,0.6867,likely,False,False,False
+E02006754,Crowle,72.6,648,645.0,619.0,655.0,36.0,0.0,not,0.9964,confidently in the highest tenth,False,False,False
+E02006755,Inkberrow,72.55,646,644.0,626.0,653.0,27.0,0.0,not,0.9999,confidently in the highest tenth,False,False,False
+E02006767,Wolverley,68.6,513,513.0,479.0,548.0,69.0,0.0,not,0.0,not,False,False,False
+E02006768,Franche,66.15,413,416.0,382.0,450.0,68.0,0.0,not,0.0,not,False,False,False
+E02006769,Greenhill,66.95,448,446.0,413.0,482.0,69.0,0.0,not,0.0,not,False,False,False
+E02006770,Kidderminster Town,58.85,142,140.0,106.0,171.0,65.0,0.0,not,0.0,not,False,False,False
+E02006771,Bewdley East,67.1,455,452.0,412.0,494.0,82.0,0.0,not,0.0,not,False,False,False
+E02006772,Habberley,64.0,324,328.0,289.0,371.0,82.0,0.0,not,0.0,not,False,False,False
+E02006773,Comberton,63.05,291,289.0,257.0,329.0,72.0,0.0,not,0.0,not,False,False,False
+E02006774,Foley Park,64.05,329,331.0,293.0,371.0,78.0,0.0,not,0.0,not,False,False,False
+E02006775,Birchen Coppice,57.1,74,73.0,40.0,109.0,69.0,0.376,possibly,0.0,not,False,False,False
+E02006776,Spennells,67.95,485,486.0,454.0,517.0,63.0,0.0,not,0.0,not,False,False,False
+E02006777,Bewdley West,69.15,537,536.0,486.0,587.0,101.0,0.0,not,0.0267,not,False,False,False
+E02006778,Stourport Lickhill,65.75,400,401.0,364.0,437.0,73.0,0.0,not,0.0,not,False,False,False
+E02006779,Stourport Mitton,65.55,395,394.0,356.0,429.0499999999993,73.04999999999927,0.0,not,0.0,not,False,False,False
+E02006780,Stourport Areley Kings,64.0,325,328.0,285.0,375.0,90.0,0.0,not,0.0,not,False,False,False
+E02006805,Holbrooks,59.8,177,174.0,147.0,201.0,54.0,0.0,not,0.0,not,False,False,False
+E02006806,Ash Green,62.8,281,280.0,255.0,308.0,53.0,0.0,not,0.0,not,False,False,False
+E02006807,Yardley Wood East,67.05000000000001,454,450.0,418.0,485.0,67.0,0.0,not,0.0,not,False,False,False
+E02006808,Shirley West,68.0,490,488.0,447.0,531.0,84.0,0.0,not,0.0,not,False,False,False
+E02006809,Handsworth Wood,63.6,305,310.0,277.0,354.0,77.0,0.0,not,0.0,not,False,False,False
+E02006810,Charlemont,63.55,301,307.0,280.0,343.0,63.0,0.0,not,0.0,not,False,False,False
+E02006894,Blakenhall,59.35,162,159.0,135.0,180.0,45.0,0.0,not,0.0,not,False,False,False
+E02006895,Attwood Green,58.05,107,108.0,75.0,143.0,68.0,0.0174,not,0.0,not,True,False,False
+E02006896,Digbeth,57.35,84,82.0,38.0,132.0,94.0,0.2879,possibly,0.0,not,False,False,True
+E02006897,Five Ways North,58.650000000000006,134,132.0,90.0,172.0,82.0,0.0038,not,0.0,not,False,False,False
+E02006898,Ladywood Summer Hill,61.6,242,241.0,197.0,279.0,82.0,0.0,not,0.0,not,True,False,False
+E02006899,Birmingham city centre,63.55,302,307.0,232.0,403.0,171.0,0.0,not,0.0,not,True,False,True
+E02006900,Bordesley,56.6,51,55.0,34.0,79.0,45.0,0.7818,likely,0.0,not,False,False,False
+E02006919,Swadlincote South,62.55,272,272.0,247.0,298.0,51.0,0.0,not,0.0,not,False,False,False
+E02006920,Swadlincote East,63.400000000000006,294,301.0,272.0,341.0,69.0,0.0,not,0.0,not,False,False,False
+E02006943,Smethwick East,57.3,81,80.0,48.0,112.0,64.0,0.2503,possibly,0.0,not,False,False,False
+E02006944,Smethwick South East,57.5,87,87.0,54.0,124.0,70.0,0.1504,possibly,0.0,not,False,False,False
+E02006982,Perton,69.25,540,540.0,511.0,570.0,59.0,0.0,not,0.0016,not,False,False,False
+E02007038,Birches Green,60.5,199,198.0,176.0,224.0,48.0,0.0,not,0.0,not,False,False,False
+E02007039,Greet,56.65,54,57.0,30.0,88.0,58.0,0.6961,likely,0.0,not,False,False,False
+E02007040,Sparkhill South,57.6,91,91.0,55.0,130.0,75.0,0.1293,possibly,0.0,not,False,False,False
+E02007048,Brinklow,69.5,554,551.0,515.0,586.0,71.0,0.0,not,0.0191,not,False,False,False
+E02007050,Telford Town Centre,63.7,311,313.0,281.0,355.0499999999993,74.04999999999927,0.0,not,0.0,not,False,False,False
+E02007051,Lawley,64.25,344,340.0,305.0,373.0,68.0,0.0,not,0.0,not,False,False,False

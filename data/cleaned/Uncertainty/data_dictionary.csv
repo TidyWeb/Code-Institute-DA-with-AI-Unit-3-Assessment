@@ -1,0 +1,49 @@
+file,column,meaning,unit,missing_rule
+rank_stability.csv,area_code,Unique area code used by the joined table,MSOA21 identifier,No missing values
+rank_stability.csv,local_area_name,Familiar name of the MSOA area,text,No missing values
+rank_stability.csv,published_hle,Published average healthy life expectancy estimate,years,No missing values
+rank_stability.csv,published_rank,Rank of published estimate; 1 is lowest and ties follow area-code order,rank,No missing values
+rank_stability.csv,median_simulated_rank,Median rank across simulated HLE draws,rank,No missing values
+rank_stability.csv,rank_5th_percentile,5th percentile of simulated ranks,rank,No missing values
+rank_stability.csv,rank_95th_percentile,95th percentile of simulated ranks,rank,No missing values
+rank_stability.csv,rank_interval_width_places,95th percentile rank minus 5th percentile rank,places,No missing values
+rank_stability.csv,p_bottom_10_percent,Share of draws with rank at or below the bottom-tenth cut,probability 0–1,No missing values
+rank_stability.csv,bottom_10_confidence,Band for bottom-tenth probability using the stated thresholds,category,No missing values
+rank_stability.csv,p_top_10_percent,Share of draws with rank at or above the top-tenth first rank,probability 0–1,No missing values
+rank_stability.csv,top_10_confidence,Band for top-tenth probability using the stated thresholds,category,No missing values
+rank_stability.csv,hle_male_imputed,"Male HLE imputation flag; retained, not dropped",boolean,No missing values
+rank_stability.csv,student_dominated,"Student-area flag; retained, not dropped",boolean,No missing values
+rank_stability.csv,visitor_hub,"Visitor-hub flag; retained, not dropped",boolean,No missing values
+results_summary.json,area_count,Areas included in the ranking simulation,areas,No missing values
+results_summary.json,simulations,Independent HLE draws used for the ranking simulation,draws,No missing values
+results_summary.json,batch_size,Simulations generated in each batch,draws,No missing values
+results_summary.json,seed,Fixed NumPy random generator seed,seed,No missing values
+results_summary.json,rank_rule,"Recorded method, assumption, threshold or definition",text or rule,No missing values
+results_summary.json,standard_error_derivation,"Recorded method, assumption, threshold or definition",text or rule,No missing values
+results_summary.json,independence_assumption,"Recorded method, assumption, threshold or definition",text or rule,No missing values
+results_summary.json,bottom_tenth_cutoff_rank,Highest rank included in the bottom tenth,rank,No missing values
+results_summary.json,top_tenth_first_rank,Lowest rank included in the top tenth,rank,No missing values
+results_summary.json,confidence_band_thresholds.confidently,"Recorded method, assumption, threshold or definition",text or rule,No missing values
+results_summary.json,confidence_band_thresholds.likely,"Recorded method, assumption, threshold or definition",text or rule,No missing values
+results_summary.json,confidence_band_thresholds.possibly,"Recorded method, assumption, threshold or definition",text or rule,No missing values
+results_summary.json,confidence_band_thresholds.not,"Recorded method, assumption, threshold or definition",text or rule,No missing values
+results_summary.json,bottom_tenth_confidence_counts.confidently in the lowest tenth,Count in confidence band confidently in the lowest tenth,areas,No missing values
+results_summary.json,bottom_tenth_confidence_counts.likely,Count in confidence band likely,areas,No missing values
+results_summary.json,bottom_tenth_confidence_counts.possibly,Count in confidence band possibly,areas,No missing values
+results_summary.json,bottom_tenth_confidence_counts.not,Count in confidence band not,areas,No missing values
+results_summary.json,top_tenth_confidence_counts.confidently in the highest tenth,Count in confidence band confidently in the highest tenth,areas,No missing values
+results_summary.json,top_tenth_confidence_counts.likely,Count in confidence band likely,areas,No missing values
+results_summary.json,top_tenth_confidence_counts.possibly,Count in confidence band possibly,areas,No missing values
+results_summary.json,top_tenth_confidence_counts.not,Count in confidence band not,areas,No missing values
+results_summary.json,published_lowest_area_count,Areas among the lowest published estimates,areas,No missing values
+results_summary.json,published_lowest_confidently_in_bottom_tenth,Published-lowest areas with bottom probability at least 0.95,areas,No missing values
+results_summary.json,median_rank_interval_width_overall_places,Median 90% rank-interval width across all areas,places,No missing values
+results_summary.json,middle_third_definition,"Recorded method, assumption, threshold or definition",text or rule,No missing values
+results_summary.json,median_rank_interval_width_middle_third_places,Median 90% rank-interval width in published middle third,places,No missing values
+results_summary.json,areas_with_rank_interval_width_over_100_places,Areas whose rank interval is wider than 100 places,areas,No missing values
+results_summary.json,output_folder,Folder containing this notebook's outputs,project-relative path,No missing values
+data_dictionary.csv,file,Filename described by this row,text,No missing values
+data_dictionary.csv,column,CSV column or dotted JSON path; [] marks repeated items,text,No missing values
+data_dictionary.csv,meaning,What the field records,text,No missing values
+data_dictionary.csv,unit,Measurement unit or value type,text,No missing values
+data_dictionary.csv,missing_rule,Meaning of a blank value,text,No missing values
