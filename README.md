@@ -18,9 +18,9 @@ I wrote this for people who know Birmingham and its neighbouring West Midlands a
 
 ## 5. What changed from Unit 2
 
-I re-screened the project with the same 27-question ethics screen. The original screen recorded **17 concerns** and **10 no-flags**. In the Unit 3 re-screen, **15 concerns have an investigated-and-recorded response**, **2 remain open pending user testing**, and the **10 no-flags remain no-flags**. An investigated response does not mean that a risk has disappeared.
+I re-screened the project with the same 27-question ethics screen. The original screen recorded **17 concerns** and **10 no-flags**. In the Unit 3 re-screen, **15 concerns have an investigated-and-recorded response**, **2 remain open by decision**, and the **10 no-flags remain no-flags**. Independent user testing was out of scope for this submission; it is planned for the evaluation stage in S14. An investigated response does not mean that a risk has disappeared.
 
-![The Unit 2 and Unit 3 ethics-screen boards: 17 original concerns and 10 no-flags; in Unit 3, 15 concerns have recorded responses, two remain open pending user testing, and 10 remain no-flags.](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/assets/img/second-look/lamp-board-before-after.svg)
+![The Unit 2 and Unit 3 ethics-screen boards: 17 original concerns and 10 no-flags; in Unit 3, 15 concerns have recorded responses, two remain open by decision, and 10 remain no-flags.](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/assets/img/second-look/lamp-board-before-after.svg)
 
 The board and question-by-question evidence are in [S17 — What changed](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/what-changed.html).
 
@@ -54,7 +54,7 @@ Licence terms vary. ONS, Nomis, DESNZ and Defra sources use the Open Government 
 ## 9. Dashboards
 
 - **Custom dashboard:** the [Leaflet dashboard](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/dashboard/) maps area-level results and provides uncertainty and caveat controls.
-- **Tableau Public:** [Birmingham HLE](https://public.tableau.com/views/BirminghamHLEFinal/Dashboard1). The existing workbook is linked here; its uncertainty sheet is not yet added. **Uncertainty sheet: Phil to add.**
+- **Tableau Public:** [Birmingham HLE](https://public.tableau.com/views/BirminghamHLEFinal/Dashboard1). This is the carried-over Unit 2 BI dashboard, linked as is and unchanged; I did no new Tableau work for this submission.
 
 ![Screenshot of the custom Leaflet dashboard with its area map, controls and selected-area information.](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/assets/img/dashboard-card.webp)
 
@@ -102,17 +102,17 @@ The clean-clone site build produced 40 pages. The internal checker found **0 pro
 
 ### User testing
 
-**Not yet done. Phil: add the session dates, participant descriptions without identifying details, tasks, what readers understood or found confusing, and changes made.** Until then, the two user-testing questions remain open in S17.
+Independent user testing was not run for this submission. On 17 October 2026, I reviewed the dashboard and site myself. That review led to fixes for the dashboard search bug; the HLE, rank and band labels; the six-groups note in the active-measure panel; the visibility of the “Question this work” link; and the plain-English wording in S11. Q18 and Q21 remain open by decision. Independent user testing is planned as part of the evaluation stage in [S14 — Lifecycle](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/lifecycle.html).
 
 ## 13. Deployment and rebuild
 
-The static site is published through GitHub Pages from the separate [site repository](https://github.com/TidyWeb/Birmingham-Healthy-Life-Second-Look). To rebuild it, clone both repositories as sibling folders, install the analysis requirements and the site's documented Markdown builder dependency, execute notebooks 01–09, then run the dashboard builder, site builder and link checker from the site repository. Its README gives the exact commands and generated-folder scope. The live site currently reflects the latest pushed site commit; the Phase 7 site additions have not been pushed.
+The static site is published through GitHub Pages from the separate [site repository](https://github.com/TidyWeb/Birmingham-Healthy-Life-Second-Look). To rebuild it, clone both repositories as sibling folders, install the analysis requirements and the site's documented Markdown builder dependency, execute notebooks 01–09, then run the dashboard builder, site builder and link checker from the site repository. Its README gives the exact commands and generated-folder scope.
 
 ## 14. Known issues and bugs
 
 - The Open Parliament Licence page returns HTTP 403 to automated checks; I verified it manually on 17 October 2026 and retained the link.
 - A dead YData external link is inside the third-party generated profile `reports/ydata/hle---msoa-rows.html` (copied to the site's generated files). I left that third-party file unchanged.
-- The Tableau uncertainty sheet, user testing, and Phil's rewrite of the S18 reflection draft remain outstanding. No substantive data-output difference appeared in the clean-clone rerun.
+- Q18 and Q21 remain open by decision because independent user testing was out of scope for this submission; testing is planned for S14's evaluation stage. Phil's rewrite of the S18 reflection draft remains outstanding. No substantive data-output difference appeared in the clean-clone rerun.
 
 ## 15. Lifecycle
 
@@ -125,7 +125,7 @@ The static site is published through GitHub Pages from the separate [site reposi
 | **1.1 — Ethics, privacy and governance in the method** | [S2 — The method](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s2-the-method.html), [S12 — Proxy and fairness audit](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/proxies-fairness-and-crime.html), [S13 — Law and governance](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/law-and-governance.html), and [Notebooks 07–09](#10-notebooks-and-how-to-run-them). |
 | **1.2 — Legal and social implications** | [S13 — Law and governance](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/law-and-governance.html), [S12 — Proxy and fairness audit](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/proxies-fairness-and-crime.html). |
 | **2.1 — Explain insights to technical and non-technical readers** | This README, the plain-language sections in [S1](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s1-why-a-second-look.html), [S2](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s2-the-method.html) and [S3](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s3-results-at-a-glance.html), [S11](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/how-certain-are-the-rankings.html), and the notebook pages. |
-| **2.2 — Visualisation and narrative** | [S3 — Results at a glance](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s3-results-at-a-glance.html), [S11](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/how-certain-are-the-rankings.html), [S16](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/what-aggregation-hides.html), and the custom dashboard. User testing remains pending. |
+| **2.2 — Visualisation and narrative** | [S3 — Results at a glance](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s3-results-at-a-glance.html), [S11](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/how-certain-are-the-rankings.html), [S16](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/what-aggregation-hides.html), and the custom dashboard. Independent user testing is planned for S14's evaluation stage; Q18 and Q21 remain open by decision. |
 | **2.3 — Structured and accessible documentation** | This README, the [source register](data/source-register.csv), the nine notebooks, and the linked site chapters. |
 | **3.1 — Project lifecycle plan** | [S14 — Lifecycle](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/lifecycle.html) records implementation, maintenance, updates, evaluation, correction and retirement. |
 | **3.2 — Practical reflection** | S18 is a first-person draft in the local site clone and has not been published; Phil's rewrite remains outstanding. |
