@@ -1,152 +1,143 @@
-# Birmingham Healthy Life Expectancy
+# Birmingham Healthy Life: A Second Look
 
-<!-- Visual additions: package badges and project map -->
-<p align="center">
-  <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white"></a>
-  <a href="https://jupyter.org/"><img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&amp;logo=jupyter&amp;logoColor=white"></a>
-  <a href="https://geopandas.org/"><img alt="GeoPandas" src="https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge&amp;logo=geopandas&amp;logoColor=white"></a>
-  <a href="https://pandas.pydata.org/"><img alt="pandas" src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&amp;logo=pandas&amp;logoColor=white"></a>
-  <a href="https://numpy.org/"><img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&amp;logo=numpy&amp;logoColor=white"></a>
-  <a href="https://scipy.org/"><img alt="SciPy" src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&amp;logo=scipy&amp;logoColor=white"></a>
-  <a href="https://shapely.readthedocs.io/"><img alt="Shapely" src="https://img.shields.io/badge/Shapely-3D7A57?style=for-the-badge&amp;logo=shapely&amp;logoColor=white"></a>
-  <a href="https://scikit-learn.org/"><img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&amp;logo=scikitlearn&amp;logoColor=white"></a>
-  <a href="https://matplotlib.org/"><img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&amp;logo=matplotlib&amp;logoColor=white"></a>
-  <a href="https://ipython.org/"><img alt="IPython" src="https://img.shields.io/badge/IPython-515151?style=for-the-badge&amp;logo=ipython&amp;logoColor=white"></a>
-</p>
-<p align="center">
-  <img src="data/cleaned/Neighbours/figures/04_big_gap_neighbours_map.png" alt="Map of derived average healthy life expectancy across the West Midlands study area, with selected large-gap neighbour pairs outlined in red and an enlarged Birmingham detail view." width="100%">
-</p>
-<!-- End visual additions -->
+## 1. Purpose
 
-Many data analysis assessment projects use general datasets from Kaggle, on things like credit card churn, car prices or health insurance, and they're fine for us newbies to show off our new skills. I'd been there and done that. I wanted to find a problem that was closer to home, more relevant to me and to those I love, and something I could direct and shape to ask and answer real questions about my here and now.
+*Birmingham Healthy Life: A Second Look* is an ethical revision of my Unit 2 project. I revisit the area-level healthy life expectancy analysis, examine how its methods and claims should be understood, and add checks on proxy overlap, model error, ranking uncertainty and variation hidden by aggregation. It describes patterns across 660 Middle Layer Super Output Areas (MSOAs); it does not explain any individual's health or establish causes.
 
-How many years can you expect to live in good health? In Birmingham and the areas around it, the answer depends a lot on where you live. Across 660 neighbourhoods, healthy life expectancy (HLE) runs from about 54 years to nearly 76. Some places that share a boundary are 14 to 16 years apart. I find that remarkable.
+## 2. The stance
 
-The idea came from a map of the London Tube that showed life expectancy at each station ([*Lives on the Line*](https://jcheshire.com/featured-maps/lives-on-the-line/), by James Cheshire and Oliver O'Brien). Stops a few minutes apart had very different health outcomes. I wanted to see whether my own city did the same. The more I looked, the more I cared about neighbouring areas rather than railway lines. The rail corridor idea became window dressing, not a fundamental part of the investigation, so I dumped it. Instead, I mapped HLE for every small area, tested whether the gaps between neighbours are real or just estimate noise, and then asked what else about an area lines up with them: income, qualifications, work, housing, air quality and crime. Machine learning comes last, to see how much of the pattern those measures account for and where they fall short.
+**The aim is the truth about healthy life expectancy, told plainly. Ethical care means not causing avoidable harm and not claiming more than the evidence shows. It does not mean avoiding uncomfortable findings.**
 
-Everything here describes areas, not people. A link between HLE and income in an area doesn't tell you about anyone who lives there, and it doesn't prove a cause.
+## 3. Start with the site
 
-It's for people who know Birmingham and the places around it, the public and professionals alike. They should recognise the areas by name, read the maps, and relate what they see to what they already know.
+Read [S1 — Why a second look](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s1-why-a-second-look.html) first, then visit the [deployed project site](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/). The site carries the full story, caveats, lifecycle, notebook pages and interactive dashboard. The Phase 7 reflection is still a draft in the site working clone and has not been published.
 
-## Start here
+## 4. Audience
 
-### [tidyweb.github.io/Birmingham-Healthy-Life](https://tidyweb.github.io/Birmingham-Healthy-Life/)
+I wrote this for people who know Birmingham and its neighbouring West Midlands areas, including residents and people who work with local data or services. The site starts with plain-language summaries and visual explanations; the notebooks provide the technical detail for readers who want to follow the calculations.
 
-The website tells the whole story of the project in short illustrated chapters, from the idea to what the data does and doesn't say. It also holds my interactive dashboard of HLE across the 660 areas, which I built in my own code because Tableau couldn't show what I wanted, and you can read all six notebooks there without running anything. This README covers what you need here: the questions, the hypothesis, the dashboards, how to run the notebooks and how I worked.
+## 5. What changed from Unit 2
 
-## What I wanted to find out
+I re-screened the project with the same 27-question ethics screen. The original screen recorded **17 concerns** and **10 no-flags**. In the Unit 3 re-screen, **15 concerns have an investigated-and-recorded response**, **2 remain open pending user testing**, and the **10 no-flags remain no-flags**. An investigated response does not mean that a risk has disappeared.
 
-These are the questions the project has to answer, and where each one is answered.
+![The Unit 2 and Unit 3 ethics-screen boards: 17 original concerns and 10 no-flags; in Unit 3, 15 concerns have recorded responses, two remain open pending user testing, and 10 remain no-flags.](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/assets/img/second-look/lamp-board-before-after.svg)
 
-1. **How much does healthy life expectancy vary across Birmingham and the areas around it, and where is it lowest?** Notebook 01 ranks every area with its margin of error, and Notebook 03 shows the spread for men and women as histograms. The dashboards map it.
-2. **Are the big gaps between neighbouring areas real, or just noise in the estimates?** Notebook 04 compares the real gaps with simulated noise in two distribution charts, tests how alike neighbours are with a permutation chart, and maps the biggest gaps.
-3. **What else about an area lines up with its HLE?** Notebook 03 has correlation heatmaps and a grid of scatter plots, one per measure.
-4. **How much of HLE can those measures predict, and where do they fall short?** Notebook 05 profiles the groups as a heatmap, compares their HLE in a box plot, shows the regression weights as a bar chart, and maps where the model gets HLE wrong.
-5. **What sets the two sides of the sharpest boundaries apart?** Notebook 06 maps the five hotspots and compares the two sides of each pair in bar charts.
+The board and question-by-question evidence are in [S17 — What changed](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/what-changed.html).
 
-## The hypothesis
+## 6. Questions and hypothesis
 
-**H₀:** neighbouring areas don't really differ. The gaps between them come only from the margin of error in the estimates.
-**H₁:** neighbouring areas differ by more than that noise can produce.
+The carried-over analysis asks how healthy life expectancy varies across Birmingham and nearby areas, whether large differences between neighbouring areas exceed estimate noise, which area measures move with HLE, how well selected measures describe HLE, and what distinguishes the sharpest neighbouring gaps. The original five questions and evidence are set out in [S1](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s1-why-a-second-look.html), [S2](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s2-the-method.html) and [S3](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s3-results-at-a-glance.html).
 
-I tested it in Notebook 04 on all 1,885 pairs of neighbouring areas, against 10,000 simulated runs of pure noise. If the gaps were noise, about 5% of pairs would pass the usual 1.96 line. In the real data, 69.8% do. So I reject H₀: the gaps are real. That tells me they're worth explaining. It doesn't tell me why they happen, which is what Notebooks 05 and 06 go after.
+The hypothesis test in Notebook 04 is:
 
-## Dashboards
+- **H₀:** neighbouring MSOAs do not differ beyond the noise in their HLE estimates.
+- **H₁:** neighbouring MSOAs differ by more than that noise can explain.
 
-**Tableau Public: [Birmingham HLE](https://public.tableau.com/views/BirminghamHLEFinal/Dashboard1).** This is my business intelligence dashboard. It reads the joined table that Notebook 03 saves (`data/cleaned/Wide/msoa_wide_660.csv`), so all the cleaning and joining is done in Python first. It has three linked views: a map of HLE by area, a box plot of HLE by local authority, and a scatter of HLE against household income. Clicking an area on the map picks it out in the scatter, and hovering over anything shows the area's name and figures.
+Across 1,885 neighbouring pairs, 1,316 (69.8%) exceeded the 1.96 noise threshold; the simulation expected about 5% under noise alone. I reject H₀ for this test. That does not identify causes.
 
-**My own dashboard: [on the project website](https://tidyweb.github.io/Birmingham-Healthy-Life/dashboard/).** Tableau did the job, but I couldn't make it behave the way I wanted. It had no 3D, a legend I couldn't pin to the map, a fixed layout and limited colour control. So I built a second dashboard around a Leaflet map. It reads the same saved tables, so the two always agree. It lives on the website, not in this repository, which holds only the Python analysis.
+The new ethical questions were whether model features overlap with broad ethnic composition or deprivation, whether prediction errors differ across area groups, how certain the published low rankings are, and how much variation is hidden when LSOA data are averaged to MSOAs. Notebooks 07–09 examine these questions descriptively; none makes a claim about an individual.
 
-## The notebooks
+## 7. Headline findings from Notebooks 07–09
 
-Run them in order. Each one reads the previous one's saved outputs.
+- **Notebook 07 — proxy and fairness audit:** across 654 MSOAs, the seven model features predicted broad area ethnic-composition shares with cross-validated R² values from 0.277 (Other White) to 0.743 (White British); the other group results are in the notebook. This is evidence of area-level proxy overlap, not a way to infer a person's ethnicity. The model ran low by 0.31 years in the least-deprived third and high by 0.46 years in the most-deprived third; both 95% bootstrap intervals excluded zero. Removing the crime feature changed RMSE by about 0.01 years and R² by about −0.0013.
+- **Notebook 08 — uncertainty and ranking:** 10,000 simulations gave 35 of the 66 areas with the lowest published HLE a probability of at least 95% of remaining in the bottom tenth. The other 31 did not meet that threshold. The median 90% rank-interval width was 65 places across all 660 areas.
+- **Notebook 09 — aggregation:** of the variance across 3,205 LSOA fuel-poverty percentages, 30.3% was within MSOAs and 69.7% was between LSOA-count-weighted MSOA means. Each LSOA contributes equally to this decomposition. A separate range-versus-range rule flags 255 of 660 MSOAs (38.6%) as “mixed”; it is a descriptive comparison, not a significance test. **Methods note:** the earlier rule compared an internal range with a difference of means, so it was not like-for-like; it flagged 581/660 areas.
 
-1. [01 Source Exploration](notebooks/A%20%E2%80%94%20Source%20Exploration/01_Source_Exploration.ipynb). The HLE data itself: how my areas compare with the rest of the country, men against women, margins of error, and the first look at gaps between neighbours. The [interactive HLE profile](reports/ydata/hle---msoa-rows.html) goes with it; download it and open it in a browser.
-2. [02 Data Preparation](notebooks/B%20%E2%80%94%20Data%20Preparation/02_Data_Preparation.ipynb). Ten datasets cut down to the measures I need, one row per area: HLE, household deprivation, overcrowding, fuel poverty, pollution, economic activity, qualifications, income, ethnicity and recorded crime. It also flags student areas and city-centre visitor hubs.
-3. [03 Joined Table and Exploration](notebooks/C%20%E2%80%94%20Joined%20Table%20and%20Exploration/03_Joined_Table_and_Exploration.ipynb). Everything joined into one table, then explored: what moves with HLE, which measures overlap, and a shortlist of seven to take forward.
-4. [04 Hypothesis and Neighbour Gaps](notebooks/D%20%E2%80%94%20Hypothesis%20and%20Neighbour%20Gaps/04_Hypothesis_and_Neighbour_Gaps.ipynb). Are the gaps between neighbours real? A test against estimate noise, a check on how much neighbouring areas resemble each other, and the 95 biggest-gap pairs picked by a fixed rule.
-5. [05 Machine Learning](notebooks/E%20%E2%80%94%20Machine%20Learning/05_Machine_Learning.ipynb). K-means clustering with HLE held out, then one linear regression tested on local authorities it hasn't seen, and a map of where it gets HLE wrong.
-6. [06 Hotspots](notebooks/F%20%E2%80%94%20Hotspots/06_Hotspots.ipynb). I group the 95 big-gap neighbour pairs into patches, compare how often they cross local-authority boundaries, estimate within-authority patterns, and screen Census 2021 characteristics alongside FEAT takeaway rates. These are area-level associations, not causes.
+The findings and limits are discussed in [S11 — How certain are the rankings?](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/how-certain-are-the-rankings.html), [S12 — Proxies, fairness and crime](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/proxies-fairness-and-crime.html) and [S16 — What aggregation hides](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/what-aggregation-hides.html).
 
-## Repository layout
+## 8. Data, sources, licences and ethics
 
-```
-data/
-  raw/          untouched source files, in dated folders, with a README
-  prepared/     the LSOA-to-MSOA geography lookup
-  reference/    familiar local area names and their attribution
-  cleaned/      everything the notebooks produce, including Hotspots outputs
-  source-register.csv   links, dates, geography, checksums and licences for each source
-notebooks/      the notebooks, one folder each (A to F)
-reports/ydata/  the interactive HLE profile used in Notebook 01
-requirements.txt
-```
+The analysis combines ONS healthy life expectancy and geography data, Census 2021 tables from Nomis, DESNZ fuel-poverty data, Defra modelled pollution, Police.uk crime and anti-social-behaviour records, and Food environment assessment tool (Feat) data. Periods differ: HLE covers 2019–2023 and other measures mainly cover 2021–2024. The [source register](data/source-register.csv) records provenance, date, geography, limitations, revision risk, licence and attribution for each source; [raw-data notes](data/raw/README.md) describe the downloaded files.
 
-## Running them
+Licence terms vary. ONS, Nomis, DESNZ and Defra sources use the Open Government Licence v3.0 where the register says it applies; the ONS boundary files require Ordnance Survey attribution. MSOA names are adapted from the House of Commons Library under the Open Parliament Licence. Feat requests a specific citation, recorded in the source register and site. No person-level records are published. My legal and social interpretation, including UK GDPR, the Data (Use and Access) Act 2025, the Equality Act 2010 and the EU AI Act scope screen, is in [S13 — Law and governance](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/law-and-governance.html). It is my reading, not legal advice.
 
-I built and checked these with Python 3.14.7. Install the packages into a virtual environment and select it as the Jupyter kernel:
+## 9. Dashboards
+
+- **Custom dashboard:** the [Leaflet dashboard](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/dashboard/) maps area-level results and provides uncertainty and caveat controls.
+- **Tableau Public:** [Birmingham HLE](https://public.tableau.com/views/BirminghamHLEFinal/Dashboard1). The existing workbook is linked here; its uncertainty sheet is not yet added. **Uncertainty sheet: Phil to add.**
+
+![Screenshot of the custom Leaflet dashboard with its area map, controls and selected-area information.](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/assets/img/dashboard-card.webp)
+
+![Screenshot of the current Tableau Public workbook, with an HLE map, local-authority box plots and an HLE–income scatter plot.](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/assets/img/tableau-dashboard.webp)
+
+## 10. Notebooks and how to run them
+
+Run the notebooks in numerical order. Each reads saved outputs from earlier notebooks and writes its own outputs under `data/cleaned/`.
+
+1. [01 — Source Exploration](notebooks/A%20%E2%80%94%20Source%20Exploration/01_Source_Exploration.ipynb): inspect HLE estimates, geography and the initial area comparisons.
+2. [02 — Data Preparation](notebooks/B%20%E2%80%94%20Data%20Preparation/02_Data_Preparation.ipynb): prepare source measures at MSOA grain and record coverage and exclusions.
+3. [03 — Joined Table and Exploration](notebooks/C%20%E2%80%94%20Joined%20Table%20and%20Exploration/03_Joined_Table_and_Exploration.ipynb): join the measures and explore associations and overlap.
+4. [04 — Hypothesis and Neighbour Gaps](notebooks/D%20%E2%80%94%20Hypothesis%20and%20Neighbour%20Gaps/04_Hypothesis_and_Neighbour_Gaps.ipynb): test neighbour gaps against simulated estimate noise.
+5. [05 — Machine Learning](notebooks/E%20%E2%80%94%20Machine%20Learning/05_Machine_Learning.ipynb): cluster area profiles and evaluate a linear HLE model.
+6. [06 — Hotspots](notebooks/F%20%E2%80%94%20Hotspots/06_Hotspots.ipynb): examine selected large-gap neighbourhoods and their area-level characteristics.
+7. [07 — Proxy and Fairness Audit](notebooks/G%20%E2%80%94%20Proxy%20and%20Fairness%20Audit/07_Proxy_and_Fairness_Audit.ipynb): test proxy overlap, group error patterns and crime-feature sensitivity.
+8. [08 — Uncertainty and Ranking](notebooks/H%20%E2%80%94%20Uncertainty%20and%20Ranking/08_Uncertainty_and_Ranking.ipynb): simulate uncertainty in area ranks and bottom-tenth membership.
+9. [09 — Aggregation](notebooks/I%20%E2%80%94%20Aggregation/09_Aggregation.ipynb): measure within- and between-MSOA fuel-poverty variation and compare ranges.
+
+For a fresh copy, install Python 3.14.7, create and activate a virtual environment, then install the pinned packages and notebook tooling:
 
 ```bash
+git clone https://github.com/TidyWeb/Code-Institute-DA-with-AI-Unit-3-Assessment.git
+cd Code-Institute-DA-with-AI-Unit-3-Assessment
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
+python -m pip install nbconvert
+python -m ipykernel install --user --name unit3 --display-name "Python (unit3)"
+jupyter notebook
 ```
 
-The notebooks find the `data` folder from wherever they're opened, so nothing depends on my machine's paths. Every source they need is in `data/raw`. Each run overwrites its own outputs in `data/cleaned`.
+Open Notebook 01, select the `Python (unit3)` kernel, and run each notebook through 09. Paths are derived from the project files; no machine-specific paths are required. For the separate site build, follow the instructions in the [site repository](https://github.com/TidyWeb/Birmingham-Healthy-Life-Second-Look).
 
-## Data and sources
+## 11. Technologies
 
-- [Raw sources](data/raw/), in dated folders, organised by date and topic, with a [README](data/raw/README.md) and source register.
-- [Cleaned tables](data/cleaned/), all keyed on the same 660 MSOA codes.
-- [Local area names](data/reference/Area%20Names/), with their attribution.
-- [Geography lookup](data/prepared/Geography/), LSOA to MSOA.
-- The [source register](data/source-register.csv) records where each source came from, when, and under what licence.
+The analysis and build scripts use Python 3.14.7, Jupyter, pandas, NumPy, SciPy, scikit-learn, GeoPandas, Shapely, Matplotlib and Seaborn. The project site uses Python to build HTML from Markdown and notebooks; its interface uses HTML, CSS, JavaScript and Leaflet. Tableau Public provides the separate business-intelligence workbook. The pinned Python packages are listed in [requirements.txt](requirements.txt).
 
-HLE covers 2019 to 2023. The other measures come from 2021 to 2024, so they're not one snapshot in time.
+## 12. Testing and evaluation
 
-## How I used AI
+A fresh GitHub clone ran Notebooks 01–09 headlessly in order. All **120 files** in `data/cleaned/` were byte-identical to the committed files. Saved notebook outputs also matched, apart from Notebook 02 printing the fresh environment folder name (`.venv-unit3` rather than `.venv`); that is a path label only.
 
-I used AI throughout this project, at every stage, and it was fundamental to it. Claude was my sounding board for ideas. Google Gemini was my research assistant: we searched for open datasets together, and I rejected most of them as unfit. Codex was my coding partner. I shaped the plans and steps in VS Code, and the code, and the first drafts of much of the wording, came out of working with Codex through a skill I built from what I've learned on this course.
+The clean-clone site build produced 40 pages. The internal checker found **0 problems across 2,160 links on 42 pages**. I also checked this README's links: all 14 local targets resolve; of 34 unique external URLs, 33 returned 200, 202 or a redirect, and the Open Parliament Licence returned the known 403 described below. Phase 6's desktop accessibility audit checked 41 pages: page titles, one H1, `en-GB`, non-empty image alt text, sampled keyboard navigation and focus, and measured colour-token pairs passed the recorded checks. These checks do not replace user testing.
 
-I decided what to look at, which sources to use and what to leave out, and I checked the results, including the ones that added up suspiciously well. I've edited the text so it says what I mean, and every number in it comes from a notebook's own output. Notebook 01 has a section on how I worked.
+### User testing
 
-## What I learned
+**Not yet done. Phil: add the session dates, participant descriptions without identifying details, tasks, what readers understood or found confusing, and changes made.** Until then, the two user-testing questions remain open in S17.
 
-The longer version is on the website, in [How I worked](https://tidyweb.github.io/Birmingham-Healthy-Life/story/how-i-worked.html).
+## 13. Deployment and rebuild
 
-- **Let the question lead.** I held on to the railway idea too long because it made a good picture. Once I saw that the real question was neighbours, it had to go.
-- **Real data never lines up.** Fuel poverty came for smaller areas, pollution as a grid and crime as single records, and the years run from 2019 to 2024. Getting all of it onto the same 660 areas, without bending any of it, was most of the work.
-- **Test from a clean copy.** My notebooks ran on my machine and broke in a fresh clone, because of folder names and paths that only existed on my computer. Now I test from a clean copy before I publish.
-- **Distrust a result that looks too good.** My Census screen confirmed 81 characteristics. Most of them turned out to be one picture told 81 ways.
-- **Tools are a choice.** Tableau got me a working dashboard quickly, but not the one I wanted, so I built my own as well.
-- **AI needs directing.** It speeds everything up, but it gets carried away without a firm hand, and checking its numbers is my job.
+The static site is published through GitHub Pages from the separate [site repository](https://github.com/TidyWeb/Birmingham-Healthy-Life-Second-Look). To rebuild it, clone both repositories as sibling folders, install the analysis requirements and the site's documented Markdown builder dependency, execute notebooks 01–09, then run the dashboard builder, site builder and link checker from the site repository. Its README gives the exact commands and generated-folder scope. The live site currently reflects the latest pushed site commit; the Phase 7 site additions have not been pushed.
 
-That's the work as I expect to find it: messy public data, a question that changes as you go, results that have to be checked before anyone acts on them, and tools that come and go. This project made me practise all of it.
+## 14. Known issues and bugs
 
-## How this repository was built
+- The Open Parliament Licence page returns HTTP 403 to automated checks; I verified it manually on 17 October 2026 and retained the link.
+- A dead YData external link is inside the third-party generated profile `reports/ydata/hle---msoa-rows.html` (copied to the site's generated files). I left that third-party file unchanged.
+- The Tableau uncertainty sheet, user testing, and Phil's rewrite of the S18 reflection draft remain outstanding. No substantive data-output difference appeared in the clean-clone rerun.
 
-I developed the notebooks in a working folder on my own machine and published them here a notebook at a time, as each one was finished. That's why some early commits are large: each adds a whole notebook and its outputs, or the raw data. From the final review onwards, each fix has its own commit.
+## 15. Lifecycle
 
-I used a [live Kanban board](https://github.com/users/TidyWeb/projects/1) to plan and track the project.
+[S14 — Lifecycle](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/lifecycle.html) records how I would monitor source releases, review methods and outputs, correct the site, and retire or replace it if its data or purpose no longer supports the claims. The update calendar links source changes to the notebooks and rebuild steps.
 
-## Ethics
+## 16. Learning-outcome criteria map
 
-This project uses publicly available, area-level data from public-sector and academic sources. Each source has its own terms; the source register records the licence and attribution information for each one. I didn't collect any data myself. Everything is at MSOA level, where each area holds roughly 5,000 to 15,000 residents, and every figure is a total, rate or estimate for the whole area. The project contains no person-level records. ONS also applies disclosure control to its Census tables, and the police data is anonymised to approximate locations before release.
+| Criterion | Evidence |
+|---|---|
+| **1.1 — Ethics, privacy and governance in the method** | [S2 — The method](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s2-the-method.html), [S12 — Proxy and fairness audit](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/proxies-fairness-and-crime.html), [S13 — Law and governance](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/law-and-governance.html), and [Notebooks 07–09](#10-notebooks-and-how-to-run-them). |
+| **1.2 — Legal and social implications** | [S13 — Law and governance](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/law-and-governance.html), [S12 — Proxy and fairness audit](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/proxies-fairness-and-crime.html). |
+| **2.1 — Explain insights to technical and non-technical readers** | This README, the plain-language sections in [S1](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s1-why-a-second-look.html), [S2](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s2-the-method.html) and [S3](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s3-results-at-a-glance.html), [S11](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/how-certain-are-the-rankings.html), and the notebook pages. |
+| **2.2 — Visualisation and narrative** | [S3 — Results at a glance](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s3-results-at-a-glance.html), [S11](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/how-certain-are-the-rankings.html), [S16](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/what-aggregation-hides.html), and the custom dashboard. User testing remains pending. |
+| **2.3 — Structured and accessible documentation** | This README, the [source register](data/source-register.csv), the nine notebooks, and the linked site chapters. |
+| **3.1 — Project lifecycle plan** | [S14 — Lifecycle](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/lifecycle.html) records implementation, maintenance, updates, evaluation, correction and retirement. |
+| **3.2 — Practical reflection** | S18 is a first-person draft in the local site clone and has not been published; Phil's rewrite remains outstanding. |
 
-The one thing I've been careful about is how I describe places, because calling a neighbourhood "unhealthy" could stigmatise the people who live there. So I describe areas and not people, I say links and not causes, and I treat ethnic composition only as a description of who lives in an area for the purpose of investigating culture as a factor in HLE.
+## 17. How I used AI
 
-## Attribution
+Claude helped with planning and review. Codex wrote code and drafts under my direction. I chose the questions and sources, made the methodological decisions, reran the analysis, checked numbers against the saved outputs and corrected errors. I am responsible for the final claims and wording. The S18 text is still a draft for me to rewrite.
 
-I would like to make a special mention of Patrick Moran here.
+## 18. Credits and attribution
 
-[Wikipedia entry for P. A. P. Moran](https://en.wikipedia.org/wiki/P._A._P._Moran).
+I credit [*Lives on the Line*](https://jcheshire.com/featured-maps/lives-on-the-line/) by James Cheshire and Oliver O'Brien as an inspiration for asking how health outcomes vary across nearby places. Patrick Moran's spatial-statistics concept, Moran's I, helped me account for spatial dependence; I calculated it in NumPy following the [PySAL ESDA implementation](https://github.com/pysal/esda/blob/main/esda/moran.py).
 
-His statistical concept, Moran's I, became one of the most important tools in this project. It measures whether neighbouring places tend to have similar values. Because my areas are neighbours on a map, I could not treat them as independent rows in a table. In Notebook 04, Moran's I was 0.576; none of 999 shuffled maps scored as high. This strong clustering suggests that the large HLE gaps mark boundaries between healthier and less healthy patches, rather than random variation. It also explains why I test my model on whole local authorities instead of using a random split. In Notebook 05, Moran's I for the model's errors fell to 0.154. This suggests that the seven measures account for about three-quarters of the clustering, while the remaining pattern may reflect local factors they do not capture. I calculated Moran's I in NumPy, following the [PySAL ESDA implementation](https://github.com/pysal/esda/blob/main/esda/moran.py).
+Data sources include [ONS healthy life expectancy](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/datasets/healthstatelifeexpectancyestimatesformiddlelayersuperoutputareasenglandandwales), [ONS small-area income estimates](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/smallareaincomeestimatesformiddlelayersuperoutputareasenglandandwales), [Nomis Census 2021](https://www.nomisweb.co.uk/census/2021/bulk), [DESNZ fuel poverty](https://www.gov.uk/government/statistics/sub-regional-fuel-poverty-data-2026-2024-data), [Defra pollution mapping](https://uk-air.defra.gov.uk/data/pcm-data), [Police.uk](https://data.police.uk/data/), and the [Food environment assessment tool](https://www.feat-tool.org.uk/about). Feat requests the citation: *Food environment assessment tool (Feat) 2023, MRC Epidemiology Unit, University of Cambridge*; see its [citation guidance](https://www.feat-tool.org.uk/faq).
 
-I did not encounter Moran's I in the Code Institute LMS material I studied. I understand why: it addresses a spatial-data problem that requires geographical context. My own project led me to Moran's I, and I'm glad it did.
-
-The project uses data from [ONS health state life expectancy estimates](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/datasets/healthstatelifeexpectancyestimatesformiddlelayersuperoutputareasenglandandwales), [ONS small-area income estimates](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/smallareaincomeestimatesformiddlelayersuperoutputareasenglandandwales), and [Census 2021 tables from Nomis](https://www.nomisweb.co.uk/census/2021/bulk). It also uses [DESNZ sub-regional fuel poverty statistics](https://www.gov.uk/government/statistics/sub-regional-fuel-poverty-data-2026-2024-data), [Defra modelled pollution data](https://uk-air.defra.gov.uk/data/pcm-data), and [Police.uk crime and anti-social behaviour data](https://data.police.uk/data/). Food-environment data come from the [Food environment assessment tool (Feat)](https://www.feat-tool.org.uk/about), developed by the MRC Epidemiology Unit at the University of Cambridge. Feat requests this citation: *Food environment assessment tool (Feat) 2023, MRC Epidemiology Unit, University of Cambridge* (see [citation guidance](https://www.feat-tool.org.uk/faq)).
-
-The [source register](data/source-register.csv) records each data file's source, download link, period, geography and use, along with any licence or attribution notes. Licence terms vary by source. Where applicable, public-sector information is used under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). The [ONS 2021 MSOA boundaries](https://geoportal.statistics.gov.uk/datasets/ons::middle-layer-super-output-areas-december-2021-boundaries-ew-bgc-v3/about) carry Ordnance Survey attribution.
-
-I adapted the local area names from the [House of Commons Library MSOA Names lookup](https://houseofcommonslibrary.github.io/msoanames/), under the [Open Parliament Licence](https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/). I use these as display labels only; they do not change the official boundaries.
-
-I credit [*Lives on the Line*](https://jcheshire.com/featured-maps/lives-on-the-line/) as my inspiration for the project.
+I adapted local area names from the [House of Commons Library MSOA Names lookup](https://houseofcommonslibrary.github.io/msoanames/). Public-sector sources are credited under their recorded terms, including the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), [Ordnance Survey](https://www.ordnancesurvey.co.uk/licensing/), and the [Open Parliament Licence](https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/). For the legal sources cited in S13, see the [EU AI Act on EUR-Lex](https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng), [UK GDPR](https://www.legislation.gov.uk/eur/2016/679/contents), the [Data (Use and Access) Act 2025](https://www.legislation.gov.uk/ukpga/2025/18/contents), and the [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/contents).
