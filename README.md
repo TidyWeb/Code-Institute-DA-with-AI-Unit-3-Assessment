@@ -1,8 +1,8 @@
-# Birmingham Healthy Life: A Second Look
+# The Ethics of a Birmingham Healthy Life
 
 ## 1. Purpose
 
-*Birmingham Healthy Life: A Second Look* is an ethical revision of my Unit 2 project. I revisit the area-level healthy life expectancy analysis, examine how its methods and claims should be understood, and add checks on proxy overlap, model error, ranking uncertainty and variation hidden by aggregation. It describes patterns across 660 Middle Layer Super Output Areas (MSOAs); it does not explain any individual's health or establish causes.
+*The Ethics of a Birmingham Healthy Life* is an ethical revision of my Unit 2 project. I revisit the Birmingham Healthy Life area-level healthy life expectancy analysis, examine how its methods and claims should be understood, and add checks on proxy overlap, model error, ranking uncertainty and variation hidden by aggregation. It describes patterns across 660 Middle Layer Super Output Areas (MSOAs); it does not explain any individual's health or establish causes.
 
 ## 2. The stance
 
