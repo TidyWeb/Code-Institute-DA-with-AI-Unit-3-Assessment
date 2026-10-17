@@ -20,6 +20,8 @@ I wrote this for people who know Birmingham and its neighbouring West Midlands a
 
 I re-screened the project with the same 27-question ethics screen. The original screen recorded **17 concerns** and **10 no-flags**. In the Unit 3 re-screen, **15 concerns have an investigated-and-recorded response**, **2 remain open by decision**, and the **10 no-flags remain no-flags**. Independent user testing was out of scope for this submission; it is planned for the evaluation stage in S14. An investigated response does not mean that a risk has disappeared.
 
+I built this screen as a practical checklist to turn ethical principles into specific questions, as part of my independent [AI Ethics study guide](https://tidyweb.github.io/ethical-considerations-in-ai/); it was separate from Unit 2. It draws on the Code Institute LMS lesson “Ethical considerations in AI” and wider research, including UNESCO’s AI ethics Recommendation, the OECD AI Principles, NIST’s AI Risk Management Framework, UK GDPR changes under the Data (Use and Access) Act 2025, ICO guidance and the EU AI Act; Unit 3 is the first time I have applied it to a real data project, and the guide records legal checks as of 14 October 2026.
+
 ![The Unit 2 and Unit 3 ethics-screen boards: 17 original concerns and 10 no-flags; in Unit 3, 15 concerns have recorded responses, two remain open by decision, and 10 remain no-flags.](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/assets/img/second-look/lamp-board-before-after.svg)
 
 The board and question-by-question evidence are in [S17 — What changed](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/what-changed.html).
