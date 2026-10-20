@@ -132,7 +132,7 @@ A clean site build produced 40 pages. The internal link checker found **0 proble
 
 ### User testing
 
-User testing is under way with three Birmingham readers. Their results add evidence, but they don't close Q4, Q18 or Q21, which stay open by decision (section 4). My review of the dashboard and site led to fixes for search, labels, navigation and plain-English wording. That review helped identify problems, but it does not show how other readers understand the results. The site explains the limits and uncertainty; feedback from readers would help assess whether those explanations are clear.
+User testing is complete. On 20 October 2026, three testers ran the QA test on the live site and rated every task green: 18 out of 18. The test was built before the Plain view existed, so it covers the Detailed view (the full technical dashboard) and the story pages. The anonymised results are in [data/testing](data/testing/). The results don't close Q4, Q18 or Q21, which stay open by decision (section 4). Before testing, my own review of the dashboard and site led to fixes for search, labels, navigation and plain-English wording.
 
 ## 12. Deployment and rebuild
 
