@@ -96,7 +96,7 @@ Run the notebooks in numerical order. Each reads saved outputs from earlier note
 8. [08 — Uncertainty and Ranking](notebooks/H%20%E2%80%94%20Uncertainty%20and%20Ranking/08_Uncertainty_and_Ranking.ipynb): simulate uncertainty in area ranks and bottom-tenth membership.
 9. [09 — Aggregation](notebooks/I%20%E2%80%94%20Aggregation/09_Aggregation.ipynb): measure within- and between-MSOA fuel-poverty variation and compare ranges.
 
-For a fresh copy, install Python 3.14.7, create and activate a virtual environment, then install the pinned packages and notebook tooling:
+The project was tested on Python 3.14.7 and requires Python 3.12 or later. For a fresh copy, create and activate a virtual environment, then install the pinned packages and notebook tooling:
 
 ```bash
 git clone https://github.com/TidyWeb/Code-Institute-DA-with-AI-Unit-3-Assessment.git
