@@ -38,17 +38,19 @@ I wrote this for people who know Birmingham and its neighbouring West Midlands a
 
 ## 4. Results of applying Signal Box
 
-My first application of Signal Box recorded **17 concerns** and **10 no-flags**. In Unit 3, after the say-it-out-loud re-test, **14 are investigated and recorded**, **3 remain open (Q4, Q18 and Q21)**, and **10 remain no-flags**. A recorded response does not mean the risk has gone; a no-flag does not prove safety. Signal Box is a screening aid, not a legal assessment.
+My first application of Signal Box recorded **17 concerns** and **10 no-flags**. In Unit 3, after the say-it-out-loud re-test, **14 are investigated and recorded**, **3 remain open by decision (Q4, Q18 and Q21)**, and **10 remain no-flags**. A recorded response does not mean the risk has gone; a no-flag does not prove safety. Signal Box is a screening aid, not a legal assessment.
 
 Before I turn a lamp yellow, I must be able to say what could go wrong, who it would happen to, what deals with it, and who is responsible. If I cannot say that in a sentence or two, the lamp stays orange. Applying this sharper test moved Q4 back to orange; that is a finding of testing the tool on my own work.
 
-- **Q4 — Benefit to me, cost to others:** I gain assessment and portfolio evidence while people in named areas could bear stigma. This stays open until user testing with three Birmingham readers is recorded.
-- **Q18 — Affected people left out of design and testing:** I will re-judge this when the readers’ feedback and any changes are recorded.
-- **Q21 — Tested only in a demo, not real use:** I will re-judge this when their testing in use is recorded.
+I looked at each of the three and decided to go ahead anyway:
+
+- **Q4 — Benefit to me, cost to others:** I gain assessment and portfolio evidence while people in named areas could bear stigma. I accept that as the cost of trying to get to the truth about these differences, and I keep it down with broad labels, honest uncertainty and a policy on naming places.
+- **Q18 — Affected people left out of design and testing:** The study covers 660 areas and several million people. There's no practical way to involve them all, and publishing area-level statistics doesn't need their permission.
+- **Q21 — Tested only in a demo, not real use:** This is a course project, built to be assessed, not for anyone to rely on, so it won't be tested in real use.
 
 The guide develops the Code Institute LMS lesson “Ethical considerations in AI” with independent research, including UNESCO’s AI ethics Recommendation, the OECD AI Principles, NIST’s AI Risk Management Framework, UK GDPR changes under the Data (Use and Access) Act 2025, ICO guidance and the EU AI Act. It is independent study material, not official Code Institute material; its legal checks are dated 14 October 2026.
 
-![The Unit 2 and Unit 3 Signal Box boards: 17 original concerns and 10 no-flags; in Unit 3, 14 are investigated and recorded, three remain open (Q4, Q18 and Q21), and 10 remain no-flags.](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/assets/img/second-look/lamp-board-before-after.svg)
+![The Unit 2 and Unit 3 Signal Box boards: 17 original concerns and 10 no-flags; in Unit 3, 14 are investigated and recorded, three remain open by decision (Q4, Q18 and Q21), and 10 remain no-flags.](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/assets/img/second-look/signal-box-before-after.png)
 
 The board, all 15 verbatim say-it-out-loud statements and the question-by-question evidence are in [What changed](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/what-changed.html).
 
@@ -130,7 +132,7 @@ A clean site build produced 40 pages. The internal link checker found **0 proble
 
 ### User testing
 
-User testing is under way with three Birmingham readers. I will re-judge Q4, Q18 and Q21 when their testing is recorded. My review of the dashboard and site led to fixes for search, labels, navigation and plain-English wording. That review helped identify problems, but it does not show how other readers understand the results. The site explains the limits and uncertainty; feedback from readers would help assess whether those explanations are clear.
+User testing is under way with three Birmingham readers. Their results add evidence, but they don't close Q4, Q18 or Q21, which stay open by decision (section 4). My review of the dashboard and site led to fixes for search, labels, navigation and plain-English wording. That review helped identify problems, but it does not show how other readers understand the results. The site explains the limits and uncertainty; feedback from readers would help assess whether those explanations are clear.
 
 ## 12. Deployment and rebuild
 
