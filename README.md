@@ -2,9 +2,15 @@
 
 ## Purpose
 
-I built [Ethical Considerations in AI](https://tidyweb.github.io/ethical-considerations-in-ai/) as an independent companion to the Code Institute LMS lesson for fellow students, then created [Signal Box: the AI ethics check](https://tidyweb.github.io/ethical-considerations-in-ai/#screening-tool) within it. I applied Signal Box to my Unit 2 Birmingham Healthy Life project; Unit 3 is that ethical rework and a practical test of whether Signal Box works. The guide is my own study material, not official Code Institute material; its [source repository](https://github.com/TidyWeb/ethical-considerations-in-ai) records the work. Applying Signal Box also exposed weaknesses in the tool, which I fixed on 19 October 2026: the pop-up did not explain how to clear an orange lamp, the guidance repeated itself, and there was no test for what earned yellow.
+The Code Institute's Unit 3 assessment is an exercise in the ethical handling of data. I had just built, for Unit 2, a large and complex investigation into healthy life expectancy in Birmingham and its surrounding areas, drawing on data about ethnicity, sex, income, crime and other features of local life. It seemed an ideal project against which to apply an ethics-first lens.
+
+I began by looking back at the work I'd done on the Code Institute's ethics module in their LMS. To help my fellow students with that module, I built a web page called [Ethical Considerations in AI](https://tidyweb.github.io/ethical-considerations-in-ai/). Inside that, I built a utility I called [Signal Box](https://tidyweb.github.io/ethical-considerations-in-ai/#screening-tool), which was a way to check ethical considerations using 27 yes or no questions about who a data project could harm and how. Each question has a lamp: orange for a concern, yellow once the concern has been investigated and recorded, grey where no concern was raised. Signal Box is my own study material, not official Code Institute material.
 
 *The Ethics of a Birmingham Healthy Life* is an ethical revision of my Unit 2 project. I revisit the Birmingham Healthy Life area-level healthy life expectancy analysis because it was rich in ethical dilemmas.  I here examine how its methods and claims should be understood, and add checks on proxy overlap, model error, ranking uncertainty and variation hidden by aggregation. It describes patterns across 660 Middle Layer Super Output Areas (MSOAs); NB: It does not explain any individual's health or establish causes.
+
+I want what's in this project to be available to people who work with data and to people who don't. So the dashboard has two views. It opens in the **Plain view**: a short list of plain questions, such as where people have the fewest years in good health, each answered in a sentence or two without jargon. The **Detailed view**, one click away, keeps the full technical dashboard, with every measure, the uncertainty ranges and the data tables.
+
+Running Signal Box over real work also showed up its own weak spots. The pop-up never said how to clear an orange lamp, and nothing defined what earned a yellow one. I fixed both on 19 October 2026, so this project is partly a test of whether the tool does its job.
 
 ## 1. Start with the site
 
