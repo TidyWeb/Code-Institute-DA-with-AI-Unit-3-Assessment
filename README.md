@@ -82,7 +82,7 @@ Licence terms vary. ONS, Nomis, DESNZ and Defra sources use the Open Government 
 ## 8. Dashboards
 
 - **Custom dashboard:** the [Leaflet dashboard](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/dashboard/) maps area-level results and provides uncertainty and caveat controls.
-- **Tableau Public:** [Birmingham HLE](https://public.tableau.com/views/BirminghamHLEFinal/Dashboard1). This Tableau dashboard was created for Unit 2 and is included here unchanged.
+- **Tableau Public:** [Birmingham HLE](https://public.tableau.com/views/BirminghamHLEFinal/Dashboard1). This Tableau dashboard was created for Unit 2 and is included here unchanged. The Plain view for non-technical readers is in the main dashboard on the project site; the Tableau workbook is a supporting technical view for readers who want to explore the data in a BI tool.
 
 ![Screenshot of the custom Leaflet dashboard with its area map, controls and selected-area information.](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/assets/img/dashboard-card.webp)
 
