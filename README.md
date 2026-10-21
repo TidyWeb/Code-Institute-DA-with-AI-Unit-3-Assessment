@@ -30,7 +30,7 @@ These three links below show where the foundation for this idea came from and ho
 
 ## 2. Start with the site
 
-The site has the full story, the notebooks and the dashboard. On the home page, choose **The story** and begin with *Why a second look*.
+The website has the full story, and is the more comprehensive readme, containing both the notebooks and the dashboard. On the home page, choose **The story** and begin with *Why a second look*.
 
 - **[Dashboard](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/dashboard/):** opens in the Plain view, with plain questions and plain answers. The Detailed view is one click away.
 
