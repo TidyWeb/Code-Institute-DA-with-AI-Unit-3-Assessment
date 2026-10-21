@@ -5,7 +5,7 @@
 **On this page:**
 
 
-[The plan](#1-the-plan-and-the-idea) · [Start with the site](#2-start-with-the-site) · [Signal Box results](#5-results-of-applying-signal-box) · [Findings](#7-headline-findings-from-notebooks-0709) · [Notebooks](#10-notebooks-and-how-to-run-them) · [Testing](#12-testing-and-evaluation) · [Known issues](#14-known-issues-and-bugs) · [Criteria map](#16-learning-outcome-criteria-map)
+[The plan](#1-the-plan-and-the-idea) · [Start with the site](#2-start-with-the-site) · [Signal Box results](#5-results-of-applying-signal-box) · [Findings](#7-headline-findings-from-notebooks-0709) · [Notebooks](#10-notebooks-and-how-to-run-them) · [Testing](#12-testing-and-evaluation) · [Known issues](#14-known-issues-and-bugs) · [Criteria map](#16-learning-outcome-criteria-map) · [Reflection](#17-reflection)
 
 ## Purpose
 
@@ -202,13 +202,19 @@ There are no known bugs. Two things look like problems to an automated link chec
 | **2.2 — Visualisation and narrative** | [Results at a glance](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s3-results-at-a-glance.html), [How certain are the rankings](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/how-certain-are-the-rankings.html), [What aggregation hides](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/what-aggregation-hides.html), and the custom dashboard. |
 | **2.3 — Structured and accessible documentation** | This README, the [source register](data/source-register.csv), the nine notebooks, and the linked site chapters. |
 | **3.1 — Project lifecycle plan** | [Lifecycle](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/lifecycle.html) records implementation, maintenance, updates, evaluation, correction and retirement. |
-| **3.2 — Practical reflection** | Not evidenced in the published project. |
+| **3.2 — Practical reflection** | [Section 17](#17-reflection) and the full [Reflection](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/reflection.html) on the site: the practical challenges, the decisions they led to, and what I'd do differently. |
 
-## 17. How I used AI
+## 17. Reflection
+
+In Unit 2 I thought ethics in data meant privacy in relation to individuals, and some of that protection came from fitting my different granularity datasets together. My Signal Box tool made clear to me there were harms I wasn’t looking for, stigma above all. I’ve decided that risk is bearable because I describe and don’t judge, and I’m honest that the benefit is mainly mine. The data didn’t change; what changed is how carefully I say things, and who I’m saying them to.
+
+The full reflection, including the practical challenges, is on the site: [Reflection](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/reflection.html).
+
+## 18. How I used AI
 
 Claude helped with planning and review. Codex wrote code and drafts under my direction. I chose the questions and sources, made the methodological decisions, reran the analysis, checked numbers against the saved outputs and corrected errors. I am responsible for the final claims and wording.
 
-## 18. Credits and attribution
+## 19. Credits and attribution
 
 I credit [*Lives on the Line*](https://jcheshire.com/featured-maps/lives-on-the-line/) by James Cheshire and Oliver O'Brien as an inspiration for asking how health outcomes vary across nearby places. Patrick Moran's spatial-statistics concept, Moran's I, helped me account for spatial dependence; I calculated it in NumPy following the [PySAL ESDA implementation](https://github.com/pysal/esda/blob/main/esda/moran.py).
 
