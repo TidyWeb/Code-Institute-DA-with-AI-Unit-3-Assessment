@@ -1,6 +1,6 @@
 # The Ethics of a Birmingham Healthy Life
 
-![The Ethics of a Birmingham Healthy Life: a map of the 660 areas with the 35 clearly among the lowest outlined, and the dashboard's Plain view.](docs/images/readme-banner.webp)
+![The dashboard's Detailed view: healthy life expectancy across Birmingham and its surrounding areas, with darker shades where people can expect fewer years in good health.](docs/images/readme-banner.webp)
 
 **On this page:** [The plan](#1-the-plan-and-the-idea) · [Start with the site](#2-start-with-the-site) · [Signal Box results](#5-results-of-applying-signal-box) · [Findings](#7-headline-findings-from-notebooks-0709) · [Notebooks](#10-notebooks-and-how-to-run-them) · [Testing](#12-testing-and-evaluation) · [Known issues](#14-known-issues-and-bugs) · [Criteria map](#16-learning-outcome-criteria-map)
 
