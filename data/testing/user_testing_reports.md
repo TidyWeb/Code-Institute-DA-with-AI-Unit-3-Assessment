@@ -1,6 +1,6 @@
 # User testing reports, anonymised
 
-Three testers ran the QA test on the live site on 20 October 2026. Each report was sent automatically by email from the test panel when the tester finished. The original emails are held privately by the author; testers' names and email addresses have been replaced with T1–T3, and one sentence that named a third person has been removed. Everything else is copied word for word. The summary is in `user_testing_results.csv`.
+Five people ran the QA test on the live site. I ran it first, on 18 October 2026, then on 20 October four testers I know personally, from a range of backgrounds including health, science and data. Each report was sent automatically by email from the test panel when the tester finished. The original emails are held privately by me; testers' names and email addresses have been replaced with T1–T4, and one sentence that named a third person has been removed. Everything else is copied word for word. The summary is in `user_testing_results.csv`.
 
 **What the test covered.** The QA test was built before the Plain view existed. Its six tasks test the **Detailed view** (the full technical dashboard: the Active measure list, the area card with its rank range, the map key and the ethnicity note), the "Question this work" route, and the "In short" summary on *How certain are the rankings?*. Testers used a laptop or desktop and rated each task Green (easy), Amber (some trouble) or Red (hard).
 
@@ -31,6 +31,12 @@ Tasks 1–6: Green, Green, Green, Green, Green, Green.
 
 Additional comments: "I have to say this is probably one of the best data visualisations I have ever seen [author]. Clear and simple to use on the surface, yet the depth of data, and the cross referencing of dataframes is truly impressive. You should get an A++++"
 
+## T4 · Technical · received 20 October 2026, 19:39
+
+Tasks 1–6: Green, Green, Green, Green, Green, Green.
+
+Additional comments: "good and clear site"
+
 ## Not counted as a tester
 
-The author ran the same test himself on 18 October 2026 to check the panel worked (all six Green). That is an owner check, not user testing, so it is not included above.
+I ran the same test myself on 18 October 2026 to check the panel worked (all six Green). That's an owner check, not user testing, so it isn't included above.
