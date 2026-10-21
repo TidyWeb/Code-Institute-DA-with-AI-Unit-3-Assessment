@@ -17,11 +17,12 @@ I began by looking back at the work I'd done on the Code Institute's ethics modu
 
 I want what's in this project to be available to people who work with data and to people who don't. So the dashboard has two views. It opens in the **Plain view**: a short list of plain questions, such as where people have the fewest years in good health, each answered in a sentence or two without jargon. The **Detailed view**, one click away, keeps the full technical dashboard, with every measure, the uncertainty ranges and the data tables.
 
-Running Signal Box over real work also showed up its own weak spots. The pop-up never said how to clear an orange lamp, and nothing defined what earned a yellow one. I fixed both on 19 October 2026, so this project is partly a test of whether the tool does its job.
+Running Signal Box over real work also showed up its own weak spots. My pop-ups never said how to clear an orange lamp, and nothing defined what earned a yellow one. I fixed both on 19 October 2026, so this project is also partly a test of whether the tool does the job I intended it to do.
 
 ## 1. The plan and the idea
 
-I planned this in the open, and the plan changed as I went. These three show where it came from and how it got built.
+Given the huge amount of work I had put into the Unit 2 assessment, and the ethical issues the topic presented and which I handled from a privacy perspective only, I felt that a deeper look at the project from an ethics first perspective was in order.   I had the source material, but I had no plan.  I realised that my work building a web guide to ethics could serve as a perfect starting point from which to approach this new task. I engaged Claude as my architectural assistant and used a 'Grill Me' skill to examine and refine not only my objective, but also the wealth of considerations present in the original datasets of Unit 2.  My plan evolved and changed as I went along and the project board records some of this.
+These three links below show where the foundation for this idea came from and how it got built.
 
 - **[Project board](https://github.com/users/TidyWeb/projects/2):** every step of the project, with what I found and what I decided along the way.
 - **[The original project (Unit 2)](https://tidyweb.github.io/Birmingham-Healthy-Life/):** the work I'm taking a second look at. It's left exactly as it was submitted.
@@ -57,7 +58,7 @@ I wrote this for people who know Birmingham and its neighbouring West Midlands a
 
 The Plain view leaves the model's predictions out on purpose. A predicted figure next to a real one reads like a verdict on a place: it's doing worse than it should. The model can't carry that weight, and Signal Box flagged the risk (Q14, outputs treated as proof). The predictions stay in the notebooks, with their limits stated, for readers who can weigh them.
 
-Three testers tried the site and the Detailed view on 20 October 2026 and found every task clear (section 12).
+Five testers tried the site and the Detailed view on 20 October 2026 and found every task clear, one of those was me though, so I exclude myself from the testing record (section 12).
 
 ## 5. Results of applying Signal Box
 
@@ -107,7 +108,7 @@ Licence terms vary. ONS, Nomis, DESNZ and Defra sources use the Open Government 
 ## 9. Dashboards
 
 - **Custom dashboard:** the [Leaflet dashboard](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/dashboard/) maps area-level results and provides uncertainty and caveat controls.
-- **Tableau Public:** [Birmingham HLE](https://public.tableau.com/views/BirminghamHLEFinal/Dashboard1). This Tableau dashboard was created for Unit 2 and is included here unchanged. The Plain view for non-technical readers is in the main dashboard on the project site; the Tableau workbook is a supporting technical view for readers who want to explore the data in a BI tool.
+- **Tableau Public:** [Birmingham HLE](https://public.tableau.com/views/BirminghamHLEFinal/Dashboard1). This Tableau dashboard was created for Unit 2 and is included here unchanged. The Plain view for non-technical readers is in the main dashboard on the project site; the Tableau workbook is a supporting technical view for readers who want to explore the data in a standard run of the mill BI tool.
 
 ![The dashboard in the Plain view: the question box answering "Where do people have the fewest years in good health?", with the 35 areas clearly among the lowest outlined on the map.](docs/images/dashboard-plain-view.webp)
 
