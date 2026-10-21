@@ -79,7 +79,7 @@ Five testers tried the site and the Detailed view on 20 October 2026 and found e
 
 ## 5. Results of applying Signal Box
 
-My first application of Signal Box recorded **17 concerns** and **10 no-flags**. In Unit 3, after the say-it-out-loud re-test, **14 are investigated and recorded**, **3 remain open by decision (Q4, Q18 and Q21)**, and **10 remain no-flags**. A recorded response does not mean the risk has gone; a no-flag does not prove safety. Signal Box is a screening aid, not a legal assessment.
+My first application of Signal Box recorded **17 concerns** and **10 with no concern raised**. In Unit 3, after the say-it-out-loud re-test, **14 are investigated and recorded**, **3 are settled by executive decision (Q4, Q18 and Q21)**, and **10 remain with no concern raised**. A recorded response does not mean the risk has gone; no concern raised does not prove safety. Signal Box is a screening aid, not a legal assessment.
 
 Before I turn a lamp yellow, I must be able to say what could go wrong, who it would happen to, what deals with it, and who is responsible. If I cannot say that in a sentence or two, the lamp stays orange. Applying this sharper test moved Q4 back to orange; that is a finding of testing the tool on my own work.
 
@@ -91,7 +91,7 @@ I looked at each of the three and decided to go ahead anyway:
 
 The guide develops the Code Institute LMS lesson “Ethical considerations in AI” with independent research, including UNESCO’s AI ethics Recommendation, the OECD AI Principles, NIST’s AI Risk Management Framework, UK GDPR changes under the Data (Use and Access) Act 2025, ICO guidance and the EU AI Act. It is independent study material, not official Code Institute material; its legal checks are dated 14 October 2026.
 
-![The Unit 2 and Unit 3 Signal Box boards: 17 original concerns and 10 no-flags; in Unit 3, 14 are investigated and recorded, three remain open by decision (Q4, Q18 and Q21), and 10 remain no-flags.](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/assets/img/second-look/signal-box-before-after.png)
+![The Unit 2 and Unit 3 Signal Box boards: 17 original concerns and 10 with no concern raised; in Unit 3, 14 are investigated and recorded, three are settled by executive decision (Q4, Q18 and Q21), and 10 remain with no concern raised.](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/assets/img/second-look/signal-box-before-after.png)
 
 The board, all 15 verbatim say-it-out-loud statements and the question-by-question evidence are in [What changed](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/what-changed.html).
 
@@ -175,7 +175,7 @@ On 21 October 2026 the site built 28 pages. The internal link checker found **0 
 
 ### User testing
 
-User testing is complete. Five people ran the QA test on the live site. I ran it first, on 18 October 2026, then on 20 October four testers I know personally, from a range of backgrounds including health, science and data. Every tester rated every task green: 24 out of 24. The test was built before the Plain view existed, so it covers the Detailed view (the full technical dashboard) and the story pages. The anonymised results are in [data/testing](data/testing/). The results don't close Q4, Q18 or Q21, which stay open by decision (section 5). Before testing, my own review of the dashboard and site led to fixes for search, labels, navigation and plain-English wording.
+User testing is complete. Five people ran the QA test on the live site. I ran it first, on 18 October 2026, then on 20 October four testers I know personally, from a range of backgrounds including health, science and data. Every tester rated every task green: 24 out of 24. The test was built before the Plain view existed, so it covers the Detailed view (the full technical dashboard) and the story pages. The anonymised results are in [data/testing](data/testing/). The results don't close Q4, Q18 or Q21, which are settled by executive decision (section 5). Before testing, my own review of the dashboard and site led to fixes for search, labels, navigation and plain-English wording.
 
 ## 13. Deployment and rebuild
 
