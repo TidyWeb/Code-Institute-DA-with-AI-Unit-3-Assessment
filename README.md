@@ -1,5 +1,17 @@
 # The Ethics of a Birmingham Healthy Life
 
+**Project board:** [every step of the project, with what I found and what I decided](https://github.com/users/TidyWeb/projects/2)
+
+## ▶ [Start here: open the site](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/)
+
+The site is the project. Start with [Why a second look](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s1-why-a-second-look.html) and read on, or go straight to the dashboard.
+
+- **[Dashboard](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/dashboard/)** opens in the Plain view: plain questions, plain answers. The Detailed view is one click away.
+- **[The original project (Unit 2)](https://tidyweb.github.io/Birmingham-Healthy-Life/)** is the work I'm taking a second look at.
+- **[Ethical Considerations in AI](https://tidyweb.github.io/ethical-considerations-in-ai/)** is my guide, and where Signal Box lives.
+
+**On this page:** [Findings](#6-headline-findings-from-notebooks-0709) · [Signal Box results](#4-results-of-applying-signal-box) · [Notebooks](#9-notebooks-and-how-to-run-them) · [Testing](#11-testing-and-evaluation) · [Known issues](#13-known-issues-and-bugs) · [Criteria map](#15-learning-outcome-criteria-map)
+
 ## Purpose
 
 The Code Institute's Unit 3 assessment is an exercise in the ethical handling of data. I had just built, for Unit 2, a large and complex investigation into healthy life expectancy in Birmingham and its surrounding areas, drawing on data about ethnicity, sex, income, crime and other features of local life. It seemed an ideal project against which to apply an ethics-first lens.
@@ -14,11 +26,7 @@ Running Signal Box over real work also showed up its own weak spots. The pop-up 
 
 ## 1. Start with the site
 
-Open **[The Ethics of a Birmingham Healthy Life](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/)**. On the homepage, choose **The story**, then begin with [**Why a second look**](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s1-why-a-second-look.html). The site brings together the full story, its caveats, notebook pages and interactive dashboard.
-
-**Quick links:** [Open the site](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/) · [Start the story: Why a second look](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/s1-why-a-second-look.html) · [Leaflet dashboard](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/dashboard/) · [Full findings](#6-headline-findings-from-notebooks-0709) · [Run the notebooks](#9-notebooks-and-how-to-run-them) · [Evaluation](#11-testing-and-evaluation) · [Known issues](#13-known-issues-and-bugs) · [Criteria map](#15-learning-outcome-criteria-map) · [Project board](https://github.com/users/TidyWeb/projects/2)
-
-**Project board:** [Unit 3 project board](https://github.com/users/TidyWeb/projects/2)
+The site has the full story, the notebooks and the dashboard. On the home page, choose **The story** and begin with *Why a second look*.
 
 ### At a glance
 
