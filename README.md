@@ -28,6 +28,23 @@ These three links below show where the foundation for this idea came from and ho
 - **[The original project (Unit 2)](https://tidyweb.github.io/Birmingham-Healthy-Life/):** the work I'm taking a second look at. It's left exactly as it was submitted.
 - **[Ethical Considerations in AI](https://tidyweb.github.io/ethical-considerations-in-ai/):** my guide to the Code Institute ethics lesson, and where Signal Box lives.
 
+### The plan in phases
+
+Each phase's cards are on the project board. Work added later carries a letter after the card it belongs with, such as 17A for the Plain view.
+
+| Phase | What it covered | Board cards |
+|---|---|---|
+| 0. Set-up | Permission to reuse Unit 2, copying its repos, checking everything still ran | 01–05 |
+| 1. The ethics screen | Signal Box answers as data, the introduction, the method, results at a glance | 06–11 |
+| 2. New analysis | Uncertainty and ranking (Notebook 08); proxies, fairness and crime (Notebook 07) | 12–13 |
+| 3. Write-up | A chapter for each Unit 2 stage, the new findings, carried-over material | 14–16 |
+| 4. Dashboard and BI | Uncertainty in the dashboard, the Plain view, Tableau's role | 17–18 |
+| 5. Governance and lifecycle | Law and governance, updates and corrections, a public question route, the language audit, Notebook 09 | 19–23 |
+| 6. Testing and evaluation | User testing, the Signal Box re-test, accessibility | 24–26 |
+| 7. README, reflection, submission | Reflection, this README, a clean-clone check, submission | 27–30 |
+
+How the project would be maintained, updated, corrected and retired after submission is in [section 15](#15-lifecycle) and on the [Lifecycle](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/lifecycle.html) page.
+
 ## 2. Start with the site
 
 The website has the full story, and is the more comprehensive readme, containing both the notebooks and the dashboard. On the home page, choose **The story** and begin with *Why a second look*.
@@ -107,8 +124,10 @@ Licence terms vary. ONS, Nomis, DESNZ and Defra sources use the Open Government 
 
 ## 9. Dashboards
 
-- **Custom dashboard:** the [Leaflet dashboard](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/dashboard/) maps area-level results and provides uncertainty and caveat controls.
+- **Custom dashboard:** the [dashboard](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/dashboard/) opens in the Plain view: twelve plain questions with plain answers, and a map that shows what each answer is talking about. The Detailed view, one click away, has every measure, the rank ranges, the charts and the data tables.
 - **Tableau Public:** [Birmingham HLE](https://public.tableau.com/views/BirminghamHLEFinal/Dashboard1). This Tableau dashboard was created for Unit 2 and is included here unchanged. The Plain view for non-technical readers is in the main dashboard on the project site; the Tableau workbook is a supporting technical view for readers who want to explore the data in a standard run of the mill BI tool.
+
+**Laptop and desktop only.** The site and dashboard are responsive across laptop and desktop screens, but they aren't built for phones, and on a phone the site says so. That's my decision. The project is a detailed map and dashboard, and squeezing it onto a phone screen would destroy what makes it useful.
 
 ![The dashboard in the Plain view: the question box answering "Where do people have the fewest years in good health?", with the 35 areas clearly among the lowest outlined on the map.](docs/images/dashboard-plain-view.webp)
 
@@ -146,7 +165,7 @@ Open Notebook 01, select the `Python (unit3)` kernel, and run each notebook thro
 
 ## 11. Technologies
 
-The analysis and build scripts require Python 3.12 or later and were tested on Python 3.14.7. They use Jupyter, pandas, NumPy, SciPy, scikit-learn, GeoPandas, Shapely, Matplotlib and Seaborn. The project site uses Python to build HTML from Markdown and notebooks; its interface uses HTML, CSS, JavaScript and Leaflet. Tableau Public provides the separate business-intelligence workbook. The pinned Python packages are listed in [requirements.txt](requirements.txt).
+Python is the only programming language used for the data: the analysis, the notebooks, and the scripts that build the site and dashboard. The analysis and build scripts require Python 3.12 or later and were tested on Python 3.14.7. They use Jupyter, pandas, NumPy, SciPy, scikit-learn, GeoPandas, Shapely, Matplotlib and Seaborn. The project site uses Python to build HTML from Markdown and notebooks; its interface uses HTML, CSS, JavaScript and Leaflet. Tableau Public provides the separate business-intelligence workbook. The pinned Python packages are listed in [requirements.txt](requirements.txt).
 
 ## 12. Testing and evaluation
 
