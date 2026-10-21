@@ -212,7 +212,11 @@ The full reflection, including the practical challenges, is on the site: [Reflec
 
 ## 18. How I used AI
 
-Claude helped with planning and review. Codex wrote code and drafts under my direction. I chose the questions and sources, made the methodological decisions, reran the analysis, checked numbers against the saved outputs and corrected errors. I am responsible for the final claims and wording.
+I used AI throughout, in different ways at different stages. In Unit 2, I used Google Gemini, including a Gem I built for the purpose, to search for and evaluate datasets, which led me to the ONS healthy life expectancy figures; I used Claude for conceptual conversations about how to use them. The schema was mine: healthy life expectancy at MSOA level as the master data frame, with key elements of supplementary datasets reduced down and joined to it.
+
+In Unit 3, Claude was my main conversation partner for the ethical lens and the plan. I did the thinking and made the decisions; Claude turned them into prompts for Codex, which did most of the coding and building, and checked the results. I built a Codex skill that commits and pushes to GitHub and checks the live site afterwards, building on the [Git and GitHub guide](https://tidyweb.github.io/git_and_github/) I made for fellow students: a guarded, repetitive job that's well suited to an AI tool. Nothing went live without my approval, no tool sends messages for me, and no commit carries an AI co-author line.
+
+The fuller account is on the site: [How I used AI](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/how-i-used-ai.html).
 
 ## 19. Credits and attribution
 
