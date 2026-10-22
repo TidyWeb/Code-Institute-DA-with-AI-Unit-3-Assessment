@@ -75,7 +75,7 @@ I wrote this for people who know Birmingham and its neighbouring West Midlands a
 
 The Plain view leaves the model's predictions out on purpose. A predicted figure next to a real one reads like a verdict on a place: it's doing worse than it should. The model can't carry that weight, and Signal Box flagged the risk (Q14, outputs treated as proof). The predictions stay in the notebooks, with their limits stated, for readers who can weigh them.
 
-Five testers tried the site and the Detailed view on 20 October 2026 and found every task clear, one of those was me though, so I exclude myself from the testing record (section 12).
+I ran an owner check on 18 October 2026, which isn't counted in the results. On 20 October four independent testers tried the site and the Detailed view and rated every task clear (section 12).
 
 ## 5. Results of applying Signal Box
 
@@ -171,11 +171,11 @@ Python is the only programming language used for the data: the analysis, the not
 
 A fresh GitHub clone ran Notebooks 01–09 in order. All **120 files** in `data/cleaned/` matched the committed files. Saved notebook outputs also matched, apart from Notebook 02 printing the environment folder name; this is a path label only.
 
-On 21 October 2026 the site built 28 pages. The internal link checker found **0 problems across 1,231 links on 30 pages**. The external check tried 53 addresses; only the Open Parliament Licence page didn't answer, because it blocks automated checkers (section 14). A desktop accessibility audit checked page titles, one H1 per page, `en-GB`, image alt text, sampled keyboard navigation and focus, and selected colour contrasts; it passes on all 29 pages it checks. Automated checks don't replace user testing.
+On 22 October 2026 the site built 29 pages. The internal link checker found **0 problems across 1,297 links on 31 pages**. The external check tried 53 addresses; only the Open Parliament Licence page didn't answer, because it blocks automated checkers (section 14). A desktop accessibility audit checked page titles, one H1 per page, `en-GB`, image alt text, sampled keyboard navigation and focus, and selected colour contrasts; it passes on all 30 pages it checks. Automated checks don't replace user testing.
 
 ### User testing
 
-User testing is complete. Five people ran the QA test on the live site. I ran it first, on 18 October 2026, then on 20 October four testers I know personally, from a range of backgrounds including health, science and data. Every tester rated every task green: 24 out of 24. The test was built before the Plain view existed, so it covers the Detailed view (the full technical dashboard) and the story pages. The anonymised results are in [data/testing](data/testing/). The results don't close Q4, Q18 or Q21, which are settled by executive decision (section 5). Before testing, my own review of the dashboard and site led to fixes for search, labels, navigation and plain-English wording.
+User testing is complete. Five people ran the QA test on the live site. I ran it first, on 18 October 2026, as an owner check that isn't counted in the results. Then on 20 October four independent testers I know personally, from a range of backgrounds including health, science and data, ran it. Every independent tester rated every task green: 24 out of 24. The test checked whether the site as a whole was clear and easy to find your way around: testers started in the Plain view, and the six tasks took them into the Detailed view, the "Question this work" route and the story pages. [Stage 7](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/story/stage-7-dashboards-and-site.html) on the site explains why, with a screenshot and a link to try the test. The anonymised results are in [data/testing](data/testing/). The results don't close Q4, Q18 or Q21, which are settled by executive decision (section 5). Before testing, my own review of the dashboard and site led to fixes for search, labels, navigation and plain-English wording.
 
 ## 13. Deployment and rebuild
 
@@ -185,7 +185,7 @@ The static site is published through GitHub Pages from the separate [site reposi
 
 I wrote every chapter of the site, and its home page, in Markdown rather than HTML. Markdown is plain text with a few simple marks for headings, lists and links, so it reads almost like the finished page. HTML buries the same words in tags, which makes it hard to read and easy to break. I wanted the text to stay in a form a person can read and edit without fighting the code.
 
-A bespoke Python script made for this project, `tools/build_site.py`, turns that Markdown into the site. It does more than convert prose. It sets each chapter into the site's own page design, with its navigation, and takes the figures straight from the analysis repository's saved outputs. It renders the executed notebooks as read-only pages and builds the Signal Box boards from the same results file the ethics screen records. If any Signal Box evidence link points outside the site, it stops with an error. Because every page is built from the analysis and the screen results, the site can't drift from them: change a number or an answer, rebuild, and every page agrees. The generated pages are never edited by hand.
+A bespoke Python script made for this project, `tools/build_site.py`, turns that Markdown into the site. It does more than convert prose. It sets each chapter into the site's own page design, with its navigation, and takes the figures straight from the analysis repository's saved outputs. It renders the executed notebooks as read-only pages and builds the Signal Box boards from the same results file the ethics screen records. If any Signal Box evidence link points outside the site, it stops with an error. Because the figures, notebook pages and Signal Box boards are built from the analysis and the screen results, they can't drift from them: change a number or an answer, rebuild, and they all agree. The chapter text is written by hand, so when results change I review it too. The generated pages are never edited by hand.
 
 This is also how the site is maintained. A later correction is an edit to a text file and one rebuild. The dashboard has its own builder, `tools/dashboard/build.py`, which works from the same saved outputs.
 
