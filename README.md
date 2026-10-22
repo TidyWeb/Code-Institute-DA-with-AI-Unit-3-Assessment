@@ -181,6 +181,14 @@ User testing is complete. Five people ran the QA test on the live site. I ran it
 
 The static site is published through GitHub Pages from the separate [site repository](https://github.com/TidyWeb/Birmingham-Healthy-Life-Second-Look). To rebuild it, clone both repositories as sibling folders, install the analysis requirements and the site's documented Markdown builder dependency, execute notebooks 01–09, then run the dashboard builder, site builder and link checker from the site repository. Its README gives the exact commands and generated-folder scope.
 
+### How the site is built, and why
+
+I wrote every chapter of the site, and its home page, in Markdown rather than HTML. Markdown is plain text with a few simple marks for headings, lists and links, so it reads almost like the finished page. HTML buries the same words in tags, which makes it hard to read and easy to break. I wanted the text to stay in a form a person can read and edit without fighting the code.
+
+A bespoke Python script made for this project, `tools/build_site.py`, turns that Markdown into the site. It does more than convert prose. It sets each chapter into the site's own page design, with its navigation, and takes the figures straight from the analysis repository's saved outputs. It renders the executed notebooks as read-only pages and builds the Signal Box boards from the same results file the ethics screen records. If any Signal Box evidence link points outside the site, it stops with an error. Because every page is built from the analysis and the screen results, the site can't drift from them: change a number or an answer, rebuild, and every page agrees. The generated pages are never edited by hand.
+
+This is also how the site is maintained. A later correction is an edit to a text file and one rebuild. The dashboard has its own builder, `tools/dashboard/build.py`, which works from the same saved outputs.
+
 ## 14. Known issues and bugs
 
 There are no known bugs. Two things look like problems to an automated link checker, so here's what they are.
