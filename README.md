@@ -56,7 +56,7 @@ The website has the full story, and is the more comprehensive readme, containing
 My checks describe area-level patterns and do not establish causes:
 
 - **Ranking uncertainty:** 35 of the 66 MSOAs with the lowest published HLE had at least a 95% simulated probability of remaining in the bottom tenth; the other 31 did not meet that threshold. A published rank is not certain.
-- **Model error by deprivation:** the model ran low by 0.31 years in the least-deprived third of MSOAs and high by 0.46 years in the most-deprived third; both 95% bootstrap intervals excluded zero. These are area-level prediction errors.
+- **Model error by deprivation:** the model ran low by 0.31 years in the least-deprived third of MSOAs and high by 0.46 years in the most-deprived third; both 95% bootstrap intervals excluded zero, though those intervals don't allow for neighbouring areas being alike. These are area-level prediction errors.
 - **Aggregation:** 30.3% of the variance across 3,205 Lower Layer Super Output Area (LSOA) fuel-poverty percentages was within MSOAs, with each LSOA contributing equally. This is a descriptive decomposition, not a significance test.
 
 ## ▶ [Start here: open the site](https://tidyweb.github.io/Birmingham-Healthy-Life-Second-Look/)
@@ -110,7 +110,7 @@ The new ethical questions were whether model features overlap with broad ethnic 
 
 ## 7. Headline findings from Notebooks 07–09
 
-- **Notebook 07 — proxy and fairness audit:** across 654 MSOAs, the seven model features predicted broad area ethnic-composition shares with cross-validated R² values from 0.277 (Other White) to 0.743 (White British); the other group results are in the notebook. This is evidence of area-level proxy overlap, not a way to infer a person's ethnicity. The model ran low by 0.31 years in the least-deprived third and high by 0.46 years in the most-deprived third; both 95% bootstrap intervals excluded zero. Removing the crime feature changed RMSE by about 0.01 years and R² by about −0.0013.
+- **Notebook 07 — proxy and fairness audit:** across 654 MSOAs, the seven model features predicted broad area ethnic-composition shares with cross-validated R² values from 0.277 (Other White) to 0.743 (White British); the other group results are in the notebook. This is evidence of area-level proxy overlap, not a way to infer a person's ethnicity. The model ran low by 0.31 years in the least-deprived third and high by 0.46 years in the most-deprived third; both 95% bootstrap intervals excluded zero, though those intervals don't allow for neighbouring areas being alike. Removing the crime feature changed RMSE by about 0.01 years and R² by about −0.0013.
 - **Notebook 08 — uncertainty and ranking:** 10,000 simulations gave 35 of the 66 areas with the lowest published HLE a probability of at least 95% of remaining in the bottom tenth. The other 31 did not meet that threshold. The median 90% rank-interval width was 65 places across all 660 areas.
 - **Notebook 09 — aggregation:** of the variance across 3,205 LSOA fuel-poverty percentages, 30.3% was within MSOAs and 69.7% was between LSOA-count-weighted MSOA means. Each LSOA contributes equally to this decomposition. A separate range-versus-range rule flags 255 of 660 MSOAs (38.6%) as “mixed”; it is a descriptive comparison, not a significance test. **Methods note:** the earlier rule compared an internal range with a difference of means, so it was not like-for-like; it flagged 581/660 areas.
 
@@ -156,7 +156,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-python -m pip install nbconvert
+python -m pip install nbconvert notebook
 python -m ipykernel install --user --name unit3 --display-name "Python (unit3)"
 jupyter notebook
 ```
@@ -169,7 +169,7 @@ Python is the only programming language used for the data: the analysis, the not
 
 ## 12. Testing and evaluation
 
-A fresh GitHub clone ran Notebooks 01–09 in order. All **120 files** in `data/cleaned/` matched the committed files. Saved notebook outputs also matched, apart from Notebook 02 printing the environment folder name; this is a path label only.
+A fresh GitHub clone ran Notebooks 01–09 in order. All the files in `data/cleaned/` matched the committed files. Saved notebook outputs also matched, apart from Notebook 02 printing the environment folder name; this is a path label only.
 
 On 22 October 2026 the site built 29 pages. The internal link checker found **0 problems across 1,297 links on 31 pages**. The external check tried 53 addresses; only the Open Parliament Licence page didn't answer, because it blocks automated checkers (section 14). A desktop accessibility audit checked page titles, one H1 per page, `en-GB`, image alt text, sampled keyboard navigation and focus, and selected colour contrasts; it passes on all 30 pages it checks. Automated checks don't replace user testing.
 
